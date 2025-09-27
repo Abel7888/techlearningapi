@@ -8,7 +8,7 @@ export type Track = {
 };
 
 // Use Vite env var for production, fallback to local dev API
-const BASE_URL = (import.meta as any)?.env?.VITE_API_BASE_URL || 'http://localhost:5174/api';
+export const BASE_URL = (import.meta as any)?.env?.VITE_API_BASE_URL || 'http://localhost:5174/api';
 
 export async function getTracks(): Promise<Omit<Track, 'quizzes'>[]> {
   const res = await fetch(`${BASE_URL}/tracks`);

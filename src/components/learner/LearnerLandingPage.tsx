@@ -1,15 +1,29 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { GraduationCap, Heart, HardHat, TrendingUp, Home, ChevronRight, BookOpen, Play, Settings, Sparkles, Brain, ShieldCheck } from "lucide-react";
+import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { BASE_URL } from "@/lib/api";
+import {
+  GraduationCap,
+  HeartPulse,
+  HardHat,
+  TrendingUp,
+  Home,
+  ShieldCheck,
+  Sparkles,
+  Brain,
+  ChevronRight,
+  Settings,
+  BookOpen,
+} from "lucide-react";
 
+// Sectors displayed on landing
 const sectors = [
   {
     id: "healthcare",
     title: "Healthcare Training",
     description: "Advanced medical technologies, AI diagnostics, and patient care innovations",
-    icon: Heart,
+    icon: HeartPulse,
     gradient: "bg-gradient-healthcare",
     moduleCount: 12,
     avgDuration: "4 hours",
@@ -28,7 +42,7 @@ const sectors = [
   {
     id: "finance",
     title: "Finance Technology",
-    description: "Blockchain, cryptocurrency, AI trading algorithms, and digital banking",
+    description: "Blockchain, digital assets, AI trading algorithms, and digital banking",
     icon: TrendingUp,
     gradient: "bg-gradient-finance",
     moduleCount: 15,
@@ -51,6 +65,23 @@ const sectors = [
 
 export function LearnerLandingPage() {
   const navigate = useNavigate();
+  const [apiOk, setApiOk] = useState<null | boolean>(null);
+  useEffect(() => {
+    let alive = true;
+    async function check() {
+      try {
+        const r = await fetch(`${BASE_URL}/health`, { cache: 'no-store' });
+        if (!alive) return;
+        setApiOk(r.ok);
+      } catch {
+        if (!alive) return;
+        setApiOk(false);
+      }
+    }
+    check();
+    const t = setInterval(check, 15000);
+    return () => { alive = false; clearInterval(t); };
+  }, []);
   return (
     <div className="min-h-screen">
       <header className="border-b bg-card/50 backdrop-blur-sm sticky top-0 z-50">
@@ -61,6 +92,10 @@ export function LearnerLandingPage() {
               Emerging Tech Learning Platform
             </Link>
             <div className="flex items-center gap-4">
+              <div className="hidden sm:flex items-center gap-2 text-xs px-2 py-1 rounded-full border">
+                <span className={`inline-block w-2 h-2 rounded-full ${apiOk === null ? 'bg-yellow-500' : apiOk ? 'bg-emerald-500' : 'bg-red-500'}`}></span>
+                <span className="text-muted-foreground">API {apiOk === null ? 'Checking…' : apiOk ? 'Online' : 'Offline'}</span>
+              </div>
               <Link to="/admin">
                 <Button variant="outline" size="sm">
                   <Settings className="w-4 h-4 mr-2" /> Admin
