@@ -7,8 +7,9 @@ export type Track = {
   quizzes: Array<{ id: string; question: string; options: string[]; answer: number | null }>;
 };
 
-// Use Vite env var for production, fallback to local dev API
-export const BASE_URL = (import.meta as any)?.env?.VITE_API_BASE_URL || 'http://localhost:5174/api';
+// Prefer Vite env override if provided; otherwise use relative "/api" so platform rewrites (Vercel) work.
+// Local development will rely on Vite dev server proxy to forward "/api" to the Express server.
+export const BASE_URL = (import.meta as any)?.env?.VITE_API_BASE_URL || '/api';
 
 export async function getTracks(): Promise<Omit<Track, 'quizzes'>[]> {
   const res = await fetch(`${BASE_URL}/tracks`);
