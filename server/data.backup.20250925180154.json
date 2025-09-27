@@ -1,0 +1,520 @@
+{
+  "tracks": [
+    {
+      "id": "healthcare",
+      "name": "Healthcare Technology",
+      "description": "AI in diagnostics, telehealth, devices, compliance, and GTM",
+      "modules": [
+        {
+          "day": 1,
+          "topic": "Healthcare Tech Landscape",
+          "takeaways": "AI in diagnostics, edge computing, telehealth",
+          "activity": "AI-assisted imaging demo"
+        },
+        {
+          "day": 2,
+          "topic": "Digital Trials & Real-World Evidence",
+          "takeaways": "ePRO apps, decentralized trials, wearables",
+          "activity": "Blockchain data integrity exercise"
+        },
+        {
+          "day": 3,
+          "topic": "Generative AI in Drug Discovery",
+          "takeaways": "Protein folding, molecule design",
+          "activity": "AI-driven compound screening"
+        },
+        {
+          "day": 4,
+          "topic": "Medical Devices & IoT",
+          "takeaways": "Smart sensors, digital twins",
+          "activity": "Build a patient-device integration mockup"
+        },
+        {
+          "day": 5,
+          "topic": "Data Privacy & Compliance",
+          "takeaways": "HIPAA, GDPR, FDA regulations",
+          "activity": "Secure data pipeline walkthrough"
+        },
+        {
+          "day": 6,
+          "topic": "Automation in Manufacturing",
+          "takeaways": "Robotics in pharma production",
+          "activity": "Virtual factory tour"
+        },
+        {
+          "day": 7,
+          "topic": "Go-to-Market Strategy",
+          "takeaways": "Partnering with hospitals & payers",
+          "activity": "Group pitch simulation"
+        }
+      ],
+      "content": [
+        {
+          "id": "c_1758719024811",
+          "title": "sdadasd",
+          "type": "docasd",
+          "url": "dsad",
+          "description": "dsds",
+          "createdAt": "2025-09-24T13:03:44.812Z"
+        },
+        {
+          "id": "c_1758725068557",
+          "title": "dasdsd",
+          "type": "pdf",
+          "url": "/uploads/1758725068472_Personalized_Medicine___Genomics__Sector_Overview.pdf",
+          "description": "",
+          "createdAt": "2025-09-24T14:44:28.557Z",
+          "day": 2
+        },
+        {
+          "id": "c_1758810929803",
+          "title": "Learning Module Activities and Case studies: AI-Assisted Imaging in Healthcare",
+          "type": "pdf",
+          "url": "/uploads/1758810929700_AI_Assisted_Imaging_Learning_Module.pdf",
+          "description": "AI-assisted imaging uses machine learning to detect abnormalities in radiology, pathology, and\n cardiology images. It helps triage urgent cases, reduce diagnostic errors, and speed up clinical\n decision-making. Hospitals adopting AI are seeing improved efficiency, earlier disease detection, and\n reduced costs, but they face challenges like workflow integration, clinician trust, and regulatory\n compliance",
+          "createdAt": "2025-09-25T14:35:29.803Z",
+          "day": 1
+        },
+        {
+          "id": "c_1758814058810",
+          "title": "Digital Trials and Real-World Evidence in US  Clinical Research: Key tech",
+          "type": "pdf",
+          "url": "/uploads/1758814058711_Digital_Trials_and_Real-World_Evidence_in_US_Clinical_Research.pdf",
+          "description": "Digital trials and real-world evidence (RWE) are transforming U.S. clinical research by enabling remote data capture, broader patient access, and richer insights.\nePRO apps replace paper diaries with secure, 21 CFR 11–compliant digital surveys, improving accuracy and patient engagement.\nDecentralized clinical trials (DCTs) use telehealth, eConsent, and home monitoring to cut costs and expand enrollment while maintaining FDA oversight.\nWearables provide continuous, real-time data (heart rate, glucose, activity) but require validation, HIPAA compliance, and strong cybersecurity.\nRegulatory frameworks—FDA DHT and DCT guidances, HIPAA, and Part 11—define data integrity, privacy, and interoperability requirements.\nKey therapeutic areas benefiting most include oncology, cardiology, neurology, and diabetes, where continuous monitoring and patient-reported outcomes drive faster, more inclusive research.",
+          "createdAt": "2025-09-25T15:27:38.810Z",
+          "day": 2
+        },
+        {
+          "id": "c_1758816426883",
+          "title": "Learning Activity/cast study: Blockchain for Data Integrity in Healthcare",
+          "type": "pdf",
+          "url": "/uploads/1758816426731_Blockchain_Data_Integrity_Healthcare_Module.pdf",
+          "description": "Overview\n Blockchain technology offers a secure, immutable, and transparent way to ensure data integrity in\n healthcare. It can protect electronic health records (EHRs) from tampering, ensure provenance of\n clinical trial data, and improve trust among stakeholders. By using distributed ledgers and cryptographic\n hashing, blockchain ensures that every record is time-stamped and cannot be changed without\n consensus, creating a permanent and verifiable audit trail",
+          "createdAt": "2025-09-25T16:07:06.883Z",
+          "day": 2
+        },
+        {
+          "id": "c_1758819864786",
+          "title": "Generative AI Trends in Drug Discovery for Healthcare and Pharma",
+          "type": "pdf",
+          "url": "/uploads/1758819864700_Generative_AI_Models_in_Drug_Discovery.pdf",
+          "description": "Generative AI is rapidly reshaping drug discovery by enabling accurate protein structure prediction, de novo protein and molecule design, and even novel target identification — cutting development timelines from years to months. Breakthroughs like AlphaFold3 and RFdiffusion allow scientists to design entirely new proteins, while GPT-like models (e.g., TamGen) and diffusion/variational autoencoder approaches generate potent, diverse drug candidates with high hit rates. Industry adoption is accelerating, with major pharma (Novartis, Roche, Sanofi) forming billion-dollar partnerships with AI-first companies like Insilico Medicine, Generate Biomedicines, and Recursion. The U.S. market is growing at 30–38% CAGR through 2030, driven by funding, collaboration, and closed-loop design-test workflows. FDA’s emerging AI guidance emphasizes transparency and validation, signaling growing regulatory acceptance. Together, these advances mark a shift toward faster, cheaper, and more innovative drug pipelines that expand chemical space and improve the odds of finding first-in-class therapies.",
+          "createdAt": "2025-09-25T17:04:24.787Z",
+          "day": 3
+        },
+        {
+          "id": "c_1758820498586",
+          "title": "🧪 Learning Exercise: AI-Driven Compound Screening in Drug Discovery",
+          "type": "pdf",
+          "url": "/uploads/1758820498461______Learning_Exercise__AI-Driven_Compound_Screening_in_Drug_Discovery.pdf",
+          "description": "The learning exercise on AI-driven compound screening is designed in three parts to build both knowledge and critical thinking. It begins with short-answer questions that explain how different AI models are applied in drug discovery, such as diffusion models for generating small molecules (with the example of TamGen), VAE combined with active learning for designing kinase inhibitors, and a comparison of GANs and Transformers in terms of their strengths and weaknesses. The second part presents a real-world case study on Rentosertib, an AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis, highlighting how AI pipelines can both discover new targets and generate first-in-class molecules while significantly reducing R&D timelines. The final part encourages reflection, asking learners to evaluate which AI model type they would prioritize for cancer drug discovery and justify their reasoning. Altogether, the exercise blends conceptual understanding, applied case analysis, and critical evaluation, ensuring learners grasp not only the technical aspects but also the real-world impact of AI in accelerating compound screening.",
+          "createdAt": "2025-09-25T17:14:58.586Z",
+          "day": 3
+        },
+        {
+          "id": "c_1758820613765",
+          "title": "Trends and Emerging Technologies in Medical Devices & IoT (US Healthcare)",
+          "type": "pdf",
+          "url": "/uploads/1758820613656_Trends_and_Emerging_Technologies_in_Medical_Devices___IoT__US_Healthcare_.pdf",
+          "description": "Smart sensors are driving U.S. healthcare IoT growth, enabling continuous monitoring, smart drug delivery, and wearable diagnostics with rapid adoption.\nDigital twins are emerging for patient monitoring, surgical simulation, and personalized medicine, with U.S. firms leading global adoption and investment.\nEdge computing and AI-enabled devices are transforming care by enabling real-time, on-device analytics in hospitals, wearables, and implants.\nOverall, the sector shows strong double-digit growth, with incumbents and startups shaping a future of more predictive, personalized, and connected healthcare.",
+          "createdAt": "2025-09-25T17:16:53.765Z",
+          "day": 4
+        },
+        {
+          "id": "c_1758821157973",
+          "title": "Executive Learning Case: Patient–Device Integration & Digital Health Innovation",
+          "type": "pdf",
+          "url": "/uploads/1758821157918_Executive_Learning_Case__Patient___Device_Integration___Digital_Health_Innovation.pdf",
+          "description": "This executive exercise guides leaders through designing a patient–device integration blueprint using smart sensors, edge AI, and digital twins.\nIt combines a mock integration workflow with real-world case studies (Medtronic, Philips, Dexcom, NVIDIA) to ground strategy in practice.\nParticipants explore ROI, interoperability, and regulatory challenges, while evaluating strategic opportunities for investment and partnerships.\nThe activity ends with reflection on future outlooks, positioning leaders to make informed decisions about scaling digital health innovation.",
+          "createdAt": "2025-09-25T17:25:57.973Z",
+          "day": 4
+        },
+        {
+          "id": "c_1758834819431",
+          "title": "Data Privacy and Compliance in U.S. Healthcare",
+          "type": "pdf",
+          "url": "/uploads/1758834819321_Data_Privacy_and_Compliance_in_U.S._Healthcare.pdf",
+          "description": "This learning material explores data privacy and compliance in U.S. healthcare, focusing on key regulations like HIPAA, GDPR (where U.S. entities handle EU data), and FDA digital health rules. It highlights current and emerging trends from the last 2–3 years, including cyber threats, regulatory updates, and new enforcement actions. Real-world case examples illustrate how providers, insurers, and digital health startups adapt to these rules—or face penalties when they fail. Overall, it shows how privacy laws and technology shape both the risks and protections for patients’ sensitive health data.\n\n",
+          "createdAt": "2025-09-25T21:13:39.431Z",
+          "day": 5
+        },
+        {
+          "id": "c_1758835046427",
+          "title": "Activity: Secure Data Pipeline Walkthrough for Healthcare Leaders",
+          "type": "pdf",
+          "url": "/uploads/1758835046381_Activity__Secure_Data_Pipeline_Walkthrough_for_Healthcare_Leaders.pdf",
+          "description": "This exercise walks healthcare leaders through a secure data pipeline, showing how patient data flows from collection to deletion and where privacy risks emerge. It connects each stage to HIPAA, GDPR, and FDA requirements, using real-world breach cases and enforcement actions. Leaders practice spotting risks, applying regulations, and designing safeguards in telehealth and digital health scenarios. The goal is to build practical strategies for compliance, cybersecurity, and patient trust.",
+          "createdAt": "2025-09-25T21:17:26.427Z",
+          "day": 5
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q_1758816553139",
+          "question": "What percentage of U.S. health systems were reported to use AI in clinical care as of 2024?",
+          "options": [
+            "56%",
+            "72%",
+            "86%",
+            "94%"
+          ],
+          "answer": null,
+          "day": 1
+        },
+        {
+          "id": "q_1758816553189",
+          "question": "Which of the following is a key advantage of edge computing in healthcare?",
+          "options": [
+            "Centralizes all patient data into a single national cloud",
+            "Eliminates the need for hospital IT staff",
+            "Processes data locally to reduce latency and enhance privacy",
+            "Replaces the need for medical imaging equipment"
+          ],
+          "answer": null,
+          "day": 1
+        },
+        {
+          "id": "q_1758816553200",
+          "question": "What is a common use case of AI in diagnostic imaging according to the report?",
+          "options": [
+            "Generating synthetic patient data for training models",
+            "Automatically screening for lung nodules, hemorrhages, or breast cancers",
+            "Replacing radiologists entirely",
+            "Storing radiology scans in blockchain networks"
+          ],
+          "answer": null,
+          "day": 1
+        },
+        {
+          "id": "q_1758816553212",
+          "question": "Which factor is cited as a key driver for telehealth’s continued growth post-pandemic?",
+          "options": [
+            "Patients’ reluctance to use video calls",
+            "Reinstatement of strict geographic restrictions",
+            "High patient satisfaction and expanded reimbursement policies",
+            "Elimination of Medicare coverage for telehealth"
+          ],
+          "answer": null,
+          "day": 1
+        },
+        {
+          "id": "q_1758816553222",
+          "question": "According to the document, what is one of the biggest challenges for hospitals adopting AI diagnostics?",
+          "options": [
+            "Lack of available AI models",
+            "Need for local validation and integration into workflows",
+            "Overregulation preventing use of AI",
+            "Patients refusing to allow AI use in care"
+          ],
+          "answer": null,
+          "day": 1
+        },
+        {
+          "id": "q_1758817643614",
+          "question": "What is a key characteristic of a “digital trial”?",
+          "options": [
+            "All data are handwritten and later digitized",
+            "All study data are collected electronically rather than on paper",
+            "Trials must be conducted exclusively at a single research site",
+            "Only RWD from registries is used"
+          ],
+          "answer": null,
+          "day": 2
+        },
+        {
+          "id": "q_1758817643638",
+          "question": "Which of the following best describes ePRO tools?",
+          "options": [
+            "Systems that capture only investigator notes during site visits",
+            "Devices that monitor lab results automatically",
+            "Platforms that allow patients to submit clinical outcome data electronically",
+            "Tools used exclusively for regulatory submissions"
+          ],
+          "answer": null,
+          "day": 2
+        },
+        {
+          "id": "q_1758817643650",
+          "question": "What is one major benefit of decentralized clinical trials (DCTs)?",
+          "options": [
+            "They remove the need for any data validation",
+            "They guarantee identical home environments for all participants",
+            "They can increase participant diversity and reach",
+            "They eliminate the need for informed consent"
+          ],
+          "answer": null,
+          "day": 2
+        },
+        {
+          "id": "q_1758817643663",
+          "question": "Which U.S. regulation sets requirements for electronic records and signatures in clinical trials?",
+          "options": [
+            "45 CFR 46",
+            "HIPAA Privacy Rule",
+            "21 CFR Part 11",
+            "CDISC SDTM"
+          ],
+          "answer": null,
+          "day": 2
+        },
+        {
+          "id": "q_1758817643683",
+          "question": "Which FDA guidance specifically covers using digital health technologies for remote data acquisition in clinical trials?",
+          "options": [
+            "Patient-Reported Outcome Measures Guidance",
+            "Electronic Source Data in Clinical Investigations Guidance",
+            "Digital Health Technologies (DHT) for Remote Data Acquisition Guidance",
+            "Good Laboratory Practice (GLP) Guidance"
+          ],
+          "answer": null,
+          "day": 2
+        },
+        {
+          "id": "q_1758820147121",
+          "question": "Which of the following best describes the role of Variational Autoencoders (VAEs) in drug discovery?",
+          "options": [],
+          "answer": null,
+          "day": 3
+        },
+        {
+          "id": "q_1758820147144",
+          "question": "What was a key achievement of RFdiffusion in protein design?",
+          "options": [],
+          "answer": null,
+          "day": 3
+        },
+        {
+          "id": "q_1758820147175",
+          "question": "What makes TamGen (2024) a notable generative AI model for small-molecule design?",
+          "options": [],
+          "answer": null,
+          "day": 3
+        },
+        {
+          "id": "q_1758820147186",
+          "question": "Which AI-discovered drug reached Phase II trials as a TNIK inhibitor for idiopathic pulmonary fibrosis (IPF)?",
+          "options": [],
+          "answer": null,
+          "day": 3
+        },
+        {
+          "id": "q_1758820147196",
+          "question": "According to market projections, what is the expected compound annual growth rate (CAGR) for the AI-driven drug discovery market through 2030?",
+          "options": [],
+          "answer": null,
+          "day": 3
+        },
+        {
+          "id": "q_1758820724585",
+          "question": "Which of the following is a major application of smart sensors in U.S. healthcare?",
+          "options": [
+            "Predicting stock market trends"
+          ],
+          "answer": null,
+          "day": 4
+        },
+        {
+          "id": "q_1758820724655",
+          "question": "What is a digital twin in healthcare?",
+          "options": [
+            "A 3D printer for medical devices"
+          ],
+          "answer": null,
+          "day": 4
+        },
+        {
+          "id": "q_1758820724668",
+          "question": "By 2030, the U.S. healthcare digital twins market is projected to reach approximately:",
+          "options": [
+            "$500 million",
+            "$1 billion"
+          ],
+          "answer": null,
+          "day": 4
+        },
+        {
+          "id": "q_1758820724677",
+          "question": "Which partnership exemplifies edge computing in healthcare?",
+          "options": [
+            "Pfizer and Moderna in vaccine development"
+          ],
+          "answer": null,
+          "day": 4
+        },
+        {
+          "id": "q_1758820724690",
+          "question": "What trend is expected over the next 5–10 years in medical IoT?",
+          "options": [
+            "Decline in wearable adoption",
+            "Replacement of sensors with manual monitoring"
+          ],
+          "answer": null,
+          "day": 4
+        }
+      ]
+    },
+    {
+      "id": "construction",
+      "name": "Construction Technology",
+      "description": "Smart building, IoT sensors, automation",
+      "modules": [
+        {
+          "day": 1,
+          "topic": "Framing the ROI Opportunity",
+          "takeaways": "Business case, measurable goals; hard vs soft ROI; industry benchmarks",
+          "activity": "ROI Baseline + Goal Setting"
+        },
+        {
+          "day": 2,
+          "topic": "AI & Predictive Analytics for Financial Impact",
+          "takeaways": "Forecasting, downtime reduction, fewer claims; ALICE, Procore AI, OpenSpace",
+          "activity": "Live ROI calc: 5% schedule improvement on $50M + case study"
+        },
+        {
+          "day": 3,
+          "topic": "BIM & Digital Twins with Lifecycle ROI",
+          "takeaways": "ROI from design→build→operate; clash detection; lifecycle cost; sustainability",
+          "activity": "Digital Twin ROI map + lifecycle cost mini demo"
+        },
+        {
+          "day": 4,
+          "topic": "Robotics, Drones & IoT ROI Models",
+          "takeaways": "Labor productivity; drones survey savings; IoT safety + insurance",
+          "activity": "Break-even analysis: drone buy vs rental + IoT case"
+        },
+        {
+          "day": 5,
+          "topic": "3D Printing & Modular Construction ROI",
+          "takeaways": "Speed-to-market; waste reduction; standardization",
+          "activity": "ROI scenario: cut timeline by 3 months + hospital modular case"
+        },
+        {
+          "day": 6,
+          "topic": "Overcoming ROI Barriers",
+          "takeaways": "Upfront cost, integration, resistance; risk-adjusted models; exec buy-in",
+          "activity": "Barrier mapping + one-page ROI pitch slide"
+        },
+        {
+          "day": 7,
+          "topic": "Capstone: ROI Pilot Project Plan",
+          "takeaways": "Pilot selection; ROI KPIs; reporting & improvement",
+          "activity": "Capstone pilot plan: problem, tech, ROI calc, timeline, metrics"
+        }
+      ],
+      "content": [
+        {
+          "id": "c_1758763051266",
+          "title": "Test construction 1 day 1",
+          "type": "pdf",
+          "url": "/uploads/1758763051142_Emerging_Technology_Solutions_for_Mid-Size_Finance__Real_Estate__and_Construction_Firms.pdf",
+          "description": "",
+          "createdAt": "2025-09-25T01:17:31.266Z",
+          "day": 1
+        }
+      ],
+      "quizzes": []
+    },
+    {
+      "id": "finance",
+      "name": "Finance Technology",
+      "description": "Blockchain, AI trading, digital banking",
+      "modules": [
+        {
+          "day": 1,
+          "topic": "The ROI Compass: Where Finance is Headed",
+          "takeaways": "Strategic ROI drivers; emerging tech landscape; ROI Compass framework",
+          "activity": "Map top 3 org pain points into ROI Compass"
+        },
+        {
+          "day": 2,
+          "topic": "AI & Advanced Automation: Redefining Productivity",
+          "takeaways": "AI ROI math; risk scoring; portfolio rebalancing; NLP compliance; quick wins",
+          "activity": "Automate one process: 12-month ROI model"
+        },
+        {
+          "day": 3,
+          "topic": "Tokenization, Blockchain & Settlement Innovation",
+          "takeaways": "Instant settlement; tokenization; smart contracts; regulatory readiness",
+          "activity": "Liquidity unlock worksheet: T+2 → T+0; AUM growth from fractionalization"
+        },
+        {
+          "day": 4,
+          "topic": "Cybersecurity, RegTech & Fraud Prevention",
+          "takeaways": "True cost of fraud; RegTech ROI; AI model governance; watchlist vendors",
+          "activity": "Quantify savings: -15% fraud losses, -10% compliance cost"
+        },
+        {
+          "day": 5,
+          "topic": "Hyper-Personalization & Client Growth",
+          "takeaways": "Retention → LTV; tech to watch; wealth mgmt ROI; case study",
+          "activity": "Client Churn Calculator: impact of -5% churn"
+        },
+        {
+          "day": 6,
+          "topic": "Cloud, APIs & Data Monetization",
+          "takeaways": "Cloud ROI; API-led revenue; data monetization; case study",
+          "activity": "API Business Case Template: identify monetizable data sets"
+        },
+        {
+          "day": 7,
+          "topic": "ROI Roadmap & Strategic Alignment",
+          "takeaways": "Prioritization matrix; risk-adjusted ROI; boardroom language; future watch",
+          "activity": "90-Day ROI Action Planner: 3 initiatives with KPI, ROI metric, next action"
+        }
+      ],
+      "content": [],
+      "quizzes": []
+    },
+    {
+      "id": "realestate",
+      "name": "PropTech",
+      "description": "Virtual tours, property mgmt, smart home tech",
+      "modules": [
+        {
+          "day": 1,
+          "topic": "State of CRE Tech 2025 & ROI Imperatives",
+          "takeaways": "Smart buildings, tokenization, AI; ESG-driven adoption; CRE Tech ROI Pyramid",
+          "activity": "Market Radar + identify 3 pressure points (vacancy, OpEx, ESG)"
+        },
+        {
+          "day": 2,
+          "topic": "AI & Data-Driven CRE Decisions",
+          "takeaways": "AI underwriting, predictive leasing, GenAI reporting; AI ROI model; data maturity ladder",
+          "activity": "AI-Underwriting checklist + map one workflow for AI savings"
+        },
+        {
+          "day": 3,
+          "topic": "IoT, Smart Buildings & Digital Twins",
+          "takeaways": "Energy savings, maintenance reduction, tenant demand; ROI calculators; risk mitigation",
+          "activity": "Smart Building ROI template + estimate 15% energy savings"
+        },
+        {
+          "day": 4,
+          "topic": "Tokenization, Fractional Ownership & CRE Liquidity",
+          "takeaways": "Tokenized deals growth; global access; smart contracts; compliance checklist",
+          "activity": "Tokenization business case for one asset (benefits & compliance)"
+        },
+        {
+          "day": 5,
+          "topic": "ESG Tech & Sustainable Value Creation",
+          "takeaways": "SEC climate rules; tenant ESG requirements; green rent premium; ESG ROI canvas",
+          "activity": "Map one building’s ESG metrics → estimate rent/valuation impact"
+        },
+        {
+          "day": 6,
+          "topic": "Proptech, Tenant Experience & Revenue Growth",
+          "takeaways": "Tenant apps, flex space, CRE-as-a-service; churn reduction & yield models",
+          "activity": "Identify tenant pain point → sketch tech to improve retention"
+        },
+        {
+          "day": 7,
+          "topic": "Building Your 90-Day CRE Tech Roadmap",
+          "takeaways": "Portfolio rollouts; <12-month payback; prioritization & ROI sprint canvas",
+          "activity": "90-day roadmap: top 3 initiatives with KPI, ROI, timeline, owners"
+        }
+      ],
+      "content": [],
+      "quizzes": []
+    }
+  ]
+}

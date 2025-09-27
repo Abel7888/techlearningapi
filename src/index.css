@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional Training Dashboard Design System */
+
+@layer base {
+  :root {
+    /* Base colors */
+    --background: 240 10% 98%;
+    --foreground: 240 10% 3.9%;
+
+    /* Professional gradients */
+    --gradient-primary: linear-gradient(135deg, 262 83% 58%, 270 91% 65%);
+    --gradient-secondary: linear-gradient(135deg, 217 91% 60%, 230 81% 60%);
+    --gradient-accent: linear-gradient(135deg, 142 76% 36%, 158 64% 52%);
+    --gradient-healthcare: linear-gradient(135deg, 160 84% 39%, 177 70% 41%);
+    --gradient-construction: linear-gradient(135deg, 25 95% 53%, 31 81% 48%);
+    --gradient-finance: linear-gradient(135deg, 262 83% 58%, 270 91% 65%);
+    --gradient-realestate: linear-gradient(135deg, 340 82% 52%, 346 77% 49%);
+
+    /* Surface colors */
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --card-hover: 240 10% 96%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    /* Brand colors */
+    --primary: 262 83% 58%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 262 83% 52%;
+
+    --secondary: 240 5% 96%;
+    --secondary-foreground: 240 6% 10%;
+    --secondary-hover: 240 5% 90%;
+
+    --muted: 240 5% 96%;
+    --muted-foreground: 240 4% 46%;
+
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 98%;
+    --accent-hover: 142 76% 30%;
+
+    /* Status colors */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 98%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* UI colors */
+    --border: 240 6% 90%;
+    --input: 240 6% 90%;
+    --ring: 262 83% 58%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --card-hover: 240 10% 8%;
+    --primary: 262 83% 58%;
+    --primary-hover: 262 83% 65%;
+    --secondary: 240 4% 16%;
+    --secondary-hover: 240 4% 20%;
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 142 76% 36%;
+    --accent-hover: 142 76% 42%;
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+  }
+
+  /* Professional gradient utilities */
+  .gradient-primary { background: var(--gradient-primary); }
+  .gradient-secondary { background: var(--gradient-secondary); }
+  .gradient-accent { background: var(--gradient-accent); }
+  .gradient-healthcare { background: var(--gradient-healthcare); }
+  .gradient-construction { background: var(--gradient-construction); }
+  .gradient-finance { background: var(--gradient-finance); }
+  .gradient-realestate { background: var(--gradient-realestate); }
+
+  /* Glass morphism effects */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .dark .glass-card {
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground min-h-screen;
+    background: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(240 6% 94%) 100%);
+  }
+
+  .dark body {
+    background: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(240 8% 6%) 100%);
+  }
+}
