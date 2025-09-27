@@ -14,5 +14,5 @@ COPY . .
 # Expose port (Fly will map internal 8080/3000, but our app uses PORT env or 5174)
 ENV PORT=8080
 
-# Start server
-CMD ["node", "index.js"]
+# Start server (entrypoint at server/index.js)
+CMD ["node", "server/index.js"]
