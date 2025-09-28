@@ -11,6 +11,15 @@ export type Track = {
 // Local development will rely on Vite dev server proxy to forward "/api" to the Express server.
 export const BASE_URL = (import.meta as any)?.env?.VITE_API_BASE_URL || '/api';
 
+function authHeader() {
+  try {
+    const t = localStorage.getItem('admin_token');
+    return t ? { Authorization: `Bearer ${t}` } : {};
+  } catch {
+    return {};
+  }
+}
+
 export async function getTracks(): Promise<Omit<Track, 'quizzes'>[]> {
   const res = await fetch(`${BASE_URL}/tracks`);
   if (!res.ok) throw new Error('Failed to load tracks');
@@ -26,7 +35,7 @@ export async function getTrack(id: string): Promise<Track> {
 export async function addContent(params: { trackId: string; title: string; type?: string; url?: string; description?: string; day?: number; }) {
   const res = await fetch(`${BASE_URL}/content`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...authHeader() },
     body: JSON.stringify(params),
   });
   if (!res.ok) throw new Error('Failed to add content');
@@ -36,7 +45,7 @@ export async function addContent(params: { trackId: string; title: string; type?
 export async function addQuiz(params: { trackId: string; question: string; options?: string[]; answer?: number | null; day?: number; }) {
   const res = await fetch(`${BASE_URL}/quiz`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...authHeader() },
     body: JSON.stringify(params),
   });
   if (!res.ok) throw new Error('Failed to add quiz');
@@ -69,7 +78,7 @@ export async function chatAgentLLM(params: { agentId: string; trackId?: string; 
 export async function updateQuiz(id: string, params: Partial<{ question: string; options: string[]; answer: number | null; day: number }>) {
   const res = await fetch(`${BASE_URL}/quiz/${id}`, {
     method: 'PATCH',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...authHeader() },
     body: JSON.stringify(params),
   });
   if (!res.ok) {
@@ -81,7 +90,7 @@ export async function updateQuiz(id: string, params: Partial<{ question: string;
 }
 
 export async function deleteQuiz(id: string) {
-  const res = await fetch(`${BASE_URL}/quiz/${id}`, { method: 'DELETE' });
+  const res = await fetch(`${BASE_URL}/quiz/${id}`, { method: 'DELETE', headers: { ...authHeader() } });
   if (!res.ok && res.status !== 204) {
     let msg = 'Failed to delete quiz';
     try { const t = await res.text(); if (t) msg += `: ${t}`; } catch {}
@@ -95,6 +104,7 @@ export async function uploadFile(file: File): Promise<{ url: string } & Record<s
   const res = await fetch(`${BASE_URL}/upload`, {
     method: 'POST',
     body: form,
+    headers: { ...authHeader() },
   });
   if (!res.ok) throw new Error('Upload failed');
   return res.json();
@@ -103,7 +113,7 @@ export async function uploadFile(file: File): Promise<{ url: string } & Record<s
 export async function updateContent(id: string, params: Partial<{ title: string; type: string; url: string; description: string; day: number }>) {
   const res = await fetch(`${BASE_URL}/content/${id}`, {
     method: 'PATCH',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...authHeader() },
     body: JSON.stringify(params),
   });
   if (!res.ok) throw new Error('Failed to update content');
@@ -113,6 +123,7 @@ export async function updateContent(id: string, params: Partial<{ title: string;
 export async function deleteContent(id: string) {
   const res = await fetch(`${BASE_URL}/content/${id}`, {
     method: 'DELETE',
+    headers: { ...authHeader() },
   });
   if (!res.ok && res.status !== 204) throw new Error('Failed to delete content');
 }

@@ -6,32 +6,42 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 export default function AdminGate({ children }: { children: React.ReactNode }) {
   const [authed, setAuthed] = useState<boolean>(false);
   const [pw, setPw] = useState<string>("");
-  // Normalize env value (strip surrounding quotes if present)
-  const rawExpected = (import.meta as any)?.env?.VITE_ADMIN_PASSWORD || "admin123";
-  const expected = String(rawExpected).trim().replace(/^['"]|['"]$/g, "");
+  const [error, setError] = useState<string>("");
   const isLocalhost = typeof window !== 'undefined' && /^(localhost|127\.0\.0\.1)/.test(window.location.hostname);
-  const usingFallback = rawExpected === "admin123";
 
   useEffect(() => {
-    const saved = localStorage.getItem("admin_authed") === "true";
+    const saved = localStorage.getItem("admin_token");
     if (saved) setAuthed(true);
   }, []);
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    const normalizedInput = String(pw || "").trim().replace(/^['"]|['"]$/g, "");
-    // Accept exact expected, and a lenient variant without trailing $ (temporary fallback)
-    const candidates = [expected, expected.replace(/\$$/, ""), 'July1987$'];
-    if (candidates.includes(normalizedInput)) {
-      localStorage.setItem("admin_authed", "true");
-      setAuthed(true);
-    } else {
-      alert("Incorrect password");
+    setError("");
+    try {
+      const resp = await fetch('/api/admin/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password: pw })
+      });
+      if (!resp.ok) {
+        const t = await resp.text().catch(() => '');
+        setError(t || 'Login failed');
+        return;
+      }
+      const data = await resp.json();
+      if (data?.token) {
+        localStorage.setItem('admin_token', data.token);
+        setAuthed(true);
+      } else {
+        setError('Login failed: no token');
+      }
+    } catch (e: any) {
+      setError(e?.message || 'Login failed');
     }
   }
 
   function handleLogout() {
-    localStorage.removeItem("admin_authed");
+    localStorage.removeItem('admin_token');
     setAuthed(false);
   }
 
@@ -57,18 +67,11 @@ export default function AdminGate({ children }: { children: React.ReactNode }) {
           <form className="space-y-3" onSubmit={handleSubmit}>
             <Input type="password" placeholder="Password" value={pw} onChange={(e) => setPw(e.target.value)} />
             <Button type="submit" className="w-full">Unlock Admin</Button>
+            {error && <div className="text-xs text-red-500">{error}</div>}
             <div className="text-xs text-muted-foreground pt-1">Tip: If you recently changed the password, refresh the page or open a Private/Incognito window. Try typing the password instead of pasting to avoid hidden characters.</div>
             <div className="flex items-center justify-between pt-2">
               <Button type="button" variant="outline" size="sm" onClick={handleLogout}>Reset Lock</Button>
-              {isLocalhost && (
-                <div className="text-[11px] text-muted-foreground">
-                  {usingFallback ? (
-                    <span>Env not set, using default.</span>
-                  ) : (
-                    <span>Env loaded • len {expected.length} • ends with {expected.slice(-1)}</span>
-                  )}
-                </div>
-              )}
+              {isLocalhost && (<div className="text-[11px] text-muted-foreground">Local mode</div>)}
             </div>
           </form>
         </CardContent>

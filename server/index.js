@@ -5,6 +5,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import multer from 'multer';
+import crypto from 'crypto';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -30,6 +31,48 @@ const SUPABASE_URL = process.env.SUPABASE_URL || '';
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY || '';
 const SUPABASE_BUCKET = process.env.SUPABASE_BUCKET || '';
 const SUPABASE_PUBLIC = (process.env.SUPABASE_PUBLIC || 'true').toLowerCase() === 'true';
+// Admin auth config
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || '';
+
+// Simple HMAC-signed token utilities (JWT-like, no external deps)
+function base64url(buf) {
+  return Buffer.from(buf).toString('base64').replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_');
+}
+
+function signToken(payload, secret, expiresInSeconds = 60 * 60 * 8) { // 8 hours default
+  const header = { alg: 'HS256', typ: 'JWT' };
+  const now = Math.floor(Date.now() / 1000);
+  const body = { ...payload, iat: now, exp: now + expiresInSeconds };
+  const h = base64url(JSON.stringify(header));
+  const b = base64url(JSON.stringify(body));
+  const data = `${h}.${b}`;
+  const sig = crypto.createHmac('sha256', secret).update(data).digest('base64').replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_');
+  return `${data}.${sig}`;
+}
+
+function verifyToken(token, secret) {
+  if (!token || typeof token !== 'string' || token.split('.').length !== 3) return null;
+  const [h, b, s] = token.split('.');
+  const data = `${h}.${b}`;
+  const expected = crypto.createHmac('sha256', secret).update(data).digest('base64').replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_');
+  if (s !== expected) return null;
+  try {
+    const payload = JSON.parse(Buffer.from(b.replace(/-/g, '+').replace(/_/g, '/'), 'base64').toString('utf8'));
+    if (payload.exp && Math.floor(Date.now() / 1000) > payload.exp) return null;
+    return payload;
+  } catch {
+    return null;
+  }
+}
+
+function adminRequired(req, res, next) {
+  if (!ADMIN_PASSWORD) return res.status(503).json({ error: 'Admin not configured' });
+  const auth = req.headers['authorization'] || '';
+  const token = auth.startsWith('Bearer ') ? auth.slice(7) : '';
+  const payload = verifyToken(token, ADMIN_PASSWORD);
+  if (!payload || payload.sub !== 'admin') return res.status(401).json({ error: 'Unauthorized' });
+  next();
+}
 
 function loadData() {
   if (!fs.existsSync(dataPath)) {
@@ -74,7 +117,7 @@ app.get('/api/tracks', (req, res) => {
 });
 
 // Update content item
-app.patch('/api/content/:id', (req, res) => {
+app.patch('/api/content/:id', adminRequired, (req, res) => {
   const { id } = req.params;
   const { title, type, url, description, day } = req.body || {};
   const db = loadData();
@@ -102,7 +145,7 @@ app.patch('/api/content/:id', (req, res) => {
 });
 
 // Delete content item
-app.delete('/api/content/:id', (req, res) => {
+app.delete('/api/content/:id', adminRequired, (req, res) => {
   const { id } = req.params;
   const db = loadData();
   let removed = false;
@@ -127,7 +170,7 @@ app.get('/api/tracks/:id', (req, res) => {
 });
 
 // Replace modules for a track
-app.patch('/api/tracks/:id/modules', (req, res) => {
+app.patch('/api/tracks/:id/modules', adminRequired, (req, res) => {
   const { id } = req.params;
   const { modules } = req.body || {};
   if (!Array.isArray(modules)) return res.status(400).json({ error: 'modules must be an array' });
@@ -139,7 +182,7 @@ app.patch('/api/tracks/:id/modules', (req, res) => {
   res.json(track);
 });
 
-app.post('/api/content', (req, res) => {
+app.post('/api/content', adminRequired, (req, res) => {
   const { trackId, title, type, url, description, day } = req.body || {};
   if (!trackId || !title) return res.status(400).json({ error: 'trackId and title are required' });
   const db = loadData();
@@ -152,7 +195,7 @@ app.post('/api/content', (req, res) => {
 });
 
 // Upload endpoint for PDFs (multipart/form-data with field name 'file')
-app.post('/api/upload', uploadMem.single('file'), async (req, res) => {
+app.post('/api/upload', adminRequired, uploadMem.single('file'), async (req, res) => {
   try {
     if (!req.file) return res.status(400).json({ error: 'No file uploaded' });
 
@@ -234,7 +277,7 @@ app.post('/api/upload', uploadMem.single('file'), async (req, res) => {
   }
 });
 
-app.post('/api/quiz', (req, res) => {
+app.post('/api/quiz', adminRequired, (req, res) => {
   const { trackId, question, options, answer, day } = req.body || {};
   if (!trackId || !question) return res.status(400).json({ error: 'trackId and question are required' });
   const db = loadData();
@@ -248,7 +291,7 @@ app.post('/api/quiz', (req, res) => {
 });
 
 // Update quiz
-app.patch('/api/quiz/:id', (req, res) => {
+app.patch('/api/quiz/:id', adminRequired, (req, res) => {
   const { id } = req.params;
   const { question, options, answer, day } = req.body || {};
   const db = loadData();
@@ -276,7 +319,7 @@ app.patch('/api/quiz/:id', (req, res) => {
 });
 
 // Delete quiz
-app.delete('/api/quiz/:id', (req, res) => {
+app.delete('/api/quiz/:id', adminRequired, (req, res) => {
   const { id } = req.params;
   const db = loadData();
   let removed = false;
@@ -320,6 +363,19 @@ app.post('/api/chat', (req, res) => {
 // Simple health check for deployment platforms
 app.get('/api/health', (req, res) => {
   res.json({ ok: true, time: new Date().toISOString() });
+});
+
+// Admin login: exchange password for signed token
+app.post('/api/admin/login', (req, res) => {
+  try {
+    if (!ADMIN_PASSWORD) return res.status(503).json({ error: 'Admin not configured' });
+    const pw = String(req.body?.password || '');
+    if (pw !== ADMIN_PASSWORD) return res.status(401).json({ error: 'Invalid password' });
+    const token = signToken({ sub: 'admin' }, ADMIN_PASSWORD, 60 * 60 * 8);
+    return res.json({ token, expiresIn: 60 * 60 * 8 });
+  } catch (e) {
+    return res.status(500).json({ error: 'Login failed' });
+  }
 });
 
 function getAgentSystemPrompt(agentId, trackName) {
