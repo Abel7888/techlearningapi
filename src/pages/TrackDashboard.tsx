@@ -64,7 +64,11 @@ export default function TrackDashboard() {
 
   function resolveUrl(url: string): string {
     if (!url) return "";
-    return url.startsWith("/uploads/") ? `http://localhost:5174${url}` : url;
+    if (url.startsWith("/uploads/")) {
+      const isProd = typeof window !== 'undefined' && !/^(localhost|127\.0\.0\.1)/.test(window.location.hostname);
+      return isProd ? `https://trainignewproject.fly.dev${url}` : `http://localhost:5174${url}`;
+    }
+    return url;
   }
 
   const groupedContent = useMemo(() => {
