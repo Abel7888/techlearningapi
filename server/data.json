@@ -46,6 +46,48 @@
           "topic": "Go-to-Market Strategy",
           "takeaways": "Partnering with hospitals & payers",
           "activity": "Group pitch simulation"
+        },
+        {
+          "day": 8,
+          "topic": "Hyper-Personalization in Healthcare",
+          "takeaways": "Frameworks (data/ML/behavioral), individualized treatment & engagement, vendor landscape",
+          "activity": "Design a hyper-personalized diabetes care plan using wearables + history + AI"
+        },
+        {
+          "day": 9,
+          "topic": "Smarter Clinical Trials & Real-World Data",
+          "takeaways": "AI-driven matching, DCTs, synthetic controls, blockchain for consent & audit",
+          "activity": "Evaluate DCT vendors for a rare disease trial using a scoring matrix"
+        },
+        {
+          "day": 10,
+          "topic": "AI + Generative Tech in Drug Discovery (Deep Dive)",
+          "takeaways": "Transformers, protein folding, molecule design; acceleration in hit → lead → ADME/Tox",
+          "activity": "Shortlist AI compounds; compare two vendor approaches and present trade-offs"
+        },
+        {
+          "day": 11,
+          "topic": "Clinician Support & Workflow Automation",
+          "takeaways": "Ambient AI, RPA, predictive scheduling; EHR-integrated automation vendors",
+          "activity": "Redesign a clinician’s day with AI while balancing efficiency & compliance"
+        },
+        {
+          "day": 12,
+          "topic": "Interoperability & Connected Ecosystems",
+          "takeaways": "FHIR, federated learning, knowledge graphs; EHR + IoT + imaging integration",
+          "activity": "Integrate wearable + hospital EHR + imaging into one mock ecosystem"
+        },
+        {
+          "day": 13,
+          "topic": "Trust, Privacy & Quantum-Safe Security",
+          "takeaways": "Fairness, transparency, explainability; zero-trust, HE, quantum-safe crypto",
+          "activity": "Simulate a ransomware response with zero-trust & quantum-safe controls"
+        },
+        {
+          "day": 14,
+          "topic": "Access, Affordability & Future Care Models",
+          "takeaways": "Value-based care, digital-first models, personalization for underserved markets",
+          "activity": "Pitch a digital-first rural care model (AI triage + IoT + smart contracts)"
         }
       ],
       "content": [
@@ -129,7 +171,21 @@
           "description": "This exercise walks healthcare leaders through a secure data pipeline, showing how patient data flows from collection to deletion and where privacy risks emerge. It connects each stage to HIPAA, GDPR, and FDA requirements, using real-world breach cases and enforcement actions. Leaders practice spotting risks, applying regulations, and designing safeguards in telehealth and digital health scenarios. The goal is to build practical strategies for compliance, cybersecurity, and patient trust.",
           "createdAt": "2025-09-25T21:17:26.427Z",
           "day": 5
-        }
+        },
+        { "id": "c_day8_01", "title": "Day 8 Overview: Hyper-Personalization in Healthcare", "type": "doc", "url": "", "description": "Theme: Patients receive generic care; goal is individualized pathways at scale. Overview of drivers, constraints, and success criteria.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
+        { "id": "c_day8_02", "title": "Frameworks: Data-Driven Personalization", "type": "doc", "url": "", "description": "Operationalize demographic, clinical, claims, device, and SDOH data to tailor care plans.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
+        { "id": "c_day8_03", "title": "Frameworks: AI/ML-Driven Personalization", "type": "doc", "url": "", "description": "Recommendation systems, risk stratification, propensity models, and next-best-action (NBA).", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
+        { "id": "c_day8_04", "title": "Frameworks: Behavioral Personalization", "type": "doc", "url": "", "description": "Behavioral segmentation, nudging, habit loops, and adherence optimization.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
+        { "id": "c_day8_05", "title": "Sub-Tech: Care Recommendation Engines", "type": "doc", "url": "", "description": "Retail-style personalization adapted to care pathways, outreach, and education.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
+        { "id": "c_day8_06", "title": "Sub-Tech: Digital Twins of Patients", "type": "doc", "url": "", "description": "Longitudinal patient models for simulation, risk prediction, and proactive interventions.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
+        { "id": "c_day8_07", "title": "Sub-Tech: Real-time Personalization with Edge AI", "type": "doc", "url": "", "description": "On-device and near-device inference for immediate feedback and context-aware care.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
+        { "id": "c_day8_08", "title": "Vendors: Phreesia (Intake Personalization)", "type": "doc", "url": "", "description": "Patient intake personalization and targeted engagement at the point of registration.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
+        { "id": "c_day8_09", "title": "Vendors: Health Catalyst (Data-Driven Personalization)", "type": "doc", "url": "", "description": "Analytics platform enabling population stratification and targeted care workflows.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
+        { "id": "c_day8_10", "title": "Vendors: Awell Health (Personalized Care Pathways)", "type": "doc", "url": "", "description": "Workflow engine for dynamic care pathways orchestrated by outcomes and behavior.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
+        { "id": "c_day8_11", "title": "Data to Treatment: Signals → Insights → Actions", "type": "doc", "url": "", "description": "How raw patient data becomes actions across education, meds, visits, and remote care.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
+        { "id": "c_day8_12", "title": "Governance: Bias, Equity, and Safety", "type": "doc", "url": "", "description": "Fairness checks, model monitoring, and human-in-the-loop for safe personalization.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
+        { "id": "c_day8_13", "title": "KPI Pack for Personalization Programs", "type": "doc", "url": "", "description": "Engagement, adherence, readmissions, A1c/BP control, PROMs, and cost-to-serve.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
+        { "id": "c_day8_14", "title": "Activity: Build a Personalized Diabetes Plan", "type": "doc", "url": "", "description": "Use wearables + history + AI to assemble an individualized diabetes plan with NBA.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 }
       ],
       "quizzes": [
         {
