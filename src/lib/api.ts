@@ -38,7 +38,11 @@ export async function addContent(params: { trackId: string; title: string; type?
     headers: { 'Content-Type': 'application/json', ...authHeader() },
     body: JSON.stringify(params),
   });
-  if (!res.ok) throw new Error('Failed to add content');
+  if (!res.ok) {
+    let msg = 'Failed to add content';
+    try { const t = await res.text(); if (t) msg += `: ${t}`; } catch {}
+    throw new Error(msg);
+  }
   return res.json();
 }
 
@@ -106,7 +110,11 @@ export async function uploadFile(file: File): Promise<{ url: string } & Record<s
     body: form,
     headers: { ...authHeader() },
   });
-  if (!res.ok) throw new Error('Upload failed');
+  if (!res.ok) {
+    let msg = 'Upload failed';
+    try { const t = await res.text(); if (t) msg += `: ${t}`; } catch {}
+    throw new Error(msg);
+  }
   return res.json();
 }
 

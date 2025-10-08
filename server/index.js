@@ -23,7 +23,8 @@ if (!fs.existsSync(uploadsDir)) {
   fs.mkdirSync(uploadsDir, { recursive: true });
 }
 // Memory storage for conditional upload (Supabase or local fallback)
-const uploadMem = multer({ storage: multer.memoryStorage() });
+// Limit file size to 25 MB to avoid excessive memory use on the server
+const uploadMem = multer({ storage: multer.memoryStorage(), limits: { fileSize: 25 * 1024 * 1024 } });
 app.use('/uploads', express.static(uploadsDir));
 
 // Supabase env config (optional)
@@ -505,6 +506,14 @@ app.post('/api/llm/chat', async (req, res) => {
     console.error('LLM error:', e);
     return res.status(500).json({ error: 'LLM proxy error' });
   }
+});
+
+// Global error handler for multer's file size limit
+app.use((err, req, res, next) => {
+  if (err && err.code === 'LIMIT_FILE_SIZE') {
+    return res.status(413).json({ error: 'File too large', limitMB: 25 });
+  }
+  return next(err);
 });
 
 app.listen(PORT, () => {

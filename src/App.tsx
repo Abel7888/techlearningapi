@@ -8,6 +8,7 @@ import LearnerPortal from "./pages/LearnerPortal";
 import TrackDashboard from "./pages/TrackDashboard";
 import ErrorBoundary from "./components/ErrorBoundary";
 import AdminDashboard from "./pages/AdminDashboard";
+import AdminGate from "./pages/AdminGate";
 import HealthcareAgentsHub from "./pages/HealthcareAgentsHub";
 import NotFound from "./pages/NotFound";
 
@@ -24,7 +25,7 @@ const App = () => (
           <Route path="/learner" element={<LearnerPortal />} />
           <Route path="/track/:id" element={<ErrorBoundary><TrackDashboard /></ErrorBoundary>} />
           <Route path="/healthcare/agents" element={<ErrorBoundary><HealthcareAgentsHub /></ErrorBoundary>} />
-          <Route path="/admin" element={<AdminDashboard />} />
+          <Route path="/admin" element={<AdminGate><AdminDashboard /></AdminGate>} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
