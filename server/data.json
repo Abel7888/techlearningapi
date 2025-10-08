@@ -502,15 +502,45 @@
         },
         {
           "day": 6,
-          "topic": "Overcoming ROI Barriers",
-          "takeaways": "Upfront cost, integration, resistance; risk-adjusted models; exec buy-in",
-          "activity": "Barrier mapping + one-page ROI pitch slide"
+          "topic": "Sustainable Materials & ESG Integration",
+          "takeaways": "Low-carbon cement, recycled aggregates, bio-based composites (mycelium, hempcrete); life-cycle emissions & Scope 3 transparency; ESG in valuation & investor reporting; carbon credits & green certifications; Tech: EC3, CarbonCure, BioMASON",
+          "activity": "Quantify ROI and carbon savings from replacing 20% of materials with low-carbon alternatives"
         },
         {
           "day": 7,
-          "topic": "Capstone: ROI Pilot Project Plan",
-          "takeaways": "Pilot selection; ROI KPIs; reporting & improvement",
-          "activity": "Capstone pilot plan: problem, tech, ROI calc, timeline, metrics"
+          "topic": "AR/VR & Extended Reality for Design and Field Execution",
+          "takeaways": "Immersive collaboration; on-site AR overlays; VR-based safety training; reduced rework & faster approvals; Tech: Trimble XR10, Unity Reflect, HoloBuilder, Meta Quest for Business",
+          "activity": "Build a business case for immersive visualization—quantify savings from faster approvals and rework avoidance"
+        },
+        {
+          "day": 8,
+          "topic": "Blockchain, Smart Contracts & Supply Chain Trust",
+          "takeaways": "Immutable records & provenance; milestone-based smart contract payments; reduced disputes & fraud; cross-border & digital identity; Tech: Briq, Propy Smart Contracts, IBM Blockchain for Construction",
+          "activity": "Map a blockchain-based subcontractor payment workflow and model dispute reduction ROI"
+        },
+        {
+          "day": 9,
+          "topic": "Generative Design & Autonomous Construction",
+          "takeaways": "Generative design for cost/material/performance; AI scheduling & resource allocation; robotics coordination; human–machine collaboration; Tech: Autodesk Forma, ALICE, Dusty Robotics, Spacemaker AI",
+          "activity": "Compare human vs AI-generated designs and calculate cost/time deltas"
+        },
+        {
+          "day": 10,
+          "topic": "IoT, Edge Computing & Connected Job Sites",
+          "takeaways": "IoT for safety/structural/equipment monitoring; edge analytics; AI dashboards for predictive maintenance; build a digital nervous system; Tech: Triax Spot-r, Pillar, MachineMetrics, Trimble WorksOS",
+          "activity": "Predictive vs reactive maintenance—calculate uptime gains and safety incident reduction"
+        },
+        {
+          "day": 11,
+          "topic": "Data Integration, Interoperability & Knowledge Graphs",
+          "takeaways": "Integrate BIM/ERP/IoT/financials; data standards & APIs; knowledge graphs for context & KPIs; exec dashboards; Tech: Oracle Aconex, Procore Analytics, Trimble Construction One, GraphDB",
+          "activity": "Build a mini Digital Ecosystem Map and identify data silos blocking ROI visibility"
+        },
+        {
+          "day": 12,
+          "topic": "The Frontier: Quantum, Robotics Swarms & Autonomous Ecosystems",
+          "takeaways": "Quantum for supply chain & simulation; swarm robotics for transport/inspection; synthetic environments for scenario testing; autonomous sites powered by AI, robotics, and twins; Tech: NVIDIA Omniverse, ETH Zurich RFL, Built Robotics 2.0, SandboxAQ",
+          "activity": "Future ROI scenario planning—model savings/productivity in a 2030 autonomous site vision"
         }
       ],
       "content": [
