@@ -1,946 +1,1120 @@
-{
-  "tracks": [
-    {
-      "id": "healthcare",
-      "name": "Healthcare Technology",
-      "description": "AI in diagnostics, telehealth, devices, compliance, and GTM",
-      "modules": [
-        {
-          "day": 1,
-          "topic": "Healthcare Tech Landscape",
-          "takeaways": "AI in diagnostics, edge computing, telehealth",
-          "activity": "AI-assisted imaging demo"
-        },
-        {
-          "day": 2,
-          "topic": "Digital Trials & Real-World Evidence",
-          "takeaways": "ePRO apps, decentralized trials, wearables",
-          "activity": "Blockchain data integrity exercise"
-        },
-        {
-          "day": 3,
-          "topic": "Generative AI in Drug Discovery",
-          "takeaways": "Protein folding, molecule design",
-          "activity": "AI-driven compound screening"
-        },
-        {
-          "day": 4,
-          "topic": "Medical Devices & IoT",
-          "takeaways": "Smart sensors, digital twins",
-          "activity": "Build a patient-device integration mockup"
-        },
-        {
-          "day": 5,
-          "topic": "Data Privacy & Compliance",
-          "takeaways": "HIPAA, GDPR, FDA regulations",
-          "activity": "Secure data pipeline walkthrough"
-        },
-        {
-          "day": 6,
-          "topic": "Automation in Manufacturing",
-          "takeaways": "Robotics in pharma production",
-          "activity": "Virtual factory tour"
-        },
-        {
-          "day": 7,
-          "topic": "Go-to-Market Strategy",
-          "takeaways": "Partnering with hospitals & payers",
-          "activity": "Group pitch simulation"
-        },
-        {
-          "day": 8,
-          "topic": "Hyper-Personalization in Healthcare",
-          "takeaways": "Frameworks (data/ML/behavioral), individualized treatment & engagement, vendor landscape",
-          "activity": "Design a hyper-personalized diabetes care plan using wearables + history + AI"
-        },
-        {
-          "day": 9,
-          "topic": "Smarter Clinical Trials & Real-World Data",
-          "takeaways": "AI-driven matching, DCTs, synthetic controls, blockchain for consent & audit",
-          "activity": "Evaluate DCT vendors for a rare disease trial using a scoring matrix"
-        },
-        {
-          "day": 10,
-          "topic": "AI + Generative Tech in Drug Discovery (Deep Dive)",
-          "takeaways": "Transformers, protein folding, molecule design; acceleration in hit → lead → ADME/Tox",
-          "activity": "Shortlist AI compounds; compare two vendor approaches and present trade-offs"
-        },
-        {
-          "day": 11,
-          "topic": "Clinician Support & Workflow Automation",
-          "takeaways": "Ambient AI, RPA, predictive scheduling; EHR-integrated automation vendors",
-          "activity": "Redesign a clinician’s day with AI while balancing efficiency & compliance"
-        },
-        {
-          "day": 12,
-          "topic": "Interoperability & Connected Ecosystems",
-          "takeaways": "FHIR, federated learning, knowledge graphs; EHR + IoT + imaging integration",
-          "activity": "Integrate wearable + hospital EHR + imaging into one mock ecosystem"
-        },
-        {
-          "day": 13,
-          "topic": "Trust, Privacy & Quantum-Safe Security",
-          "takeaways": "Fairness, transparency, explainability; zero-trust, HE, quantum-safe crypto",
-          "activity": "Simulate a ransomware response with zero-trust & quantum-safe controls"
-        },
-        {
-          "day": 14,
-          "topic": "Access, Affordability & Future Care Models",
-          "takeaways": "Value-based care, digital-first models, personalization for underserved markets",
-          "activity": "Pitch a digital-first rural care model (AI triage + IoT + smart contracts)"
-        }
-      ],
-      "content": [
-        {
-          "id": "c_1758810929803",
-          "title": "Learning Module Activities and Case studies: AI-Assisted Imaging in Healthcare",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758810929700_AI_Assisted_Imaging_Learning_Module.pdf",
-          "description": "AI-assisted imaging uses machine learning to detect abnormalities in radiology, pathology, and\n cardiology images. It helps triage urgent cases, reduce diagnostic errors, and speed up clinical\n decision-making. Hospitals adopting AI are seeing improved efficiency, earlier disease detection, and\n reduced costs, but they face challenges like workflow integration, clinician trust, and regulatory\n compliance",
-          "createdAt": "2025-09-25T14:35:29.803Z",
-          "day": 1
-        },
-        {
-          "id": "c_1758814058810",
-          "title": "Digital Trials and Real-World Evidence in US  Clinical Research: Key tech",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758814058711_Digital_Trials_and_Real-World_Evidence_in_US_Clinical_Research.pdf",
-          "description": "Digital trials and real-world evidence (RWE) are transforming U.S. clinical research by enabling remote data capture, broader patient access, and richer insights.\nePRO apps replace paper diaries with secure, 21 CFR 11–compliant digital surveys, improving accuracy and patient engagement.\nDecentralized clinical trials (DCTs) use telehealth, eConsent, and home monitoring to cut costs and expand enrollment while maintaining FDA oversight.\nWearables provide continuous, real-time data (heart rate, glucose, activity) but require validation, HIPAA compliance, and strong cybersecurity.\nRegulatory frameworks—FDA DHT and DCT guidances, HIPAA, and Part 11—define data integrity, privacy, and interoperability requirements.\nKey therapeutic areas benefiting most include oncology, cardiology, neurology, and diabetes, where continuous monitoring and patient-reported outcomes drive faster, more inclusive research.",
-          "createdAt": "2025-09-25T15:27:38.810Z",
-          "day": 2
-        },
-        {
-          "id": "c_1758816426883",
-          "title": "Learning Activity/cast study: Blockchain for Data Integrity in Healthcare",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758816426731_Blockchain_Data_Integrity_Healthcare_Module.pdf",
-          "description": "Overview\n Blockchain technology offers a secure, immutable, and transparent way to ensure data integrity in\n healthcare. It can protect electronic health records (EHRs) from tampering, ensure provenance of\n clinical trial data, and improve trust among stakeholders. By using distributed ledgers and cryptographic\n hashing, blockchain ensures that every record is time-stamped and cannot be changed without\n consensus, creating a permanent and verifiable audit trail",
-          "createdAt": "2025-09-25T16:07:06.883Z",
-          "day": 2
-        },
-        {
-          "id": "c_1758819864786",
-          "title": "Generative AI Trends in Drug Discovery for Healthcare and Pharma",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758819864700_Generative_AI_Models_in_Drug_Discovery.pdf",
-          "description": "Generative AI is rapidly reshaping drug discovery by enabling accurate protein structure prediction, de novo protein and molecule design, and even novel target identification — cutting development timelines from years to months. Breakthroughs like AlphaFold3 and RFdiffusion allow scientists to design entirely new proteins, while GPT-like models (e.g., TamGen) and diffusion/variational autoencoder approaches generate potent, diverse drug candidates with high hit rates. Industry adoption is accelerating, with major pharma (Novartis, Roche, Sanofi) forming billion-dollar partnerships with AI-first companies like Insilico Medicine, Generate Biomedicines, and Recursion. The U.S. market is growing at 30–38% CAGR through 2030, driven by funding, collaboration, and closed-loop design-test workflows. FDA’s emerging AI guidance emphasizes transparency and validation, signaling growing regulatory acceptance. Together, these advances mark a shift toward faster, cheaper, and more innovative drug pipelines that expand chemical space and improve the odds of finding first-in-class therapies.",
-          "createdAt": "2025-09-25T17:04:24.787Z",
-          "day": 3
-        },
-        {
-          "id": "c_1758820498586",
-          "title": "🧪 Learning Exercise: AI-Driven Compound Screening in Drug Discovery",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758820498461______Learning_Exercise__AI-Driven_Compound_Screening_in_Drug_Discovery.pdf",
-          "description": "The learning exercise on AI-driven compound screening is designed in three parts to build both knowledge and critical thinking. It begins with short-answer questions that explain how different AI models are applied in drug discovery, such as diffusion models for generating small molecules (with the example of TamGen), VAE combined with active learning for designing kinase inhibitors, and a comparison of GANs and Transformers in terms of their strengths and weaknesses. The second part presents a real-world case study on Rentosertib, an AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis, highlighting how AI pipelines can both discover new targets and generate first-in-class molecules while significantly reducing R&D timelines. The final part encourages reflection, asking learners to evaluate which AI model type they would prioritize for cancer drug discovery and justify their reasoning. Altogether, the exercise blends conceptual understanding, applied case analysis, and critical evaluation, ensuring learners grasp not only the technical aspects but also the real-world impact of AI in accelerating compound screening.",
-          "createdAt": "2025-09-25T17:14:58.586Z",
-          "day": 3
-        },
-        {
-          "id": "c_1758820613765",
-          "title": "Trends and Emerging Technologies in Medical Devices & IoT (US Healthcare)",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758820613656_Trends_and_Emerging_Technologies_in_Medical_Devices___IoT__US_Healthcare_.pdf",
-          "description": "Smart sensors are driving U.S. healthcare IoT growth, enabling continuous monitoring, smart drug delivery, and wearable diagnostics with rapid adoption.\nDigital twins are emerging for patient monitoring, surgical simulation, and personalized medicine, with U.S. firms leading global adoption and investment.\nEdge computing and AI-enabled devices are transforming care by enabling real-time, on-device analytics in hospitals, wearables, and implants.\nOverall, the sector shows strong double-digit growth, with incumbents and startups shaping a future of more predictive, personalized, and connected healthcare.",
-          "createdAt": "2025-09-25T17:16:53.765Z",
-          "day": 4
-        },
-        {
-          "id": "c_1758821157973",
-          "title": "Executive Learning Case: Patient–Device Integration & Digital Health Innovation",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758821157918_Executive_Learning_Case__Patient___Device_Integration___Digital_Health_Innovation.pdf",
-          "description": "This executive exercise guides leaders through designing a patient–device integration blueprint using smart sensors, edge AI, and digital twins.\nIt combines a mock integration workflow with real-world case studies (Medtronic, Philips, Dexcom, NVIDIA) to ground strategy in practice.\nParticipants explore ROI, interoperability, and regulatory challenges, while evaluating strategic opportunities for investment and partnerships.\nThe activity ends with reflection on future outlooks, positioning leaders to make informed decisions about scaling digital health innovation.",
-          "createdAt": "2025-09-25T17:25:57.973Z",
-          "day": 4
-        },
-        {
-          "id": "c_1758834819431",
-          "title": "Data Privacy and Compliance in U.S. Healthcare",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758834819321_Data_Privacy_and_Compliance_in_U.S._Healthcare.pdf",
-          "description": "This learning material explores data privacy and compliance in U.S. healthcare, focusing on key regulations like HIPAA, GDPR (where U.S. entities handle EU data), and FDA digital health rules. It highlights current and emerging trends from the last 2–3 years, including cyber threats, regulatory updates, and new enforcement actions. Real-world case examples illustrate how providers, insurers, and digital health startups adapt to these rules—or face penalties when they fail. Overall, it shows how privacy laws and technology shape both the risks and protections for patients’ sensitive health data.\n\n",
-          "createdAt": "2025-09-25T21:13:39.431Z",
-          "day": 5
-        },
-        {
-          "id": "c_1758835046427",
-          "title": "Activity: Secure Data Pipeline Walkthrough for Healthcare Leaders",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758835046381_Activity__Secure_Data_Pipeline_Walkthrough_for_Healthcare_Leaders.pdf",
-          "description": "This exercise walks healthcare leaders through a secure data pipeline, showing how patient data flows from collection to deletion and where privacy risks emerge. It connects each stage to HIPAA, GDPR, and FDA requirements, using real-world breach cases and enforcement actions. Leaders practice spotting risks, applying regulations, and designing safeguards in telehealth and digital health scenarios. The goal is to build practical strategies for compliance, cybersecurity, and patient trust.",
-          "createdAt": "2025-09-25T21:17:26.427Z",
-          "day": 5
-        },
-        { "id": "c_day8_01", "title": "Day 8 Overview: Hyper-Personalization in Healthcare", "type": "doc", "url": "", "description": "Theme: Patients receive generic care; goal is individualized pathways at scale. Overview of drivers, constraints, and success criteria.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
-        { "id": "c_day8_02", "title": "Frameworks: Data-Driven Personalization", "type": "doc", "url": "", "description": "Operationalize demographic, clinical, claims, device, and SDOH data to tailor care plans.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
-        { "id": "c_day8_03", "title": "Frameworks: AI/ML-Driven Personalization", "type": "doc", "url": "", "description": "Recommendation systems, risk stratification, propensity models, and next-best-action (NBA).", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
-        { "id": "c_day8_04", "title": "Frameworks: Behavioral Personalization", "type": "doc", "url": "", "description": "Behavioral segmentation, nudging, habit loops, and adherence optimization.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
-        { "id": "c_day8_05", "title": "Sub-Tech: Care Recommendation Engines", "type": "doc", "url": "", "description": "Retail-style personalization adapted to care pathways, outreach, and education.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
-        { "id": "c_day8_06", "title": "Sub-Tech: Digital Twins of Patients", "type": "doc", "url": "", "description": "Longitudinal patient models for simulation, risk prediction, and proactive interventions.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
-        { "id": "c_day8_07", "title": "Sub-Tech: Real-time Personalization with Edge AI", "type": "doc", "url": "", "description": "On-device and near-device inference for immediate feedback and context-aware care.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
-        { "id": "c_day8_08", "title": "Vendors: Phreesia (Intake Personalization)", "type": "doc", "url": "", "description": "Patient intake personalization and targeted engagement at the point of registration.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
-        { "id": "c_day8_09", "title": "Vendors: Health Catalyst (Data-Driven Personalization)", "type": "doc", "url": "", "description": "Analytics platform enabling population stratification and targeted care workflows.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
-        { "id": "c_day8_10", "title": "Vendors: Awell Health (Personalized Care Pathways)", "type": "doc", "url": "", "description": "Workflow engine for dynamic care pathways orchestrated by outcomes and behavior.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
-        { "id": "c_day8_11", "title": "Data to Treatment: Signals → Insights → Actions", "type": "doc", "url": "", "description": "How raw patient data becomes actions across education, meds, visits, and remote care.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
-        { "id": "c_day8_12", "title": "Governance: Bias, Equity, and Safety", "type": "doc", "url": "", "description": "Fairness checks, model monitoring, and human-in-the-loop for safe personalization.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
-        { "id": "c_day8_13", "title": "KPI Pack for Personalization Programs", "type": "doc", "url": "", "description": "Engagement, adherence, readmissions, A1c/BP control, PROMs, and cost-to-serve.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 },
-        { "id": "c_day8_14", "title": "Activity: Build a Personalized Diabetes Plan", "type": "doc", "url": "", "description": "Use wearables + history + AI to assemble an individualized diabetes plan with NBA.", "createdAt": "2025-09-30T14:20:00.000Z", "day": 8 }
-      ],
-      "quizzes": [
-        {
-          "id": "q_1758850509831",
-          "question": "Under HIPAA, how soon must a covered entity report a breach affecting more than 500 patient records to HHS?",
-          "options": [
-            "Within 30 days",
-            "Within 60 days ✅",
-            "Within 72 hours",
-            "Within 90 days"
-          ],
-          "answer": null,
-          "day": 5
-        },
-        {
-          "id": "q_1758850509890",
-          "question": "Which of the following best describes the difference between HIPAA and GDPR in healthcare data protection?",
-          "options": [
-            "HIPAA applies globally, GDPR applies only in the U.S.",
-            "HIPAA covers U.S. health entities and PHI; GDPR applies to any personal data of EU residents, worldwide ✅",
-            "Both only apply to insurance companies",
-            "GDPR applies only to medical devices"
-          ],
-          "answer": null,
-          "day": 5
-        },
-        {
-          "id": "q_1758850509924",
-          "question": "In 2023, what was the average cost of a healthcare data breach, according to IBM’s Cost of a Data Breach report?",
-          "options": [
-            "$2.1 million",
-            "$5.7 million",
-            "$10.93 million ✅",
-            "$20 million"
-          ],
-          "answer": null,
-          "day": 5
-        },
-        {
-          "id": "q_1758850509936",
-          "question": "A U.S. telehealth app shares users’ mental health data with advertisers without consent. Which regulator is most likely to enforce penalties if the app is not a HIPAA-covered entity?",
-          "options": [
-            "FDA",
-            "HHS OCR",
-            "FTC (Federal Trade Commission) ✅",
-            "CMS"
-          ],
-          "answer": null,
-          "day": 5
-        },
-        {
-          "id": "q_1758850509952",
-          "question": "Which real-world case highlighted the massive systemic risk of third-party vendors in healthcare after a ransomware attack exposed ~190 million records?",
-          "options": [
-            "Warby Parker (2025)",
-            "Cerebral (2023)",
-            "Change Healthcare (2024) ✅",
-            "Holy Redeemer Family Medicine (2024)"
-          ],
-          "answer": null,
-          "day": 5
-        },
-        {
-          "id": "q_1758850781513",
-          "question": "What percentage of U.S. health systems were reported to use AI in clinical care as of 2024?",
-          "options": [
-            "56%",
-            "72%",
-            "86% ✅",
-            "94%"
-          ],
-          "answer": null,
-          "day": 1
-        },
-        {
-          "id": "q_1758850781528",
-          "question": "Which of the following is a key advantage of edge computing in healthcare?",
-          "options": [
-            "Centralizes all patient data into a single national cloud",
-            "Eliminates the need for hospital IT staff",
-            "Processes data locally to reduce latency and enhance privacy ✅",
-            "Replaces the need for medical imaging equipment"
-          ],
-          "answer": null,
-          "day": 1
-        },
-        {
-          "id": "q_1758850781537",
-          "question": "What is a common use case of AI in diagnostic imaging according to the report?",
-          "options": [
-            "Generating synthetic patient data for training models",
-            "Automatically screening for lung nodules, hemorrhages, or breast cancers ✅",
-            "Replacing radiologists entirely",
-            "Storing radiology scans in blockchain networks"
-          ],
-          "answer": null,
-          "day": 1
-        },
-        {
-          "id": "q_1758850781547",
-          "question": "Which factor is cited as a key driver for telehealth’s continued growth post-pandemic?",
-          "options": [
-            "Patients’ reluctance to use video calls",
-            "Reinstatement of strict geographic restrictions",
-            "High patient satisfaction and expanded reimbursement policies ✅",
-            "Elimination of Medicare coverage for telehealth"
-          ],
-          "answer": null,
-          "day": 1
-        },
-        {
-          "id": "q_1758850781558",
-          "question": "According to the document, what is one of the biggest challenges for hospitals adopting AI diagnostics?",
-          "options": [
-            "Lack of available AI models",
-            "Need for local validation and integration into workflows ✅",
-            "Overregulation preventing use of AI",
-            "Patients refusing to allow AI use in care"
-          ],
-          "answer": null,
-          "day": 1
-        },
-        {
-          "id": "q_1758850871404",
-          "question": "Which of the following best describes ePRO tools?",
-          "options": [
-            "Systems that capture only investigator notes during site visits",
-            "Devices that monitor lab results automatically",
-            "Platforms that allow patients to submit clinical outcome data electronically",
-            "Tools used exclusively for regulatory submissions"
-          ],
-          "answer": 2,
-          "day": 2
-        },
-        {
-          "id": "q_1758850871416",
-          "question": "What is one major benefit of decentralized clinical trials (DCTs)?",
-          "options": [
-            "They remove the need for any data validation",
-            "They guarantee identical home environments for all participants",
-            "They can increase participant diversity and reach",
-            "They eliminate the need for informed consent"
-          ],
-          "answer": 2,
-          "day": 2
-        },
-        {
-          "id": "q_1758850871426",
-          "question": "Which U.S. regulation sets requirements for electronic records and signatures in clinical trials?",
-          "options": [
-            "45 CFR 46",
-            "HIPAA Privacy Rule",
-            "21 CFR Part 11",
-            "CDISC SDTM"
-          ],
-          "answer": 2,
-          "day": 2
-        },
-        {
-          "id": "q_1758850871435",
-          "question": "Which FDA guidance specifically covers using digital health technologies for remote data acquisition in clinical trials?",
-          "options": [
-            "Patient-Reported Outcome Measures Guidance",
-            "Electronic Source Data in Clinical Investigations Guidance",
-            "Digital Health Technologies (DHT) for Remote Data Acquisition Guidance",
-            "Good Laboratory Practice (GLP) Guidance"
-          ],
-          "answer": 2,
-          "day": 2
-        },
-        {
-          "id": "q_1758851091596",
-          "question": "Which of the following is a major application of smart sensors in U.S. healthcare?",
-          "options": [
-            "Predicting stock market trends"
-          ],
-          "answer": null,
-          "day": 4
-        },
-        {
-          "id": "q_1758851091608",
-          "question": "What is a digital twin in healthcare?",
-          "options": [
-            "A 3D printer for medical devices"
-          ],
-          "answer": null,
-          "day": 4
-        },
-        {
-          "id": "q_1758851091616",
-          "question": "By 2030, the U.S. healthcare digital twins market is projected to reach approximately:",
-          "options": [
-            "$500 million",
-            "$1 billion"
-          ],
-          "answer": null,
-          "day": 4
-        },
-        {
-          "id": "q_1758851091624",
-          "question": "Which partnership exemplifies edge computing in healthcare?",
-          "options": [
-            "Pfizer and Moderna in vaccine development"
-          ],
-          "answer": null,
-          "day": 4
-        },
-        {
-          "id": "q_1758851091633",
-          "question": "What trend is expected over the next 5–10 years in medical IoT?",
-          "options": [
-            "Decline in wearable adoption",
-            "Replacement of sensors with manual monitoring"
-          ],
-          "answer": null,
-          "day": 4
-        },
-        {
-          "id": "q_1758851170487",
-          "question": "Which of the following best describes the role of Variational Autoencoders (VAEs) in drug discovery?",
-          "options": [
-            "They pit two networks against each other to generate molecules.",
-            "They encode molecules into a latent space for interpolation and efficient sampling. ✅",
-            "They denoise random noise to create protein structures.",
-            "They analyze multi-omics data to identify new disease pathways."
-          ],
-          "answer": null,
-          "day": 3
-        },
-        {
-          "id": "q_1758851170530",
-          "question": "What was a key achievement of RFdiffusion in protein design?",
-          "options": [
-            "Predicting protein folding with higher accuracy than AlphaFold2.",
-            "Designing novel protein backbones from random noise with experimental validation. ✅",
-            "Using GANs to create small-molecule inhibitors.",
-            "Applying reinforcement learning to pathway modeling."
-          ],
-          "answer": null,
-          "day": 3
-        },
-        {
-          "id": "q_1758851170545",
-          "question": "What makes TamGen (2024) a notable generative AI model for small-molecule design?",
-          "options": [
-            "It integrates GANs and graph neural networks for molecule generation.",
-            "It is a diffusion-based model fine-tuned for protein backbone generation.",
-            "It is a target-aware GPT-like transformer that produced active TB-protease inhibitors. ✅",
-            "It is a VAE that generated kinase inhibitors with an 8/9 hit rate."
-          ],
-          "answer": null,
-          "day": 3
-        },
-        {
-          "id": "q_1758851170589",
-          "question": "Which AI-discovered drug reached Phase II trials as a TNIK inhibitor for idiopathic pulmonary fibrosis (IPF)?",
-          "options": [
-            "INS018-055",
-            "Rentosertib ✅",
-            "REC-994",
-            "MolT5"
-          ],
-          "answer": null,
-          "day": 3
-        },
-        {
-          "id": "q_1758851170600",
-          "question": "According to market projections, what is the expected compound annual growth rate (CAGR) for the AI-driven drug discovery market through 2030?",
-          "options": [
-            "5–10%",
-            "15–20%",
-            "30–38% ✅",
-            "Over 50%"
-          ],
-          "answer": null,
-          "day": 3
-        }
-      ]
-    },
-    {
-      "id": "construction",
-      "name": "Construction Technology",
-      "description": "Smart building, IoT sensors, automation",
-      "modules": [
-        {
-          "day": 1,
-          "topic": "Framing the ROI Opportunity",
-          "takeaways": "Business case, measurable goals; hard vs soft ROI; industry benchmarks",
-          "activity": "ROI Baseline + Goal Setting"
-        },
-        {
-          "day": 2,
-          "topic": "AI & Predictive Analytics for Financial Impact",
-          "takeaways": "Forecasting, downtime reduction, fewer claims; ALICE, Procore AI, OpenSpace",
-          "activity": "Live ROI calc: 5% schedule improvement on $50M + case study"
-        },
-        {
-          "day": 3,
-          "topic": "BIM & Digital Twins with Lifecycle ROI",
-          "takeaways": "ROI from design→build→operate; clash detection; lifecycle cost; sustainability",
-          "activity": "Digital Twin ROI map + lifecycle cost mini demo"
-        },
-        {
-          "day": 4,
-          "topic": "Robotics, Drones & IoT ROI Models",
-          "takeaways": "Labor productivity; drones survey savings; IoT safety + insurance",
-          "activity": "Break-even analysis: drone buy vs rental + IoT case"
-        },
-        {
-          "day": 5,
-          "topic": "3D Printing & Modular Construction ROI",
-          "takeaways": "Speed-to-market; waste reduction; standardization",
-          "activity": "ROI scenario: cut timeline by 3 months + hospital modular case"
-        },
-        {
-          "day": 6,
-          "topic": "Sustainable Materials & ESG Integration",
-          "takeaways": "Low-carbon cement, recycled aggregates, bio-based composites (mycelium, hempcrete); life-cycle emissions & Scope 3 transparency; ESG in valuation & investor reporting; carbon credits & green certifications; Tech: EC3, CarbonCure, BioMASON",
-          "activity": "Quantify ROI and carbon savings from replacing 20% of materials with low-carbon alternatives"
-        },
-        {
-          "day": 7,
-          "topic": "AR/VR & Extended Reality for Design and Field Execution",
-          "takeaways": "Immersive collaboration; on-site AR overlays; VR-based safety training; reduced rework & faster approvals; Tech: Trimble XR10, Unity Reflect, HoloBuilder, Meta Quest for Business",
-          "activity": "Build a business case for immersive visualization—quantify savings from faster approvals and rework avoidance"
-        },
-        {
-          "day": 8,
-          "topic": "Blockchain, Smart Contracts & Supply Chain Trust",
-          "takeaways": "Immutable records & provenance; milestone-based smart contract payments; reduced disputes & fraud; cross-border & digital identity; Tech: Briq, Propy Smart Contracts, IBM Blockchain for Construction",
-          "activity": "Map a blockchain-based subcontractor payment workflow and model dispute reduction ROI"
-        },
-        {
-          "day": 9,
-          "topic": "Generative Design & Autonomous Construction",
-          "takeaways": "Generative design for cost/material/performance; AI scheduling & resource allocation; robotics coordination; human–machine collaboration; Tech: Autodesk Forma, ALICE, Dusty Robotics, Spacemaker AI",
-          "activity": "Compare human vs AI-generated designs and calculate cost/time deltas"
-        },
-        {
-          "day": 10,
-          "topic": "IoT, Edge Computing & Connected Job Sites",
-          "takeaways": "IoT for safety/structural/equipment monitoring; edge analytics; AI dashboards for predictive maintenance; build a digital nervous system; Tech: Triax Spot-r, Pillar, MachineMetrics, Trimble WorksOS",
-          "activity": "Predictive vs reactive maintenance—calculate uptime gains and safety incident reduction"
-        },
-        {
-          "day": 11,
-          "topic": "Data Integration, Interoperability & Knowledge Graphs",
-          "takeaways": "Integrate BIM/ERP/IoT/financials; data standards & APIs; knowledge graphs for context & KPIs; exec dashboards; Tech: Oracle Aconex, Procore Analytics, Trimble Construction One, GraphDB",
-          "activity": "Build a mini Digital Ecosystem Map and identify data silos blocking ROI visibility"
-        },
-        {
-          "day": 12,
-          "topic": "The Frontier: Quantum, Robotics Swarms & Autonomous Ecosystems",
-          "takeaways": "Quantum for supply chain & simulation; swarm robotics for transport/inspection; synthetic environments for scenario testing; autonomous sites powered by AI, robotics, and twins; Tech: NVIDIA Omniverse, ETH Zurich RFL, Built Robotics 2.0, SandboxAQ",
-          "activity": "Future ROI scenario planning—model savings/productivity in a 2030 autonomous site vision"
-        }
-      ],
-      "content": [
-        {
-          "id": "c_1758763051266",
-          "title": "Test construction 1 day 1",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758763051142_Emerging_Technology_Solutions_for_Mid-Size_Finance__Real_Estate__and_Construction_Firms.pdf",
-          "description": "",
-          "createdAt": "2025-09-25T01:17:31.266Z",
-          "day": 1
-        },
-        {
-          "id": "c_1758858811908",
-          "title": "Framing the ROI Opportunity in Emerging Construction Technologies",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758858811045_ROI_in_Emerging_Construction_Technologies__US_and_Global_Context.pdf",
-          "description": "",
-          "createdAt": "2025-09-26T03:53:31.908Z",
-          "day": 1
-        },
-        {
-          "id": "c_1758859025372",
-          "title": "AI and Predictive Analytics for Financial Impact in U.S. Construction",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758859024840_The_Strategic_Impact_of_AI_and_Predictive_Analytics_on_U.S._Construction.pdf",
-          "description": "The Strategic Impact of AI and Predictive Analytics on U.S. Construction",
-          "createdAt": "2025-09-26T03:57:05.372Z",
-          "day": 2
-        },
-        {
-          "id": "c_1758859133525",
-          "title": "BIM and Digital Twins Lifecycle ROI in Construction Tech",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758859133022_BIM_and_Digital_Twin_Technologies_in_Construction__Global_and_U.S._Trends__Lifecycle_Applications__a.pdf",
-          "description": "BIM and Digital Twin Technologies in Construction: Global and U.S. Trends, Lifecycle Applications, and ROI",
-          "createdAt": "2025-09-26T03:58:53.525Z",
-          "day": 3
-        },
-        {
-          "id": "c_1758859206476",
-          "title": "ROI Models for Robotics, Drones, and IoT in U.S. Construction",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758859204402_Robotics__Drones___IoT_in_U.S._Construction__ROI_Trends__2023___2025__and_Future_Projections.pdf",
-          "description": "Robotics, Drones & IoT in U.S. Construction: ROI Trends (2023–2025) and Future Projections",
-          "createdAt": "2025-09-26T04:00:06.476Z",
-          "day": 4
-        },
-        {
-          "id": "c_1758860064666",
-          "title": "3D Printing and Modular Construction: ROI, Speed-to-Market, and Waste Reduction",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758860064035_3D_Printing_and_Modular_Construction__ROI__Speed__Waste_Reduction__and_Standardization.pdf",
-          "description": "Robotics, Drones & IoT in U.S. Construction: ROI Trends (2023–2025) and Future Projections",
-          "createdAt": "2025-09-26T04:14:24.666Z",
-          "day": 5
-        },
-        {
-          "id": "c_1758860669427",
-          "title": "Learning Module: ROI Baseline + Goal Setting in Construction Emerging Tech",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758860668548_Learning_Module__ROI_Baseline___Goal_Setting_in_Construction_Emerging_Tech__1_.pdf",
-          "description": "Learning Module: ROI Baseline + Goal Setting in Construction Emerging Tech",
-          "createdAt": "2025-09-26T04:24:29.427Z",
-          "day": 1
-        },
-        {
-          "id": "c_1758896717208",
-          "title": "Executive Learning Exercise: AI & Predictive Analytics ROI in Construction",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758896716439_Executive_Learning_Exercise__AI___Predictive_Analytics_ROI_in_Construction.pdf",
-          "description": "Executive Learning Exercise: AI & Predictive Analytics ROI in Construction",
-          "createdAt": "2025-09-26T14:25:17.208Z",
-          "day": 2
-        },
-        {
-          "id": "c_1758897256765",
-          "title": "Workshop Module: BIM & Digital Twin ROI Across the Lifecycle in Construction ",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758897255946_Workshop_Module__BIM___Digital_Twin_ROI_Across_the_Lifecycle_in_Construction_.pdf",
-          "description": "This interactive exercise helps industry leaders, consultants, and professionals learn how to map, calculate, and defend BIM & Digital Twin ROI across the full construction lifecycle. Using real case studies, scenarios, and roleplay, it blends financial, sustainability, and operational insights into practical learning.",
-          "createdAt": "2025-09-26T14:34:16.765Z",
-          "day": 3
-        },
-        {
-          "id": "c_1758897942874",
-          "title": "Learning: Break-even Analysis in Construction Technology: Focus: Drone Buy vs. Rental + IoT Safety Investment",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758897941947_Learning__Break-even_Analysis_in_Construction_Technology__Focus__Drone_Buy_vs._Rental___IoT_Safety_Investment.pdf",
-          "description": "This learning excerise explores ROI models for construction technology, focusing on drones (buy vs. rental) and IoT safety investments. It provides both short and long scenarios, with detailed case studies and real-world examples from leading U.S. contractors. Participants practice break-even analysis, strategic decision-making, and adoption roadmaps. The goal is to equip leaders and consultants with tools to evaluate emerging tech for productivity, safety, and competitive advantage.",
-          "createdAt": "2025-09-26T14:45:42.874Z",
-          "day": 4
-        },
-        {
-          "id": "c_1758898832872",
-          "title": "Learning Activity / Case Study: ROI Scenario – Modular Hospital Construction with 3-Month Faster Delivery",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758898832063_Learning_Activity___Case_Study__ROI_Scenario_____Modular_Hospital_Construction_with_3-Month_Faster_Delivery.pdf",
-          "description": "Learning Activity / Case Study: ROI Scenario – Modular Hospital Construction with 3-Month Faster Delivery",
-          "createdAt": "2025-09-26T15:00:32.872Z",
-          "day": 5
-        }
-      ],
-      "quizzes": []
-    },
-    {
-      "id": "finance",
-      "name": "Finance Technology",
-      "description": "Blockchain, AI trading, digital banking",
-      "modules": [
-        {
-          "day": 1,
-          "topic": "The ROI Compass: Where Finance is Headed",
-          "takeaways": "Strategic ROI drivers; emerging tech landscape; ROI Compass framework",
-          "activity": "Map top 3 org pain points into ROI Compass"
-        },
-        {
-          "day": 2,
-          "topic": "AI & Advanced Automation: Redefining Productivity",
-          "takeaways": "AI ROI math; risk scoring; portfolio rebalancing; NLP compliance; quick wins",
-          "activity": "Automate one process: 12-month ROI model"
-        },
-        {
-          "day": 3,
-          "topic": "Tokenization, Blockchain & Settlement Innovation",
-          "takeaways": "Instant settlement; tokenization; smart contracts; regulatory readiness",
-          "activity": "Liquidity unlock worksheet: T+2 → T+0; AUM growth from fractionalization"
-        },
-        {
-          "day": 4,
-          "topic": "Cybersecurity, RegTech & Fraud Prevention",
-          "takeaways": "True cost of fraud; RegTech ROI; AI model governance; watchlist vendors",
-          "activity": "Quantify savings: -15% fraud losses, -10% compliance cost"
-        },
-        {
-          "day": 5,
-          "topic": "Hyper-Personalization & Client Growth",
-          "takeaways": "Retention → LTV; tech to watch; wealth mgmt ROI; case study",
-          "activity": "Client Churn Calculator: impact of -5% churn"
-        },
-        {
-          "day": 6,
-          "topic": "Cloud, APIs & Data Monetization",
-          "takeaways": "Cloud ROI; API-led revenue; data monetization; case study",
-          "activity": "API Business Case Template: identify monetizable data sets"
-        },
-        {
-          "day": 7,
-          "topic": "ROI Roadmap & Strategic Alignment",
-          "takeaways": "Prioritization matrix; risk-adjusted ROI; boardroom language; future watch",
-          "activity": "90-Day ROI Action Planner: 3 initiatives with KPI, ROI metric, next action"
-        },
-        {
-          "day": 8,
-          "topic": "Quantum Computing, Predictive Finance & Risk Modeling",
-          "takeaways": "Quantum finance overview (qubits, annealing, Monte Carlo acceleration); portfolio optimization; post-quantum crypto; predictive finance & uncertainty quantification",
-          "activity": "Quantum Value Scenario: compare a 3-year portfolio under classical vs quantum risk simulation—accuracy, risk exposure, ROI confidence"
-        },
-        {
-          "day": 9,
-          "topic": "DeFi 2.0 & Smart Liquidity Networks",
-          "takeaways": "DeFi 2.0 protocols; liquidity-as-a-service; on-chain treasury; RWA tokenization & compliance; cross-chain interoperability",
-          "activity": "Liquidity Flow Map: simulate a $100M multi-chain pool—measure gas cost, tx speed, collateral yield improvement"
-        },
-        {
-          "day": 10,
-          "topic": "Generative AI Agents & Autonomous Banking",
-          "takeaways": "Autonomous portfolio managers; GenAI for analysis and IR; explainability & audit trails; agent governance & ethics",
-          "activity": "Agent Impact Worksheet: model 12-month savings and accuracy if 30% manual tasks are automated in compliance/research"
-        },
-        {
-          "day": 11,
-          "topic": "Sustainable Finance, ESG Data & Impact Tech",
-          "takeaways": "Carbon accounting automation; ESG scoring APIs & satellite data; tokenized carbon credits & verification; climate risk modeling",
-          "activity": "Green ROI Calculator: estimate returns from digitizing ESG reporting—lower audit cost, higher investor trust, regulatory alignment"
-        },
-        {
-          "day": 12,
-          "topic": "Future Financial Infrastructure: Web3, Digital Identity & Embedded Finance",
-          "takeaways": "Decentralized digital identity (DID); embedded payments & BaaS; Web3 clearing/settlement; bridging legacy to next‑gen rails",
-          "activity": "Future Readiness Map: assess readiness level (1–5) for Web3/embedded finance; define 3 pilot actions for 12 months"
-        }
-      ],
-      "content": [
-        {
-          "id": "c_1758902616274",
-          "title": "The ROI Compass in Finance Tech: Strategic Drivers and Framework Beyond 2025",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758902615336_The_ROI_Compass_in_Financial_Technology.pdf",
-          "description": "This report breakdown shows that fintech ROI is driven by customer growth (CAC vs. LTV), operational efficiency, scalability, and regulatory cost control. Emerging technologies like AI, blockchain, quantum computing, cloud, RegTech, and cybersecurity reshape these ROI levers by cutting costs, boosting revenue, and mitigating risks. The ROI Compass framework aligns financial, customer, operational, and risk metrics to strategy, ensuring technology investments deliver holistic value. Overall, ROI in finance 2025 and beyond is about balancing innovation with strategic alignment.",
-          "createdAt": "2025-09-26T16:03:36.274Z",
-          "day": 1
-        },
-        {
-          "id": "c_1758902738914",
-          "title": "AI and Advanced Automation: Redefining Productivity in U.S. Finance",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758902738291_AI_and_Automation__Redefining_U.S._Finance_Productivity.pdf",
-          "description": "This white paper explores how AI and advanced automation are reshaping productivity in U.S. finance. It breaks down the ROI math behind AI investments, showing how firms can measure cost savings, efficiency, and long-term strategic value. It highlights AI-driven risk scoring and portfolio rebalancing as key levers for smarter decision-making, alongside the critical role of NLP in compliance for monitoring regulations and communications. Finally, it identifies quick wins that finance teams can adopt immediately to unlock tangible benefits while building toward larger transformation.",
-          "createdAt": "2025-09-26T16:05:38.914Z",
-          "day": 2
-        },
-        {
-          "id": "c_1758902874229",
-          "title": "Tokenization, Blockchain, and Settlement Innovation in Finance",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758902873645_Tokenization__Blockchain__and_Settlement_Innovation_in_Finance__A_Comprehensive_Report.pdf",
-          "description": "This report shows how blockchain and tokenization are changing finance by making settlements instant, assets tradable in smaller pieces, and contracts programmable. It looks at three areas: capital markets (faster trades, tokenized securities), banking (real-time payments, tokenized deposits), and asset management (tokenized funds, fractional ownership). Finally, it explains how U.S. and global regulators are creating rules so these innovations can be safely adopted.",
-          "createdAt": "2025-09-26T16:07:54.229Z",
-          "day": 3
-        },
-        {
-          "id": "c_1758903725032",
-          "title": "Trends in Cybersecurity, RegTech, and Fraud Prevention in Financial Services (2025)",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758903724333_Trends_in_Cybersecurity__RegTech__and_Fraud_Prevention_in_Financial_Services__2025_.pdf",
-          "description": "This report explains trends in cybersecurity, RegTech, and fraud prevention in financial services (2025), with a U.S. focus and global context.\nIt highlights the true cost of fraud, including hidden compliance and reputational risks.\nIt analyzes RegTech ROI, showing cost savings, efficiency gains, and adoption challenges.\nIt reviews AI model governance best practices and leading watchlist vendors shaping AML/KYC compliance.",
-          "createdAt": "2025-09-26T16:22:05.032Z",
-          "day": 4
-        },
-        {
-          "id": "c_1758903841180",
-          "title": "Hyper-Personalization and Client Growth in U.S. Finance",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758903840033_Hyper-Personalization_in_U.S._Financial_Services.pdf",
-          "description": "This report breakdown shows that hyper-personalization is now a growth engine in U.S. finance. By using AI, CDPs, and predictive analytics, banks and wealth managers are boosting retention and lifetime value (LTV), cutting churn, and expanding share-of-wallet. Wealth management in particular sees strong ROI as personalization drives higher assets under management and advisor productivity. Case studies from U.S. Bank, Morgan Stanley, Huntington, and Synovus prove that personalization at scale can double account growth, lift engagement by 30%, and add millions in client assets.",
-          "createdAt": "2025-09-26T16:24:01.180Z",
-          "day": 5
-        },
-        {
-          "id": "c_1758904458978",
-          "title": "ROI Compass for Leaders: Map Top 3 Org Pain Points - Strategic Learning with 2025 Fintech Trends",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758904457865_ROI_Compass_Learning_Activity__Mapping_Organizational_Pain_Points.pdf",
-          "description": "The ROI Compass framework evaluates fintech investments across four dimensions (Financial, Customer, Operational, Risk/Governance) instead of just financial returns, capturing full strategic value. It demonstrates how technologies like AI and RegTech create multi-dimensional ROI, with AI potentially adding $200-340B annually to banking and RegTech delivering 600%+ returns. The content includes a strategic exercise for leaders to map their top 3 organizational pain points across these compass dimensions, complete with 2025 market case studies, solution frameworks, and actionable investment prioritization tools.Retry",
-          "createdAt": "2025-09-26T16:34:18.978Z",
-          "day": 1
-        },
-        {
-          "id": "c_1758912856495",
-          "title": "AI Automation ROI Exercise: Automate One Process - 12-Month ROI Model",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758912855465_AI_Automation_ROI_Exercise__Automate_One_Process_-_12-Month_ROI_Model.pdf",
-          "description": "This document provides a practical exercise for finance leaders to automate one high-impact process using AI and build a 12-month ROI model. Based on real industry data showing 50% of financial firms have AI in production with leaders achieving 300-500% returns, it guides users through process selection, current state analysis, solution design, and ROI calculation.",
-          "createdAt": "2025-09-26T18:54:16.496Z",
-          "day": 2
-        },
-        {
-          "id": "c_1758913527294",
-          "title": "Activity/Case: Liquidity Unlock Worksheet - T+2 → T+0 & AUM Growth from Fractionalization",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758913526577_Liquidity_Unlock_Worksheet__T_2_____T_0_Settlement___AUM_Growth_from_Fractionalization.pdf",
-          "description": "Learning Framework: Three Core Use Cases\nBased on the document's analysis of blockchain transforming finance through instant settlement and asset fractionalization.\n",
-          "createdAt": "2025-09-26T19:05:27.294Z",
-          "day": 3
-        },
-        {
-          "id": "c_1758914163873",
-          "title": "Activity/Case: Quantify Savings - 15% Fraud Loss Reduction & 10% Compliance Cost Reduction",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758914163096_Activity_Case__Quantify_Savings_-_15_Compliance_Cost_Reduction.pdf",
-          "description": "Learning Exercise: Calculate Your RegTech Investment Returns\nBased on the document showing banks face $4.41 costs per $1 stolen, $61B annual compliance spending, and RegTech delivering 60-70% false positive reductions with 30-40% operational cost savings.",
-          "createdAt": "2025-09-26T19:16:03.873Z",
-          "day": 4
-        },
-        {
-          "id": "c_1758914864988",
-          "title": "Hyper-Personalization in Financial Services: Executive Learning Program",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758914864088_Hyper-Personalization_in_Financial_Services__Learning_Exercise.pdf",
-          "description": "Learning Objectives & Business Context\nBy completing this program, you will master:\n\nFinancial modeling of personalization ROI with real industry data\nStrategic evaluation of technology investments and competitive positioning\nImplementation frameworks for enterprise-scale personalization initiatives\nRisk assessment and mitigation strategies for digital transformation projects",
-          "createdAt": "2025-09-26T19:27:44.988Z",
-          "day": 5
-        }
-      ],
-      "quizzes": []
-    },
-    {
-      "id": "realestate",
-      "name": "PropTech",
-      "description": "Virtual tours, property mgmt, smart home tech",
-      "modules": [
-        {
-          "day": 1,
-          "topic": "State of CRE Tech 2025 & ROI Imperatives",
-          "takeaways": "Smart buildings, tokenization, AI; ESG-driven adoption; CRE Tech ROI Pyramid",
-          "activity": "Market Radar + identify 3 pressure points (vacancy, OpEx, ESG)"
-        },
-        {
-          "day": 2,
-          "topic": "AI & Data-Driven CRE Decisions",
-          "takeaways": "AI underwriting, predictive leasing, GenAI reporting; AI ROI model; data maturity ladder",
-          "activity": "AI-Underwriting checklist + map one workflow for AI savings"
-        },
-        {
-          "day": 3,
-          "topic": "IoT, Smart Buildings & Digital Twins",
-          "takeaways": "Energy savings, maintenance reduction, tenant demand; ROI calculators; risk mitigation",
-          "activity": "Smart Building ROI template + estimate 15% energy savings"
-        },
-        {
-          "day": 4,
-          "topic": "Tokenization, Fractional Ownership & CRE Liquidity",
-          "takeaways": "Tokenized deals growth; global access; smart contracts; compliance checklist",
-          "activity": "Tokenization business case for one asset (benefits & compliance)"
-        },
-        {
-          "day": 5,
-          "topic": "ESG Tech & Sustainable Value Creation",
-          "takeaways": "SEC climate rules; tenant ESG requirements; green rent premium; ESG ROI canvas",
-          "activity": "Map one building’s ESG metrics → estimate rent/valuation impact"
-        },
-        {
-          "day": 6,
-          "topic": "Proptech, Tenant Experience & Revenue Growth",
-          "takeaways": "Tenant apps, flex space, CRE-as-a-service; churn reduction & yield models",
-          "activity": "Identify tenant pain point → sketch tech to improve retention"
-        },
-        {
-          "day": 7,
-          "topic": "Building Your 90-Day CRE Tech Roadmap",
-          "takeaways": "Portfolio rollouts; <12-month payback; prioritization & ROI sprint canvas",
-          "activity": "90-day roadmap: top 3 initiatives with KPI, ROI, timeline, owners"
-        }
-      ],
-      "content": [
-        {
-          "id": "c_1758944024425",
-          "title": "State of CRE Tech 2025 and ROI Imperatives in Smart Buildings",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758944023035_State_of_CRE_Tech_2025_and_ROI_Imperatives.pdf",
-          "description": "This report breaks down how CRE tech in 2025 is transforming real estate through smart buildings, AI, tokenization, and ESG-driven adoption. The CRE Tech ROI Pyramid highlights quick efficiency wins, mid-term analytics, and long-term strategic value. U.S. leaders show that tech delivers cost savings, compliance, and tenant satisfaction—making it a core ROI driver, not just a cost.",
-          "createdAt": "2025-09-27T03:33:44.425Z",
-          "day": 1
-        },
-        {
-          "id": "c_1758944350851",
-          "title": "CRE Tech 2025: Learning Exercise with Market Radar & Pressure Points Analysis",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758944350181_CRE_Tech_2025__Learning_Exercise_with_Market_Radar___Pressure_Points_Analysis.pdf",
-          "description": "Learning Objectives\nBy the end of this exercise, you will be able to:\n\nAnalyze emerging CRE technology trends and their market positioning\nIdentify and evaluate three critical pressure points: Vacancy, OpEx, and ESG\nApply strategic frameworks to real-world CRE scenarios\nDevelop technology investment strategies using the ROI Pyramid",
-          "createdAt": "2025-09-27T03:39:10.851Z",
-          "day": 1
-        },
-        {
-          "id": "c_1758944875221",
-          "title": "AI and Data-Driven Decision-Making in  Commercial Real Estate",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758944874173_AI_and_Data-Driven_Decision-Making_in_Commercial_Real_Estate__1_.pdf",
-          "description": "This report breaks down how AI is reshaping CRE, from underwriting and leasing to reporting and ROI, with a data maturity path that gives early adopters speed, savings, and advantage.\n",
-          "createdAt": "2025-09-27T03:47:55.221Z",
-          "day": 2
-        },
-        {
-          "id": "c_1758946255030",
-          "title": "AI & Data-Driven Decision-Making in CRE: Comprehensive Learning Exercise with AI-Underwriting Checklist",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758946253718_AI___Data-Driven_Decision-Making_in_CRE__Advanced_Learning_Exercise.pdf",
-          "description": "This comprehensive learning exercise provides the tools and frameworks necessary for successful AI implementation in commercial real estate, with particular emphasis on the practical AI-underwriting checklist and detailed workflow mapping that demonstrates clear paths to significant cost savings and competitive advantage.",
-          "createdAt": "2025-09-27T04:10:55.030Z",
-          "day": 2
-        },
-        {
-          "id": "c_1758946665279",
-          "title": "IoT, Smart Buildings, and Digital Twins in Real  Estate ",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758946664280_IoT__Smart_Buildings__and_Digital_Twins_in_Real_Estate.pdf",
-          "description": "The document explains how IoT, smart buildings, and digital twins are transforming real estate by cutting energy use, lowering costs, boosting tenant satisfaction, and raising property value. IoT sensors feed real-time data into smart systems and digital twins (virtual replicas of buildings), enabling predictive maintenance, energy optimization, and personalized comfort. Case studies show savings of 15–80% on energy and major reductions in downtime. The global smart building and digital twin markets are booming (hundreds of billions by 2030), driven by stricter energy regulations and ESG demands. Overall, these technologies deliver strong ROI, improve sustainability, and reduce risks, making connected, data-driven buildings the future of real estate",
-          "createdAt": "2025-09-27T04:17:45.279Z",
-          "day": 3
-        },
-        {
-          "id": "c_1758947206465",
-          "title": "Comprehensive Smart Building ROI Mastery Course A Complete Learning Exercise with Advanced Scenarios, Case Studies, and Financial Analysis",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758947205450_Smart_Building_ROI_Learning_Exercise_with_Case_Studies.pdf",
-          "description": "Here's a 6-line summary starting with \"This material\":\n\nThis material provides a comprehensive learning framework for calculating and optimizing Smart Building ROI, focusing on the proven 15% energy savings benchmark from IoT sensors, HVAC optimization, and building automation systems. Students learn to use detailed financial templates and real-world case studies (like 45 Broadway's 15.8% energy reduction saving $42K annually) to justify investments typically ranging $10-25 per square foot with 2-4 year paybacks. The course covers four progressive scenarios from mid-size office retrofits to large mixed-use developments, teaching risk analysis, vendor selection, and implementation strategies for the rapidly growing $571B smart building market. Practical exercises include sensitivity analysis, Monte Carlo simulations, and digital twin ROI calculations, culminating in a capstone project managing a $15M portfolio transformation. Advanced modules address emerging technologies (AI, edge computing), ESG integration, and regulatory compliance to position professionals as smart building leaders. Graduates gain the technical and financial expertise to deliver measurable energy savings, operational efficiency, and property value enhancements while achieving sustainability goals.\n\n",
-          "createdAt": "2025-09-27T04:26:46.465Z",
-          "day": 3
-        },
-        {
-          "id": "c_1758947464671",
-          "title": "Tokenization, Fractional Ownership, and Liquidity in U.S. CRE",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758947463483_Tokenized_Deals_Growth.pdf",
-          "description": "This material dives deep into Tokenization and fractional ownership are making U.S. commercial real estate more accessible and liquid. Smart contracts automate compliance and income, while SEC rules (Reg D, A+, S) guide offerings. Platforms like RealT and Securitize enable global investor access.",
-          "createdAt": "2025-09-27T04:31:04.671Z",
-          "day": 4
-        },
-        {
-          "id": "c_1758947770318",
-          "title": "Tokenization Business Case for One Asset: Benefits & Compliance Learning Exercise with Case Studies & Scenarios",
-          "type": "pdf",
-          "url": "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758947769584_Tokenization_Business_Case_for_One_Asset__Benefits___Compliance_-_Learning_Exercise.pdf",
-          "description": "The exercise is designed to be practical and applicable to real-world tokenization projects, helping learners understand both the opportunities and challenges in this rapidly growing market. Each section builds upon the previous one, creating a comprehensive understanding of how to structure, comply with, and implement tokenized real estate investments.",
-          "createdAt": "2025-09-27T04:36:10.319Z",
-          "day": 4
-        }
-      ],
-      "quizzes": []
-    }
-  ]
+﻿{
+    "tracks":  [
+                   {
+                       "id":  "healthcare",
+                       "name":  "Healthcare Technology",
+                       "description":  "AI in diagnostics, telehealth, devices, compliance, and GTM",
+                       "modules":  [
+                                       {
+                                           "day":  1,
+                                           "topic":  "Healthcare Tech Landscape",
+                                           "takeaways":  "AI in diagnostics, edge computing, telehealth",
+                                           "activity":  "AI-assisted imaging demo"
+                                       },
+                                       {
+                                           "day":  2,
+                                           "topic":  "Digital Trials \u0026 Real-World Evidence",
+                                           "takeaways":  "ePRO apps, decentralized trials, wearables",
+                                           "activity":  "Blockchain data integrity exercise"
+                                       },
+                                       {
+                                           "day":  3,
+                                           "topic":  "Generative AI in Drug Discovery",
+                                           "takeaways":  "Protein folding, molecule design",
+                                           "activity":  "AI-driven compound screening"
+                                       },
+                                       {
+                                           "day":  4,
+                                           "topic":  "Medical Devices \u0026 IoT",
+                                           "takeaways":  "Smart sensors, digital twins",
+                                           "activity":  "Build a patient-device integration mockup"
+                                       },
+                                       {
+                                           "day":  5,
+                                           "topic":  "Data Privacy \u0026 Compliance",
+                                           "takeaways":  "HIPAA, GDPR, FDA regulations",
+                                           "activity":  "Secure data pipeline walkthrough"
+                                       },
+                                       {
+                                           "day":  6,
+                                           "topic":  "Automation in Manufacturing",
+                                           "takeaways":  "Robotics in pharma production",
+                                           "activity":  "Virtual factory tour"
+                                       },
+                                       {
+                                           "day":  7,
+                                           "topic":  "Go-to-Market Strategy",
+                                           "takeaways":  "Partnering with hospitals \u0026 payers",
+                                           "activity":  "Group pitch simulation"
+                                       },
+                                       {
+                                           "day":  8,
+                                           "topic":  "Hyper-Personalization in Healthcare",
+                                           "takeaways":  "Frameworks (data/ML/behavioral), individualized treatment \u0026 engagement, vendor landscape",
+                                           "activity":  "Design a hyper-personalized diabetes care plan using wearables + history + AI"
+                                       },
+                                       {
+                                           "day":  9,
+                                           "topic":  "Smarter Clinical Trials \u0026 Real-World Data",
+                                           "takeaways":  "AI-driven matching, DCTs, synthetic controls, blockchain for consent \u0026 audit",
+                                           "activity":  "Evaluate DCT vendors for a rare disease trial using a scoring matrix"
+                                       },
+                                       {
+                                           "day":  10,
+                                           "topic":  "AI + Generative Tech in Drug Discovery (Deep Dive)",
+                                           "takeaways":  "Transformers, protein folding, molecule design; acceleration in hit â†’ lead â†’ ADME/Tox",
+                                           "activity":  "Shortlist AI compounds; compare two vendor approaches and present trade-offs"
+                                       },
+                                       {
+                                           "day":  11,
+                                           "topic":  "Clinician Support \u0026 Workflow Automation",
+                                           "takeaways":  "Ambient AI, RPA, predictive scheduling; EHR-integrated automation vendors",
+                                           "activity":  "Redesign a clinicianâ€™s day with AI while balancing efficiency \u0026 compliance"
+                                       },
+                                       {
+                                           "day":  12,
+                                           "topic":  "Interoperability \u0026 Connected Ecosystems",
+                                           "takeaways":  "FHIR, federated learning, knowledge graphs; EHR + IoT + imaging integration",
+                                           "activity":  "Integrate wearable + hospital EHR + imaging into one mock ecosystem"
+                                       },
+                                       {
+                                           "day":  13,
+                                           "topic":  "Trust, Privacy \u0026 Quantum-Safe Security",
+                                           "takeaways":  "Fairness, transparency, explainability; zero-trust, HE, quantum-safe crypto",
+                                           "activity":  "Simulate a ransomware response with zero-trust \u0026 quantum-safe controls"
+                                       },
+                                       {
+                                           "day":  14,
+                                           "topic":  "Access, Affordability \u0026 Future Care Models",
+                                           "takeaways":  "Value-based care, digital-first models, personalization for underserved markets",
+                                           "activity":  "Pitch a digital-first rural care model (AI triage + IoT + smart contracts)"
+                                       }
+                                   ],
+                       "content":  [
+                                       {
+                                           "id":  "c_1758810929803",
+                                           "title":  "Learning Module Activities and Case studies: AI-Assisted Imaging in Healthcare",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758810929700_AI_Assisted_Imaging_Learning_Module.pdf",
+                                           "description":  "AI-assisted imaging uses machine learning to detect abnormalities in radiology, pathology, and\n cardiology images. It helps triage urgent cases, reduce diagnostic errors, and speed up clinical\n decision-making. Hospitals adopting AI are seeing improved efficiency, earlier disease detection, and\n reduced costs, but they face challenges like workflow integration, clinician trust, and regulatory\n compliance",
+                                           "createdAt":  "2025-09-25T14:35:29.803Z",
+                                           "day":  1
+                                       },
+                                       {
+                                           "id":  "c_1758814058810",
+                                           "title":  "Digital Trials and Real-World Evidence in US  Clinical Research: Key tech",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758814058711_Digital_Trials_and_Real-World_Evidence_in_US_Clinical_Research.pdf",
+                                           "description":  "Digital trials and real-world evidence (RWE) are transforming U.S. clinical research by enabling remote data capture, broader patient access, and richer insights.\nePRO apps replace paper diaries with secure, 21 CFR 11â€“compliant digital surveys, improving accuracy and patient engagement.\nDecentralized clinical trials (DCTs) use telehealth, eConsent, and home monitoring to cut costs and expand enrollment while maintaining FDA oversight.\nWearables provide continuous, real-time data (heart rate, glucose, activity) but require validation, HIPAA compliance, and strong cybersecurity.\nRegulatory frameworksâ€”FDA DHT and DCT guidances, HIPAA, and Part 11â€”define data integrity, privacy, and interoperability requirements.\nKey therapeutic areas benefiting most include oncology, cardiology, neurology, and diabetes, where continuous monitoring and patient-reported outcomes drive faster, more inclusive research.",
+                                           "createdAt":  "2025-09-25T15:27:38.810Z",
+                                           "day":  2
+                                       },
+                                       {
+                                           "id":  "c_1758816426883",
+                                           "title":  "Learning Activity/cast study: Blockchain for Data Integrity in Healthcare",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758816426731_Blockchain_Data_Integrity_Healthcare_Module.pdf",
+                                           "description":  "Overview\n Blockchain technology offers a secure, immutable, and transparent way to ensure data integrity in\n healthcare. It can protect electronic health records (EHRs) from tampering, ensure provenance of\n clinical trial data, and improve trust among stakeholders. By using distributed ledgers and cryptographic\n hashing, blockchain ensures that every record is time-stamped and cannot be changed without\n consensus, creating a permanent and verifiable audit trail",
+                                           "createdAt":  "2025-09-25T16:07:06.883Z",
+                                           "day":  2
+                                       },
+                                       {
+                                           "id":  "c_1758819864786",
+                                           "title":  "Generative AI Trends in Drug Discovery for Healthcare and Pharma",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758819864700_Generative_AI_Models_in_Drug_Discovery.pdf",
+                                           "description":  "Generative AI is rapidly reshaping drug discovery by enabling accurate protein structure prediction, de novo protein and molecule design, and even novel target identification â€” cutting development timelines from years to months. Breakthroughs like AlphaFold3 and RFdiffusion allow scientists to design entirely new proteins, while GPT-like models (e.g., TamGen) and diffusion/variational autoencoder approaches generate potent, diverse drug candidates with high hit rates. Industry adoption is accelerating, with major pharma (Novartis, Roche, Sanofi) forming billion-dollar partnerships with AI-first companies like Insilico Medicine, Generate Biomedicines, and Recursion. The U.S. market is growing at 30â€“38% CAGR through 2030, driven by funding, collaboration, and closed-loop design-test workflows. FDAâ€™s emerging AI guidance emphasizes transparency and validation, signaling growing regulatory acceptance. Together, these advances mark a shift toward faster, cheaper, and more innovative drug pipelines that expand chemical space and improve the odds of finding first-in-class therapies.",
+                                           "createdAt":  "2025-09-25T17:04:24.787Z",
+                                           "day":  3
+                                       },
+                                       {
+                                           "id":  "c_1758820498586",
+                                           "title":  "ðŸ§ª Learning Exercise: AI-Driven Compound Screening in Drug Discovery",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758820498461______Learning_Exercise__AI-Driven_Compound_Screening_in_Drug_Discovery.pdf",
+                                           "description":  "The learning exercise on AI-driven compound screening is designed in three parts to build both knowledge and critical thinking. It begins with short-answer questions that explain how different AI models are applied in drug discovery, such as diffusion models for generating small molecules (with the example of TamGen), VAE combined with active learning for designing kinase inhibitors, and a comparison of GANs and Transformers in terms of their strengths and weaknesses. The second part presents a real-world case study on Rentosertib, an AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis, highlighting how AI pipelines can both discover new targets and generate first-in-class molecules while significantly reducing R\u0026D timelines. The final part encourages reflection, asking learners to evaluate which AI model type they would prioritize for cancer drug discovery and justify their reasoning. Altogether, the exercise blends conceptual understanding, applied case analysis, and critical evaluation, ensuring learners grasp not only the technical aspects but also the real-world impact of AI in accelerating compound screening.",
+                                           "createdAt":  "2025-09-25T17:14:58.586Z",
+                                           "day":  3
+                                       },
+                                       {
+                                           "id":  "c_1758820613765",
+                                           "title":  "Trends and Emerging Technologies in Medical Devices \u0026 IoT (US Healthcare)",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758820613656_Trends_and_Emerging_Technologies_in_Medical_Devices___IoT__US_Healthcare_.pdf",
+                                           "description":  "Smart sensors are driving U.S. healthcare IoT growth, enabling continuous monitoring, smart drug delivery, and wearable diagnostics with rapid adoption.\nDigital twins are emerging for patient monitoring, surgical simulation, and personalized medicine, with U.S. firms leading global adoption and investment.\nEdge computing and AI-enabled devices are transforming care by enabling real-time, on-device analytics in hospitals, wearables, and implants.\nOverall, the sector shows strong double-digit growth, with incumbents and startups shaping a future of more predictive, personalized, and connected healthcare.",
+                                           "createdAt":  "2025-09-25T17:16:53.765Z",
+                                           "day":  4
+                                       },
+                                       {
+                                           "id":  "c_1758821157973",
+                                           "title":  "Executive Learning Case: Patientâ€“Device Integration \u0026 Digital Health Innovation",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758821157918_Executive_Learning_Case__Patient___Device_Integration___Digital_Health_Innovation.pdf",
+                                           "description":  "This executive exercise guides leaders through designing a patientâ€“device integration blueprint using smart sensors, edge AI, and digital twins.\nIt combines a mock integration workflow with real-world case studies (Medtronic, Philips, Dexcom, NVIDIA) to ground strategy in practice.\nParticipants explore ROI, interoperability, and regulatory challenges, while evaluating strategic opportunities for investment and partnerships.\nThe activity ends with reflection on future outlooks, positioning leaders to make informed decisions about scaling digital health innovation.",
+                                           "createdAt":  "2025-09-25T17:25:57.973Z",
+                                           "day":  4
+                                       },
+                                       {
+                                           "id":  "c_1758834819431",
+                                           "title":  "Data Privacy and Compliance in U.S. Healthcare",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758834819321_Data_Privacy_and_Compliance_in_U.S._Healthcare.pdf",
+                                           "description":  "This learning material explores data privacy and compliance in U.S. healthcare, focusing on key regulations like HIPAA, GDPR (where U.S. entities handle EU data), and FDA digital health rules. It highlights current and emerging trends from the last 2â€“3 years, including cyber threats, regulatory updates, and new enforcement actions. Real-world case examples illustrate how providers, insurers, and digital health startups adapt to these rulesâ€”or face penalties when they fail. Overall, it shows how privacy laws and technology shape both the risks and protections for patientsâ€™ sensitive health data.\n\n",
+                                           "createdAt":  "2025-09-25T21:13:39.431Z",
+                                           "day":  5
+                                       },
+                                       {
+                                           "id":  "c_1758835046427",
+                                           "title":  "Activity: Secure Data Pipeline Walkthrough for Healthcare Leaders",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758835046381_Activity__Secure_Data_Pipeline_Walkthrough_for_Healthcare_Leaders.pdf",
+                                           "description":  "This exercise walks healthcare leaders through a secure data pipeline, showing how patient data flows from collection to deletion and where privacy risks emerge. It connects each stage to HIPAA, GDPR, and FDA requirements, using real-world breach cases and enforcement actions. Leaders practice spotting risks, applying regulations, and designing safeguards in telehealth and digital health scenarios. The goal is to build practical strategies for compliance, cybersecurity, and patient trust.",
+                                           "createdAt":  "2025-09-25T21:17:26.427Z",
+                                           "day":  5
+                                       },
+                                       {
+                                           "id":  "c_day8_01",
+                                           "title":  "Day 8 Overview: Hyper-Personalization in Healthcare",
+                                           "type":  "doc",
+                                           "url":  "",
+                                           "description":  "Theme: Patients receive generic care; goal is individualized pathways at scale. Overview of drivers, constraints, and success criteria.",
+                                           "createdAt":  "2025-09-30T14:20:00.000Z",
+                                           "day":  8
+                                       },
+                                       {
+                                           "id":  "c_day8_02",
+                                           "title":  "Frameworks: Data-Driven Personalization",
+                                           "type":  "doc",
+                                           "url":  "",
+                                           "description":  "Operationalize demographic, clinical, claims, device, and SDOH data to tailor care plans.",
+                                           "createdAt":  "2025-09-30T14:20:00.000Z",
+                                           "day":  8
+                                       },
+                                       {
+                                           "id":  "c_day8_03",
+                                           "title":  "Frameworks: AI/ML-Driven Personalization",
+                                           "type":  "doc",
+                                           "url":  "",
+                                           "description":  "Recommendation systems, risk stratification, propensity models, and next-best-action (NBA).",
+                                           "createdAt":  "2025-09-30T14:20:00.000Z",
+                                           "day":  8
+                                       },
+                                       {
+                                           "id":  "c_day8_04",
+                                           "title":  "Frameworks: Behavioral Personalization",
+                                           "type":  "doc",
+                                           "url":  "",
+                                           "description":  "Behavioral segmentation, nudging, habit loops, and adherence optimization.",
+                                           "createdAt":  "2025-09-30T14:20:00.000Z",
+                                           "day":  8
+                                       },
+                                       {
+                                           "id":  "c_day8_05",
+                                           "title":  "Sub-Tech: Care Recommendation Engines",
+                                           "type":  "doc",
+                                           "url":  "",
+                                           "description":  "Retail-style personalization adapted to care pathways, outreach, and education.",
+                                           "createdAt":  "2025-09-30T14:20:00.000Z",
+                                           "day":  8
+                                       },
+                                       {
+                                           "id":  "c_day8_06",
+                                           "title":  "Sub-Tech: Digital Twins of Patients",
+                                           "type":  "doc",
+                                           "url":  "",
+                                           "description":  "Longitudinal patient models for simulation, risk prediction, and proactive interventions.",
+                                           "createdAt":  "2025-09-30T14:20:00.000Z",
+                                           "day":  8
+                                       },
+                                       {
+                                           "id":  "c_day8_07",
+                                           "title":  "Sub-Tech: Real-time Personalization with Edge AI",
+                                           "type":  "doc",
+                                           "url":  "",
+                                           "description":  "On-device and near-device inference for immediate feedback and context-aware care.",
+                                           "createdAt":  "2025-09-30T14:20:00.000Z",
+                                           "day":  8
+                                       },
+                                       {
+                                           "id":  "c_day8_08",
+                                           "title":  "Vendors: Phreesia (Intake Personalization)",
+                                           "type":  "doc",
+                                           "url":  "",
+                                           "description":  "Patient intake personalization and targeted engagement at the point of registration.",
+                                           "createdAt":  "2025-09-30T14:20:00.000Z",
+                                           "day":  8
+                                       },
+                                       {
+                                           "id":  "c_day8_09",
+                                           "title":  "Vendors: Health Catalyst (Data-Driven Personalization)",
+                                           "type":  "doc",
+                                           "url":  "",
+                                           "description":  "Analytics platform enabling population stratification and targeted care workflows.",
+                                           "createdAt":  "2025-09-30T14:20:00.000Z",
+                                           "day":  8
+                                       },
+                                       {
+                                           "id":  "c_day8_10",
+                                           "title":  "Vendors: Awell Health (Personalized Care Pathways)",
+                                           "type":  "doc",
+                                           "url":  "",
+                                           "description":  "Workflow engine for dynamic care pathways orchestrated by outcomes and behavior.",
+                                           "createdAt":  "2025-09-30T14:20:00.000Z",
+                                           "day":  8
+                                       },
+                                       {
+                                           "id":  "c_day8_11",
+                                           "title":  "Data to Treatment: Signals â†’ Insights â†’ Actions",
+                                           "type":  "doc",
+                                           "url":  "",
+                                           "description":  "How raw patient data becomes actions across education, meds, visits, and remote care.",
+                                           "createdAt":  "2025-09-30T14:20:00.000Z",
+                                           "day":  8
+                                       },
+                                       {
+                                           "id":  "c_day8_12",
+                                           "title":  "Governance: Bias, Equity, and Safety",
+                                           "type":  "doc",
+                                           "url":  "",
+                                           "description":  "Fairness checks, model monitoring, and human-in-the-loop for safe personalization.",
+                                           "createdAt":  "2025-09-30T14:20:00.000Z",
+                                           "day":  8
+                                       },
+                                       {
+                                           "id":  "c_day8_13",
+                                           "title":  "KPI Pack for Personalization Programs",
+                                           "type":  "doc",
+                                           "url":  "",
+                                           "description":  "Engagement, adherence, readmissions, A1c/BP control, PROMs, and cost-to-serve.",
+                                           "createdAt":  "2025-09-30T14:20:00.000Z",
+                                           "day":  8
+                                       },
+                                       {
+                                           "id":  "c_day8_14",
+                                           "title":  "Activity: Build a Personalized Diabetes Plan",
+                                           "type":  "doc",
+                                           "url":  "",
+                                           "description":  "Use wearables + history + AI to assemble an individualized diabetes plan with NBA.",
+                                           "createdAt":  "2025-09-30T14:20:00.000Z",
+                                           "day":  8
+                                       }
+                                   ],
+                       "quizzes":  [
+                                       {
+                                           "id":  "q_1758850509831",
+                                           "question":  "Under HIPAA, how soon must a covered entity report a breach affecting more than 500 patient records to HHS?",
+                                           "options":  [
+                                                           "Within 30 days",
+                                                           "Within 60 days âœ…",
+                                                           "Within 72 hours",
+                                                           "Within 90 days"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  5
+                                       },
+                                       {
+                                           "id":  "q_1758850509890",
+                                           "question":  "Which of the following best describes the difference between HIPAA and GDPR in healthcare data protection?",
+                                           "options":  [
+                                                           "HIPAA applies globally, GDPR applies only in the U.S.",
+                                                           "HIPAA covers U.S. health entities and PHI; GDPR applies to any personal data of EU residents, worldwide âœ…",
+                                                           "Both only apply to insurance companies",
+                                                           "GDPR applies only to medical devices"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  5
+                                       },
+                                       {
+                                           "id":  "q_1758850509924",
+                                           "question":  "In 2023, what was the average cost of a healthcare data breach, according to IBMâ€™s Cost of a Data Breach report?",
+                                           "options":  [
+                                                           "$2.1 million",
+                                                           "$5.7 million",
+                                                           "$10.93 million âœ…",
+                                                           "$20 million"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  5
+                                       },
+                                       {
+                                           "id":  "q_1758850509936",
+                                           "question":  "A U.S. telehealth app shares usersâ€™ mental health data with advertisers without consent. Which regulator is most likely to enforce penalties if the app is not a HIPAA-covered entity?",
+                                           "options":  [
+                                                           "FDA",
+                                                           "HHS OCR",
+                                                           "FTC (Federal Trade Commission) âœ…",
+                                                           "CMS"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  5
+                                       },
+                                       {
+                                           "id":  "q_1758850509952",
+                                           "question":  "Which real-world case highlighted the massive systemic risk of third-party vendors in healthcare after a ransomware attack exposed ~190 million records?",
+                                           "options":  [
+                                                           "Warby Parker (2025)",
+                                                           "Cerebral (2023)",
+                                                           "Change Healthcare (2024) âœ…",
+                                                           "Holy Redeemer Family Medicine (2024)"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  5
+                                       },
+                                       {
+                                           "id":  "q_1758850781513",
+                                           "question":  "What percentage of U.S. health systems were reported to use AI in clinical care as of 2024?",
+                                           "options":  [
+                                                           "56%",
+                                                           "72%",
+                                                           "86% âœ…",
+                                                           "94%"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  1
+                                       },
+                                       {
+                                           "id":  "q_1758850781528",
+                                           "question":  "Which of the following is a key advantage of edge computing in healthcare?",
+                                           "options":  [
+                                                           "Centralizes all patient data into a single national cloud",
+                                                           "Eliminates the need for hospital IT staff",
+                                                           "Processes data locally to reduce latency and enhance privacy âœ…",
+                                                           "Replaces the need for medical imaging equipment"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  1
+                                       },
+                                       {
+                                           "id":  "q_1758850781537",
+                                           "question":  "What is a common use case of AI in diagnostic imaging according to the report?",
+                                           "options":  [
+                                                           "Generating synthetic patient data for training models",
+                                                           "Automatically screening for lung nodules, hemorrhages, or breast cancers âœ…",
+                                                           "Replacing radiologists entirely",
+                                                           "Storing radiology scans in blockchain networks"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  1
+                                       },
+                                       {
+                                           "id":  "q_1758850781547",
+                                           "question":  "Which factor is cited as a key driver for telehealthâ€™s continued growth post-pandemic?",
+                                           "options":  [
+                                                           "Patientsâ€™ reluctance to use video calls",
+                                                           "Reinstatement of strict geographic restrictions",
+                                                           "High patient satisfaction and expanded reimbursement policies âœ…",
+                                                           "Elimination of Medicare coverage for telehealth"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  1
+                                       },
+                                       {
+                                           "id":  "q_1758850781558",
+                                           "question":  "According to the document, what is one of the biggest challenges for hospitals adopting AI diagnostics?",
+                                           "options":  [
+                                                           "Lack of available AI models",
+                                                           "Need for local validation and integration into workflows âœ…",
+                                                           "Overregulation preventing use of AI",
+                                                           "Patients refusing to allow AI use in care"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  1
+                                       },
+                                       {
+                                           "id":  "q_1758850871404",
+                                           "question":  "Which of the following best describes ePRO tools?",
+                                           "options":  [
+                                                           "Systems that capture only investigator notes during site visits",
+                                                           "Devices that monitor lab results automatically",
+                                                           "Platforms that allow patients to submit clinical outcome data electronically",
+                                                           "Tools used exclusively for regulatory submissions"
+                                                       ],
+                                           "answer":  2,
+                                           "day":  2
+                                       },
+                                       {
+                                           "id":  "q_1758850871416",
+                                           "question":  "What is one major benefit of decentralized clinical trials (DCTs)?",
+                                           "options":  [
+                                                           "They remove the need for any data validation",
+                                                           "They guarantee identical home environments for all participants",
+                                                           "They can increase participant diversity and reach",
+                                                           "They eliminate the need for informed consent"
+                                                       ],
+                                           "answer":  2,
+                                           "day":  2
+                                       },
+                                       {
+                                           "id":  "q_1758850871426",
+                                           "question":  "Which U.S. regulation sets requirements for electronic records and signatures in clinical trials?",
+                                           "options":  [
+                                                           "45 CFR 46",
+                                                           "HIPAA Privacy Rule",
+                                                           "21 CFR Part 11",
+                                                           "CDISC SDTM"
+                                                       ],
+                                           "answer":  2,
+                                           "day":  2
+                                       },
+                                       {
+                                           "id":  "q_1758850871435",
+                                           "question":  "Which FDA guidance specifically covers using digital health technologies for remote data acquisition in clinical trials?",
+                                           "options":  [
+                                                           "Patient-Reported Outcome Measures Guidance",
+                                                           "Electronic Source Data in Clinical Investigations Guidance",
+                                                           "Digital Health Technologies (DHT) for Remote Data Acquisition Guidance",
+                                                           "Good Laboratory Practice (GLP) Guidance"
+                                                       ],
+                                           "answer":  2,
+                                           "day":  2
+                                       },
+                                       {
+                                           "id":  "q_1758851091596",
+                                           "question":  "Which of the following is a major application of smart sensors in U.S. healthcare?",
+                                           "options":  [
+                                                           "Predicting stock market trends"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  4
+                                       },
+                                       {
+                                           "id":  "q_1758851091608",
+                                           "question":  "What is a digital twin in healthcare?",
+                                           "options":  [
+                                                           "A 3D printer for medical devices"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  4
+                                       },
+                                       {
+                                           "id":  "q_1758851091616",
+                                           "question":  "By 2030, the U.S. healthcare digital twins market is projected to reach approximately:",
+                                           "options":  [
+                                                           "$500 million",
+                                                           "$1 billion"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  4
+                                       },
+                                       {
+                                           "id":  "q_1758851091624",
+                                           "question":  "Which partnership exemplifies edge computing in healthcare?",
+                                           "options":  [
+                                                           "Pfizer and Moderna in vaccine development"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  4
+                                       },
+                                       {
+                                           "id":  "q_1758851091633",
+                                           "question":  "What trend is expected over the next 5â€“10 years in medical IoT?",
+                                           "options":  [
+                                                           "Decline in wearable adoption",
+                                                           "Replacement of sensors with manual monitoring"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  4
+                                       },
+                                       {
+                                           "id":  "q_1758851170487",
+                                           "question":  "Which of the following best describes the role of Variational Autoencoders (VAEs) in drug discovery?",
+                                           "options":  [
+                                                           "They pit two networks against each other to generate molecules.",
+                                                           "They encode molecules into a latent space for interpolation and efficient sampling. âœ…",
+                                                           "They denoise random noise to create protein structures.",
+                                                           "They analyze multi-omics data to identify new disease pathways."
+                                                       ],
+                                           "answer":  null,
+                                           "day":  3
+                                       },
+                                       {
+                                           "id":  "q_1758851170530",
+                                           "question":  "What was a key achievement of RFdiffusion in protein design?",
+                                           "options":  [
+                                                           "Predicting protein folding with higher accuracy than AlphaFold2.",
+                                                           "Designing novel protein backbones from random noise with experimental validation. âœ…",
+                                                           "Using GANs to create small-molecule inhibitors.",
+                                                           "Applying reinforcement learning to pathway modeling."
+                                                       ],
+                                           "answer":  null,
+                                           "day":  3
+                                       },
+                                       {
+                                           "id":  "q_1758851170545",
+                                           "question":  "What makes TamGen (2024) a notable generative AI model for small-molecule design?",
+                                           "options":  [
+                                                           "It integrates GANs and graph neural networks for molecule generation.",
+                                                           "It is a diffusion-based model fine-tuned for protein backbone generation.",
+                                                           "It is a target-aware GPT-like transformer that produced active TB-protease inhibitors. âœ…",
+                                                           "It is a VAE that generated kinase inhibitors with an 8/9 hit rate."
+                                                       ],
+                                           "answer":  null,
+                                           "day":  3
+                                       },
+                                       {
+                                           "id":  "q_1758851170589",
+                                           "question":  "Which AI-discovered drug reached Phase II trials as a TNIK inhibitor for idiopathic pulmonary fibrosis (IPF)?",
+                                           "options":  [
+                                                           "INS018-055",
+                                                           "Rentosertib âœ…",
+                                                           "REC-994",
+                                                           "MolT5"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  3
+                                       },
+                                       {
+                                           "id":  "q_1758851170600",
+                                           "question":  "According to market projections, what is the expected compound annual growth rate (CAGR) for the AI-driven drug discovery market through 2030?",
+                                           "options":  [
+                                                           "5â€“10%",
+                                                           "15â€“20%",
+                                                           "30â€“38% âœ…",
+                                                           "Over 50%"
+                                                       ],
+                                           "answer":  null,
+                                           "day":  3
+                                       }
+                                   ]
+                   },
+                   {
+                       "id":  "construction",
+                       "name":  "Construction Technology",
+                       "description":  "Smart building, IoT sensors, automation",
+                       "modules":  [
+                                       {
+                                           "day":  1,
+                                           "topic":  "Framing the ROI Opportunity",
+                                           "takeaways":  "Business case, measurable goals; hard vs soft ROI; industry benchmarks",
+                                           "activity":  "ROI Baseline + Goal Setting"
+                                       },
+                                       {
+                                           "day":  2,
+                                           "topic":  "AI \u0026 Predictive Analytics for Financial Impact",
+                                           "takeaways":  "Forecasting, downtime reduction, fewer claims; ALICE, Procore AI, OpenSpace",
+                                           "activity":  "Live ROI calc: 5% schedule improvement on $50M + case study"
+                                       },
+                                       {
+                                           "day":  3,
+                                           "topic":  "BIM \u0026 Digital Twins with Lifecycle ROI",
+                                           "takeaways":  "ROI from designâ†’buildâ†’operate; clash detection; lifecycle cost; sustainability",
+                                           "activity":  "Digital Twin ROI map + lifecycle cost mini demo"
+                                       },
+                                       {
+                                           "day":  4,
+                                           "topic":  "Robotics, Drones \u0026 IoT ROI Models",
+                                           "takeaways":  "Labor productivity; drones survey savings; IoT safety + insurance",
+                                           "activity":  "Break-even analysis: drone buy vs rental + IoT case"
+                                       },
+                                       {
+                                           "day":  5,
+                                           "topic":  "3D Printing \u0026 Modular Construction ROI",
+                                           "takeaways":  "Speed-to-market; waste reduction; standardization",
+                                           "activity":  "ROI scenario: cut timeline by 3 months + hospital modular case"
+                                       },
+                                       {
+                                           "day":  6,
+                                           "topic":  "Sustainable Materials \u0026 ESG Integration",
+                                           "takeaways":  "Low-carbon cement, recycled aggregates, bio-based composites (mycelium, hempcrete); life-cycle emissions \u0026 Scope 3 transparency; ESG in valuation \u0026 investor reporting; carbon credits \u0026 green certifications; Tech: EC3, CarbonCure, BioMASON",
+                                           "activity":  "Quantify ROI and carbon savings from replacing 20% of materials with low-carbon alternatives"
+                                       },
+                                       {
+                                           "day":  7,
+                                           "topic":  "AR/VR \u0026 Extended Reality for Design and Field Execution",
+                                           "takeaways":  "Immersive collaboration; on-site AR overlays; VR-based safety training; reduced rework \u0026 faster approvals; Tech: Trimble XR10, Unity Reflect, HoloBuilder, Meta Quest for Business",
+                                           "activity":  "Build a business case for immersive visualizationâ€”quantify savings from faster approvals and rework avoidance"
+                                       },
+                                       {
+                                           "day":  8,
+                                           "topic":  "Blockchain, Smart Contracts \u0026 Supply Chain Trust",
+                                           "takeaways":  "Immutable records \u0026 provenance; milestone-based smart contract payments; reduced disputes \u0026 fraud; cross-border \u0026 digital identity; Tech: Briq, Propy Smart Contracts, IBM Blockchain for Construction",
+                                           "activity":  "Map a blockchain-based subcontractor payment workflow and model dispute reduction ROI"
+                                       },
+                                       {
+                                           "day":  9,
+                                           "topic":  "Generative Design \u0026 Autonomous Construction",
+                                           "takeaways":  "Generative design for cost/material/performance; AI scheduling \u0026 resource allocation; robotics coordination; humanâ€“machine collaboration; Tech: Autodesk Forma, ALICE, Dusty Robotics, Spacemaker AI",
+                                           "activity":  "Compare human vs AI-generated designs and calculate cost/time deltas"
+                                       },
+                                       {
+                                           "day":  10,
+                                           "topic":  "IoT, Edge Computing \u0026 Connected Job Sites",
+                                           "takeaways":  "IoT for safety/structural/equipment monitoring; edge analytics; AI dashboards for predictive maintenance; build a digital nervous system; Tech: Triax Spot-r, Pillar, MachineMetrics, Trimble WorksOS",
+                                           "activity":  "Predictive vs reactive maintenanceâ€”calculate uptime gains and safety incident reduction"
+                                       },
+                                       {
+                                           "day":  11,
+                                           "topic":  "Data Integration, Interoperability \u0026 Knowledge Graphs",
+                                           "takeaways":  "Integrate BIM/ERP/IoT/financials; data standards \u0026 APIs; knowledge graphs for context \u0026 KPIs; exec dashboards; Tech: Oracle Aconex, Procore Analytics, Trimble Construction One, GraphDB",
+                                           "activity":  "Build a mini Digital Ecosystem Map and identify data silos blocking ROI visibility"
+                                       },
+                                       {
+                                           "day":  12,
+                                           "topic":  "The Frontier: Quantum, Robotics Swarms \u0026 Autonomous Ecosystems",
+                                           "takeaways":  "Quantum for supply chain \u0026 simulation; swarm robotics for transport/inspection; synthetic environments for scenario testing; autonomous sites powered by AI, robotics, and twins; Tech: NVIDIA Omniverse, ETH Zurich RFL, Built Robotics 2.0, SandboxAQ",
+                                           "activity":  "Future ROI scenario planningâ€”model savings/productivity in a 2030 autonomous site vision"
+                                       }
+                                   ],
+                       "content":  [
+                                       {
+                                           "id":  "c_1758763051266",
+                                           "title":  "Test construction 1 day 1",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758763051142_Emerging_Technology_Solutions_for_Mid-Size_Finance__Real_Estate__and_Construction_Firms.pdf",
+                                           "description":  "",
+                                           "createdAt":  "2025-09-25T01:17:31.266Z",
+                                           "day":  1
+                                       },
+                                       {
+                                           "id":  "c_1758858811908",
+                                           "title":  "Framing the ROI Opportunity in Emerging Construction Technologies",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758858811045_ROI_in_Emerging_Construction_Technologies__US_and_Global_Context.pdf",
+                                           "description":  "",
+                                           "createdAt":  "2025-09-26T03:53:31.908Z",
+                                           "day":  1
+                                       },
+                                       {
+                                           "id":  "c_1758859025372",
+                                           "title":  "AI and Predictive Analytics for Financial Impact in U.S. Construction",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758859024840_The_Strategic_Impact_of_AI_and_Predictive_Analytics_on_U.S._Construction.pdf",
+                                           "description":  "The Strategic Impact of AI and Predictive Analytics on U.S. Construction",
+                                           "createdAt":  "2025-09-26T03:57:05.372Z",
+                                           "day":  2
+                                       },
+                                       {
+                                           "id":  "c_1758859133525",
+                                           "title":  "BIM and Digital Twins Lifecycle ROI in Construction Tech",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758859133022_BIM_and_Digital_Twin_Technologies_in_Construction__Global_and_U.S._Trends__Lifecycle_Applications__a.pdf",
+                                           "description":  "BIM and Digital Twin Technologies in Construction: Global and U.S. Trends, Lifecycle Applications, and ROI",
+                                           "createdAt":  "2025-09-26T03:58:53.525Z",
+                                           "day":  3
+                                       },
+                                       {
+                                           "id":  "c_1758859206476",
+                                           "title":  "ROI Models for Robotics, Drones, and IoT in U.S. Construction",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758859204402_Robotics__Drones___IoT_in_U.S._Construction__ROI_Trends__2023___2025__and_Future_Projections.pdf",
+                                           "description":  "Robotics, Drones \u0026 IoT in U.S. Construction: ROI Trends (2023â€“2025) and Future Projections",
+                                           "createdAt":  "2025-09-26T04:00:06.476Z",
+                                           "day":  4
+                                       },
+                                       {
+                                           "id":  "c_1758860064666",
+                                           "title":  "3D Printing and Modular Construction: ROI, Speed-to-Market, and Waste Reduction",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758860064035_3D_Printing_and_Modular_Construction__ROI__Speed__Waste_Reduction__and_Standardization.pdf",
+                                           "description":  "Robotics, Drones \u0026 IoT in U.S. Construction: ROI Trends (2023â€“2025) and Future Projections",
+                                           "createdAt":  "2025-09-26T04:14:24.666Z",
+                                           "day":  5
+                                       },
+                                       {
+                                           "id":  "c_1758860669427",
+                                           "title":  "Learning Module: ROI Baseline + Goal Setting in Construction Emerging Tech",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758860668548_Learning_Module__ROI_Baseline___Goal_Setting_in_Construction_Emerging_Tech__1_.pdf",
+                                           "description":  "Learning Module: ROI Baseline + Goal Setting in Construction Emerging Tech",
+                                           "createdAt":  "2025-09-26T04:24:29.427Z",
+                                           "day":  1
+                                       },
+                                       {
+                                           "id":  "c_1758896717208",
+                                           "title":  "Executive Learning Exercise: AI \u0026 Predictive Analytics ROI in Construction",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758896716439_Executive_Learning_Exercise__AI___Predictive_Analytics_ROI_in_Construction.pdf",
+                                           "description":  "Executive Learning Exercise: AI \u0026 Predictive Analytics ROI in Construction",
+                                           "createdAt":  "2025-09-26T14:25:17.208Z",
+                                           "day":  2
+                                       },
+                                       {
+                                           "id":  "c_1758897256765",
+                                           "title":  "Workshop Module: BIM \u0026 Digital Twin ROI Across the Lifecycle in Construction ",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758897255946_Workshop_Module__BIM___Digital_Twin_ROI_Across_the_Lifecycle_in_Construction_.pdf",
+                                           "description":  "This interactive exercise helps industry leaders, consultants, and professionals learn how to map, calculate, and defend BIM \u0026 Digital Twin ROI across the full construction lifecycle. Using real case studies, scenarios, and roleplay, it blends financial, sustainability, and operational insights into practical learning.",
+                                           "createdAt":  "2025-09-26T14:34:16.765Z",
+                                           "day":  3
+                                       },
+                                       {
+                                           "id":  "c_1758897942874",
+                                           "title":  "Learning: Break-even Analysis in Construction Technology: Focus: Drone Buy vs. Rental + IoT Safety Investment",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758897941947_Learning__Break-even_Analysis_in_Construction_Technology__Focus__Drone_Buy_vs._Rental___IoT_Safety_Investment.pdf",
+                                           "description":  "This learning excerise explores ROI models for construction technology, focusing on drones (buy vs. rental) and IoT safety investments. It provides both short and long scenarios, with detailed case studies and real-world examples from leading U.S. contractors. Participants practice break-even analysis, strategic decision-making, and adoption roadmaps. The goal is to equip leaders and consultants with tools to evaluate emerging tech for productivity, safety, and competitive advantage.",
+                                           "createdAt":  "2025-09-26T14:45:42.874Z",
+                                           "day":  4
+                                       },
+                                       {
+                                           "id":  "c_1758898832872",
+                                           "title":  "Learning Activity / Case Study: ROI Scenario â€“ Modular Hospital Construction with 3-Month Faster Delivery",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758898832063_Learning_Activity___Case_Study__ROI_Scenario_____Modular_Hospital_Construction_with_3-Month_Faster_Delivery.pdf",
+                                           "description":  "Learning Activity / Case Study: ROI Scenario â€“ Modular Hospital Construction with 3-Month Faster Delivery",
+                                           "createdAt":  "2025-09-26T15:00:32.872Z",
+                                           "day":  5
+                                       }
+                                   ],
+                       "quizzes":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "finance",
+                       "name":  "Finance Technology",
+                       "description":  "Blockchain, AI trading, digital banking",
+                       "modules":  [
+                                       {
+                                           "day":  1,
+                                           "topic":  "The ROI Compass: Where Finance is Headed",
+                                           "takeaways":  "Strategic ROI drivers; emerging tech landscape; ROI Compass framework",
+                                           "activity":  "Map top 3 org pain points into ROI Compass"
+                                       },
+                                       {
+                                           "day":  2,
+                                           "topic":  "AI \u0026 Advanced Automation: Redefining Productivity",
+                                           "takeaways":  "AI ROI math; risk scoring; portfolio rebalancing; NLP compliance; quick wins",
+                                           "activity":  "Automate one process: 12-month ROI model"
+                                       },
+                                       {
+                                           "day":  3,
+                                           "topic":  "Tokenization, Blockchain \u0026 Settlement Innovation",
+                                           "takeaways":  "Instant settlement; tokenization; smart contracts; regulatory readiness",
+                                           "activity":  "Liquidity unlock worksheet: T+2 â†’ T+0; AUM growth from fractionalization"
+                                       },
+                                       {
+                                           "day":  4,
+                                           "topic":  "Cybersecurity, RegTech \u0026 Fraud Prevention",
+                                           "takeaways":  "True cost of fraud; RegTech ROI; AI model governance; watchlist vendors",
+                                           "activity":  "Quantify savings: -15% fraud losses, -10% compliance cost"
+                                       },
+                                       {
+                                           "day":  5,
+                                           "topic":  "Hyper-Personalization \u0026 Client Growth",
+                                           "takeaways":  "Retention â†’ LTV; tech to watch; wealth mgmt ROI; case study",
+                                           "activity":  "Client Churn Calculator: impact of -5% churn"
+                                       },
+                                       {
+                                           "day":  6,
+                                           "topic":  "Cloud, APIs \u0026 Data Monetization",
+                                           "takeaways":  "Cloud ROI; API-led revenue; data monetization; case study",
+                                           "activity":  "API Business Case Template: identify monetizable data sets"
+                                       },
+                                       {
+                                           "day":  7,
+                                           "topic":  "ROI Roadmap \u0026 Strategic Alignment",
+                                           "takeaways":  "Prioritization matrix; risk-adjusted ROI; boardroom language; future watch",
+                                           "activity":  "90-Day ROI Action Planner: 3 initiatives with KPI, ROI metric, next action"
+                                       },
+                                       {
+                                           "day":  8,
+                                           "topic":  "Quantum Computing, Predictive Finance \u0026 Risk Modeling",
+                                           "takeaways":  "Quantum finance overview (qubits, annealing, Monte Carlo acceleration); portfolio optimization; post-quantum crypto; predictive finance \u0026 uncertainty quantification",
+                                           "activity":  "Quantum Value Scenario: compare a 3-year portfolio under classical vs quantum risk simulationâ€”accuracy, risk exposure, ROI confidence"
+                                       },
+                                       {
+                                           "day":  9,
+                                           "topic":  "DeFi 2.0 \u0026 Smart Liquidity Networks",
+                                           "takeaways":  "DeFi 2.0 protocols; liquidity-as-a-service; on-chain treasury; RWA tokenization \u0026 compliance; cross-chain interoperability",
+                                           "activity":  "Liquidity Flow Map: simulate a $100M multi-chain poolâ€”measure gas cost, tx speed, collateral yield improvement"
+                                       },
+                                       {
+                                           "day":  10,
+                                           "topic":  "Generative AI Agents \u0026 Autonomous Banking",
+                                           "takeaways":  "Autonomous portfolio managers; GenAI for analysis and IR; explainability \u0026 audit trails; agent governance \u0026 ethics",
+                                           "activity":  "Agent Impact Worksheet: model 12-month savings and accuracy if 30% manual tasks are automated in compliance/research"
+                                       },
+                                       {
+                                           "day":  11,
+                                           "topic":  "Sustainable Finance, ESG Data \u0026 Impact Tech",
+                                           "takeaways":  "Carbon accounting automation; ESG scoring APIs \u0026 satellite data; tokenized carbon credits \u0026 verification; climate risk modeling",
+                                           "activity":  "Green ROI Calculator: estimate returns from digitizing ESG reportingâ€”lower audit cost, higher investor trust, regulatory alignment"
+                                       },
+                                       {
+                                           "day":  12,
+                                           "topic":  "Future Financial Infrastructure: Web3, Digital Identity \u0026 Embedded Finance",
+                                           "takeaways":  "Decentralized digital identity (DID); embedded payments \u0026 BaaS; Web3 clearing/settlement; bridging legacy to nextâ€‘gen rails",
+                                           "activity":  "Future Readiness Map: assess readiness level (1â€“5) for Web3/embedded finance; define 3 pilot actions for 12 months"
+                                       }
+                                   ],
+                       "content":  [
+                                       {
+                                           "id":  "c_1758902616274",
+                                           "title":  "The ROI Compass in Finance Tech: Strategic Drivers and Framework Beyond 2025",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758902615336_The_ROI_Compass_in_Financial_Technology.pdf",
+                                           "description":  "This report breakdown shows that fintech ROI is driven by customer growth (CAC vs. LTV), operational efficiency, scalability, and regulatory cost control. Emerging technologies like AI, blockchain, quantum computing, cloud, RegTech, and cybersecurity reshape these ROI levers by cutting costs, boosting revenue, and mitigating risks. The ROI Compass framework aligns financial, customer, operational, and risk metrics to strategy, ensuring technology investments deliver holistic value. Overall, ROI in finance 2025 and beyond is about balancing innovation with strategic alignment.",
+                                           "createdAt":  "2025-09-26T16:03:36.274Z",
+                                           "day":  1
+                                       },
+                                       {
+                                           "id":  "c_1758902738914",
+                                           "title":  "AI and Advanced Automation: Redefining Productivity in U.S. Finance",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758902738291_AI_and_Automation__Redefining_U.S._Finance_Productivity.pdf",
+                                           "description":  "This white paper explores how AI and advanced automation are reshaping productivity in U.S. finance. It breaks down the ROI math behind AI investments, showing how firms can measure cost savings, efficiency, and long-term strategic value. It highlights AI-driven risk scoring and portfolio rebalancing as key levers for smarter decision-making, alongside the critical role of NLP in compliance for monitoring regulations and communications. Finally, it identifies quick wins that finance teams can adopt immediately to unlock tangible benefits while building toward larger transformation.",
+                                           "createdAt":  "2025-09-26T16:05:38.914Z",
+                                           "day":  2
+                                       },
+                                       {
+                                           "id":  "c_1758902874229",
+                                           "title":  "Tokenization, Blockchain, and Settlement Innovation in Finance",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758902873645_Tokenization__Blockchain__and_Settlement_Innovation_in_Finance__A_Comprehensive_Report.pdf",
+                                           "description":  "This report shows how blockchain and tokenization are changing finance by making settlements instant, assets tradable in smaller pieces, and contracts programmable. It looks at three areas: capital markets (faster trades, tokenized securities), banking (real-time payments, tokenized deposits), and asset management (tokenized funds, fractional ownership). Finally, it explains how U.S. and global regulators are creating rules so these innovations can be safely adopted.",
+                                           "createdAt":  "2025-09-26T16:07:54.229Z",
+                                           "day":  3
+                                       },
+                                       {
+                                           "id":  "c_1758903725032",
+                                           "title":  "Trends in Cybersecurity, RegTech, and Fraud Prevention in Financial Services (2025)",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758903724333_Trends_in_Cybersecurity__RegTech__and_Fraud_Prevention_in_Financial_Services__2025_.pdf",
+                                           "description":  "This report explains trends in cybersecurity, RegTech, and fraud prevention in financial services (2025), with a U.S. focus and global context.\nIt highlights the true cost of fraud, including hidden compliance and reputational risks.\nIt analyzes RegTech ROI, showing cost savings, efficiency gains, and adoption challenges.\nIt reviews AI model governance best practices and leading watchlist vendors shaping AML/KYC compliance.",
+                                           "createdAt":  "2025-09-26T16:22:05.032Z",
+                                           "day":  4
+                                       },
+                                       {
+                                           "id":  "c_1758903841180",
+                                           "title":  "Hyper-Personalization and Client Growth in U.S. Finance",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758903840033_Hyper-Personalization_in_U.S._Financial_Services.pdf",
+                                           "description":  "This report breakdown shows that hyper-personalization is now a growth engine in U.S. finance. By using AI, CDPs, and predictive analytics, banks and wealth managers are boosting retention and lifetime value (LTV), cutting churn, and expanding share-of-wallet. Wealth management in particular sees strong ROI as personalization drives higher assets under management and advisor productivity. Case studies from U.S. Bank, Morgan Stanley, Huntington, and Synovus prove that personalization at scale can double account growth, lift engagement by 30%, and add millions in client assets.",
+                                           "createdAt":  "2025-09-26T16:24:01.180Z",
+                                           "day":  5
+                                       },
+                                       {
+                                           "id":  "c_1758904458978",
+                                           "title":  "ROI Compass for Leaders: Map Top 3 Org Pain Points - Strategic Learning with 2025 Fintech Trends",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758904457865_ROI_Compass_Learning_Activity__Mapping_Organizational_Pain_Points.pdf",
+                                           "description":  "The ROI Compass framework evaluates fintech investments across four dimensions (Financial, Customer, Operational, Risk/Governance) instead of just financial returns, capturing full strategic value. It demonstrates how technologies like AI and RegTech create multi-dimensional ROI, with AI potentially adding $200-340B annually to banking and RegTech delivering 600%+ returns. The content includes a strategic exercise for leaders to map their top 3 organizational pain points across these compass dimensions, complete with 2025 market case studies, solution frameworks, and actionable investment prioritization tools.Retry",
+                                           "createdAt":  "2025-09-26T16:34:18.978Z",
+                                           "day":  1
+                                       },
+                                       {
+                                           "id":  "c_1758912856495",
+                                           "title":  "AI Automation ROI Exercise: Automate One Process - 12-Month ROI Model",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758912855465_AI_Automation_ROI_Exercise__Automate_One_Process_-_12-Month_ROI_Model.pdf",
+                                           "description":  "This document provides a practical exercise for finance leaders to automate one high-impact process using AI and build a 12-month ROI model. Based on real industry data showing 50% of financial firms have AI in production with leaders achieving 300-500% returns, it guides users through process selection, current state analysis, solution design, and ROI calculation.",
+                                           "createdAt":  "2025-09-26T18:54:16.496Z",
+                                           "day":  2
+                                       },
+                                       {
+                                           "id":  "c_1758913527294",
+                                           "title":  "Activity/Case: Liquidity Unlock Worksheet - T+2 â†’ T+0 \u0026 AUM Growth from Fractionalization",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758913526577_Liquidity_Unlock_Worksheet__T_2_____T_0_Settlement___AUM_Growth_from_Fractionalization.pdf",
+                                           "description":  "Learning Framework: Three Core Use Cases\nBased on the document\u0027s analysis of blockchain transforming finance through instant settlement and asset fractionalization.\n",
+                                           "createdAt":  "2025-09-26T19:05:27.294Z",
+                                           "day":  3
+                                       },
+                                       {
+                                           "id":  "c_1758914163873",
+                                           "title":  "Activity/Case: Quantify Savings - 15% Fraud Loss Reduction \u0026 10% Compliance Cost Reduction",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758914163096_Activity_Case__Quantify_Savings_-_15_Compliance_Cost_Reduction.pdf",
+                                           "description":  "Learning Exercise: Calculate Your RegTech Investment Returns\nBased on the document showing banks face $4.41 costs per $1 stolen, $61B annual compliance spending, and RegTech delivering 60-70% false positive reductions with 30-40% operational cost savings.",
+                                           "createdAt":  "2025-09-26T19:16:03.873Z",
+                                           "day":  4
+                                       },
+                                       {
+                                           "id":  "c_1758914864988",
+                                           "title":  "Hyper-Personalization in Financial Services: Executive Learning Program",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758914864088_Hyper-Personalization_in_Financial_Services__Learning_Exercise.pdf",
+                                           "description":  "Learning Objectives \u0026 Business Context\nBy completing this program, you will master:\n\nFinancial modeling of personalization ROI with real industry data\nStrategic evaluation of technology investments and competitive positioning\nImplementation frameworks for enterprise-scale personalization initiatives\nRisk assessment and mitigation strategies for digital transformation projects",
+                                           "createdAt":  "2025-09-26T19:27:44.988Z",
+                                           "day":  5
+                                       }
+                                   ],
+                       "quizzes":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "realestate",
+                       "name":  "PropTech",
+                       "description":  "Virtual tours, property mgmt, smart home tech",
+                       "modules":  [
+                                       {
+                                           "day":  1,
+                                           "topic":  "State of CRE Tech 2025 \u0026 ROI Imperatives",
+                                           "takeaways":  "Smart buildings, tokenization, AI; ESG-driven adoption; CRE Tech ROI Pyramid",
+                                           "activity":  "Market Radar + identify 3 pressure points (vacancy, OpEx, ESG)"
+                                       },
+                                       {
+                                           "day":  2,
+                                           "topic":  "AI \u0026 Data-Driven CRE Decisions",
+                                           "takeaways":  "AI underwriting, predictive leasing, GenAI reporting; AI ROI model; data maturity ladder",
+                                           "activity":  "AI-Underwriting checklist + map one workflow for AI savings"
+                                       },
+                                       {
+                                           "day":  3,
+                                           "topic":  "IoT, Smart Buildings \u0026 Digital Twins",
+                                           "takeaways":  "Energy savings, maintenance reduction, tenant demand; ROI calculators; risk mitigation",
+                                           "activity":  "Smart Building ROI template + estimate 15% energy savings"
+                                       },
+                                       {
+                                           "day":  4,
+                                           "topic":  "Tokenization, Fractional Ownership \u0026 CRE Liquidity",
+                                           "takeaways":  "Tokenized deals growth; global access; smart contracts; compliance checklist",
+                                           "activity":  "Tokenization business case for one asset (benefits \u0026 compliance)"
+                                       },
+                                       {
+                                           "day":  5,
+                                           "topic":  "ESG Tech \u0026 Sustainable Value Creation",
+                                           "takeaways":  "SEC climate rules; tenant ESG requirements; green rent premium; ESG ROI canvas",
+                                           "activity":  "Map one buildingâ€™s ESG metrics â†’ estimate rent/valuation impact"
+                                       },
+                                       {
+                                           "day":  6,
+                                           "topic":  "Proptech, Tenant Experience \u0026 Revenue Growth",
+                                           "takeaways":  "Tenant apps, flex space, CRE-as-a-service; churn reduction \u0026 yield models",
+                                           "activity":  "Identify tenant pain point â†’ sketch tech to improve retention"
+                                       },
+                                       {
+                                           "day":  7,
+                                           "topic":  "Building Your 90-Day CRE Tech Roadmap",
+                                           "takeaways":  "Portfolio rollouts; \u003c12-month payback; prioritization \u0026 ROI sprint canvas",
+                                           "activity":  "90-day roadmap: top 3 initiatives with KPI, ROI, timeline, owners"
+                                       }
+                                   ],
+                       "content":  [
+                                       {
+                                           "id":  "c_1758944024425",
+                                           "title":  "State of CRE Tech 2025 and ROI Imperatives in Smart Buildings",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758944023035_State_of_CRE_Tech_2025_and_ROI_Imperatives.pdf",
+                                           "description":  "This report breaks down how CRE tech in 2025 is transforming real estate through smart buildings, AI, tokenization, and ESG-driven adoption. The CRE Tech ROI Pyramid highlights quick efficiency wins, mid-term analytics, and long-term strategic value. U.S. leaders show that tech delivers cost savings, compliance, and tenant satisfactionâ€”making it a core ROI driver, not just a cost.",
+                                           "createdAt":  "2025-09-27T03:33:44.425Z",
+                                           "day":  1
+                                       },
+                                       {
+                                           "id":  "c_1758944350851",
+                                           "title":  "CRE Tech 2025: Learning Exercise with Market Radar \u0026 Pressure Points Analysis",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758944350181_CRE_Tech_2025__Learning_Exercise_with_Market_Radar___Pressure_Points_Analysis.pdf",
+                                           "description":  "Learning Objectives\nBy the end of this exercise, you will be able to:\n\nAnalyze emerging CRE technology trends and their market positioning\nIdentify and evaluate three critical pressure points: Vacancy, OpEx, and ESG\nApply strategic frameworks to real-world CRE scenarios\nDevelop technology investment strategies using the ROI Pyramid",
+                                           "createdAt":  "2025-09-27T03:39:10.851Z",
+                                           "day":  1
+                                       },
+                                       {
+                                           "id":  "c_1758944875221",
+                                           "title":  "AI and Data-Driven Decision-Making in  Commercial Real Estate",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758944874173_AI_and_Data-Driven_Decision-Making_in_Commercial_Real_Estate__1_.pdf",
+                                           "description":  "This report breaks down how AI is reshaping CRE, from underwriting and leasing to reporting and ROI, with a data maturity path that gives early adopters speed, savings, and advantage.\n",
+                                           "createdAt":  "2025-09-27T03:47:55.221Z",
+                                           "day":  2
+                                       },
+                                       {
+                                           "id":  "c_1758946255030",
+                                           "title":  "AI \u0026 Data-Driven Decision-Making in CRE: Comprehensive Learning Exercise with AI-Underwriting Checklist",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758946253718_AI___Data-Driven_Decision-Making_in_CRE__Advanced_Learning_Exercise.pdf",
+                                           "description":  "This comprehensive learning exercise provides the tools and frameworks necessary for successful AI implementation in commercial real estate, with particular emphasis on the practical AI-underwriting checklist and detailed workflow mapping that demonstrates clear paths to significant cost savings and competitive advantage.",
+                                           "createdAt":  "2025-09-27T04:10:55.030Z",
+                                           "day":  2
+                                       },
+                                       {
+                                           "id":  "c_1758946665279",
+                                           "title":  "IoT, Smart Buildings, and Digital Twins in Real  Estate ",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758946664280_IoT__Smart_Buildings__and_Digital_Twins_in_Real_Estate.pdf",
+                                           "description":  "The document explains how IoT, smart buildings, and digital twins are transforming real estate by cutting energy use, lowering costs, boosting tenant satisfaction, and raising property value. IoT sensors feed real-time data into smart systems and digital twins (virtual replicas of buildings), enabling predictive maintenance, energy optimization, and personalized comfort. Case studies show savings of 15â€“80% on energy and major reductions in downtime. The global smart building and digital twin markets are booming (hundreds of billions by 2030), driven by stricter energy regulations and ESG demands. Overall, these technologies deliver strong ROI, improve sustainability, and reduce risks, making connected, data-driven buildings the future of real estate",
+                                           "createdAt":  "2025-09-27T04:17:45.279Z",
+                                           "day":  3
+                                       },
+                                       {
+                                           "id":  "c_1758947206465",
+                                           "title":  "Comprehensive Smart Building ROI Mastery Course A Complete Learning Exercise with Advanced Scenarios, Case Studies, and Financial Analysis",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758947205450_Smart_Building_ROI_Learning_Exercise_with_Case_Studies.pdf",
+                                           "description":  "Here\u0027s a 6-line summary starting with \"This material\":\n\nThis material provides a comprehensive learning framework for calculating and optimizing Smart Building ROI, focusing on the proven 15% energy savings benchmark from IoT sensors, HVAC optimization, and building automation systems. Students learn to use detailed financial templates and real-world case studies (like 45 Broadway\u0027s 15.8% energy reduction saving $42K annually) to justify investments typically ranging $10-25 per square foot with 2-4 year paybacks. The course covers four progressive scenarios from mid-size office retrofits to large mixed-use developments, teaching risk analysis, vendor selection, and implementation strategies for the rapidly growing $571B smart building market. Practical exercises include sensitivity analysis, Monte Carlo simulations, and digital twin ROI calculations, culminating in a capstone project managing a $15M portfolio transformation. Advanced modules address emerging technologies (AI, edge computing), ESG integration, and regulatory compliance to position professionals as smart building leaders. Graduates gain the technical and financial expertise to deliver measurable energy savings, operational efficiency, and property value enhancements while achieving sustainability goals.\n\n",
+                                           "createdAt":  "2025-09-27T04:26:46.465Z",
+                                           "day":  3
+                                       },
+                                       {
+                                           "id":  "c_1758947464671",
+                                           "title":  "Tokenization, Fractional Ownership, and Liquidity in U.S. CRE",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758947463483_Tokenized_Deals_Growth.pdf",
+                                           "description":  "This material dives deep into Tokenization and fractional ownership are making U.S. commercial real estate more accessible and liquid. Smart contracts automate compliance and income, while SEC rules (Reg D, A+, S) guide offerings. Platforms like RealT and Securitize enable global investor access.",
+                                           "createdAt":  "2025-09-27T04:31:04.671Z",
+                                           "day":  4
+                                       },
+                                       {
+                                           "id":  "c_1758947770318",
+                                           "title":  "Tokenization Business Case for One Asset: Benefits \u0026 Compliance Learning Exercise with Case Studies \u0026 Scenarios",
+                                           "type":  "pdf",
+                                           "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758947769584_Tokenization_Business_Case_for_One_Asset__Benefits___Compliance_-_Learning_Exercise.pdf",
+                                           "description":  "The exercise is designed to be practical and applicable to real-world tokenization projects, helping learners understand both the opportunities and challenges in this rapidly growing market. Each section builds upon the previous one, creating a comprehensive understanding of how to structure, comply with, and implement tokenized real estate investments.",
+                                           "createdAt":  "2025-09-27T04:36:10.319Z",
+                                           "day":  4
+                                       }
+                                   ],
+                       "quizzes":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "cognitive-compute",
+                       "name":  "Cognitive Compute Systems",
+                       "description":  "Neuromorphic, photonic, in-memory, and quantum-compatible AI processors",
+                       "modules":  [
+
+                                   ],
+                       "content":  [
+
+                                   ],
+                       "quizzes":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "quantum-edge",
+                       "name":  "Quantum Edge Intelligence",
+                       "description":  "Hybrid AI–quantum edge systems, quantum sensors, and quantum-secure networks",
+                       "modules":  [
+
+                                   ],
+                       "content":  [
+
+                                   ],
+                       "quizzes":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "autonomous-infra",
+                       "name":  "Autonomous Infrastructure Intelligence",
+                       "description":  "Self-managing infrastructure with digital twins, RL, and swarm edge AI",
+                       "modules":  [
+
+                                   ],
+                       "content":  [
+
+                                   ],
+                       "quizzes":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "synthetic-cognition",
+                       "name":  "Synthetic Cognition \u0026 Secure Compute",
+                       "description":  "Confidential AI, zero-trust pipelines, federated learning, and governance chips",
+                       "modules":  [
+
+                                   ],
+                       "content":  [
+
+                                   ],
+                       "quizzes":  [
+
+                                   ]
+                   }
+               ]
 }

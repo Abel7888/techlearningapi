@@ -15,6 +15,10 @@ import {
   ChevronRight,
   Settings,
   BookOpen,
+  Cpu,
+  Zap,
+  Network,
+  Lock,
 } from "lucide-react";
 
 // Sectors displayed on landing
@@ -58,6 +62,46 @@ const sectors = [
     moduleCount: 10,
     avgDuration: "3.5 hours",
     thumb: "🏠",
+  },
+];
+
+// Emefintech: New Sectors & Research Areas
+const emeSectors = [
+  {
+    id: "cognitive-compute",
+    title: "Cognitive Compute Systems",
+    subtitle: "The Next-Gen AI Hardware Stack",
+    description: "Neuromorphic, photonic, in-memory, and quantum-compatible AI processors—building the hardware brain of the AI age.",
+    icon: Cpu,
+    gradient: "bg-gradient-to-r from-rose-500 to-orange-500",
+    thumb: "🧠",
+  },
+  {
+    id: "quantum-edge",
+    title: "Quantum Edge Intelligence",
+    subtitle: "AI Meets Quantum at the Periphery",
+    description: "Hybrid AI–quantum optimization, quantum sensors, and quantum-secure comms for edge/5G/6G systems.",
+    icon: Zap,
+    gradient: "bg-gradient-to-r from-indigo-500 to-cyan-500",
+    thumb: "🧪",
+  },
+  {
+    id: "autonomous-infra",
+    title: "Autonomous Infrastructure Intelligence",
+    subtitle: "Self-Managing Systems",
+    description: "Digital twins + RL, self-adaptive data centers, swarm edge AI, and cyber-resilient smart infrastructure.",
+    icon: Network,
+    gradient: "bg-gradient-to-r from-emerald-500 to-teal-500",
+    thumb: "🏗️",
+  },
+  {
+    id: "synthetic-cognition",
+    title: "Synthetic Cognition & Secure Compute",
+    subtitle: "Trusted Autonomy & Privacy",
+    description: "Confidential AI, zero‑trust pipelines, federated & PQC learning, synthetic data, and governance chips.",
+    icon: Lock,
+    gradient: "bg-gradient-to-r from-fuchsia-500 to-violet-500",
+    thumb: "🛡️",
   },
 ];
 
@@ -158,6 +202,43 @@ export function LearnerLandingPage() {
                     <div className="mt-4">
                       <Button className="w-full group-hover:bg-primary/90" size="sm">
                         Explore Training <ChevronRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* Emefintech New Sectors & Research Areas */}
+      <section className="space-y-8">
+        <div className="text-center">
+          <h2 className="text-4xl font-bold text-foreground mb-2">Emefintech: New Sectors & Research Areas</h2>
+          <p className="text-lg text-muted-foreground">Four emerging domains we’re adding next—click through to preview</p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+          {emeSectors.map((s) => {
+            const IconComponent = s.icon;
+            return (
+              <Link key={s.id} to={`/track/${s.id}`} className="block">
+                <Card className="group cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border-2 hover:border-primary/20 overflow-hidden">
+                  <div className={`h-24 ${s.gradient} flex items-center justify-between px-6`}>
+                    <div className="text-5xl" aria-hidden>{s.thumb}</div>
+                    <div className="opacity-40">
+                      <IconComponent className="w-16 h-16 text-white" />
+                    </div>
+                  </div>
+                  <CardHeader className="pb-3">
+                    <CardTitle className="text-xl flex items-center gap-2">{s.title}</CardTitle>
+                    <CardDescription className="text-sm leading-relaxed">{s.subtitle}</CardDescription>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <p className="text-sm text-muted-foreground leading-relaxed">{s.description}</p>
+                    <div className="mt-4">
+                      <Button className="w-full group-hover:bg-primary/90" size="sm">
+                        Preview Track <ChevronRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                       </Button>
                     </div>
                   </CardContent>
