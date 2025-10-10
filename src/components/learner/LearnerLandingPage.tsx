@@ -212,11 +212,10 @@ export function LearnerLandingPage() {
         </div>
       </section>
 
-      {/* Emefintech New Sectors & Research Areas */}
+      {/* New Sectors & Research Areas */}
       <section className="space-y-8">
         <div className="text-center">
-          <h2 className="text-4xl font-bold text-foreground mb-2">Emefintech: New Sectors & Research Areas</h2>
-          <p className="text-lg text-muted-foreground">Four emerging domains we’re adding next—click through to preview</p>
+          <h2 className="text-4xl font-bold text-foreground mb-2">New Sectors & Research Areas</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
           {emeSectors.map((s) => {
@@ -235,6 +234,7 @@ export function LearnerLandingPage() {
                     <CardDescription className="text-sm leading-relaxed">{s.subtitle}</CardDescription>
                   </CardHeader>
                   <CardContent className="pt-0">
+                    <p className="text-sm text-muted-foreground leading-relaxed mb-3">{s.description}</p>
                     <div className="space-y-3 text-sm text-muted-foreground">
                       <div className="flex items-center gap-2"><BookOpen className="w-4 h-4" /> Training modules, quizzes, reports, and more</div>
                       <div className="flex items-center gap-2"><Sparkles className="w-4 h-4" /> Latest trends & insights</div>
