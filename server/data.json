@@ -1065,7 +1065,48 @@
                        "name":  "Cognitive Compute Systems",
                        "description":  "Neuromorphic, photonic, in-memory, and quantum-compatible AI processors",
                        "modules":  [
-
+                                       {
+                                           "takeaways":  "Silicon bottlenecks; compute sovereignty; energy/supply constraints; post-GPU architectures overview",
+                                           "activity":  "Case: NVIDIA vs challengers (Tenstorrent, Cerebras, Graphcore) — analyze ecosystem moat",
+                                           "day":  1,
+                                           "topic":  "The End of the GPU Era: Why Compute Is the New Gold"
+                                       },
+                                       {
+                                           "takeaways":  "Spiking neural networks; event-driven compute; Loihi/Akida/TrueNorth; low-power edge AI",
+                                           "activity":  "Hands-on (sim): Run Lava spiking pattern recognition and discuss results",
+                                           "day":  2,
+                                           "topic":  "Neuromorphic Computing: Building Silicon That Thinks Like a Brain"
+                                       },
+                                       {
+                                           "takeaways":  "Light-based MxM; Lightmatter/Lightelligence/Celestial AI; low heat \u0026 latency; 2030 inference outlook",
+                                           "activity":  "Mini project: Map photonic compute opportunities across inference, DCs, and telecom",
+                                           "day":  3,
+                                           "topic":  "Photonic \u0026 Optical Processors: Computing at the Speed of Light"
+                                       },
+                                       {
+                                           "takeaways":  "Von Neumann bottleneck; RRAM/PCM; analog AI; compiler mapping (PyTorch→hardware)",
+                                           "activity":  "Exercise: Compare energy/speed metrics—GPU vs IMC architecture",
+                                           "day":  4,
+                                           "topic":  "In-Memory Computing \u0026 Analog Logic: Breaking the Memory Wall"
+                                       },
+                                       {
+                                           "takeaways":  "AI–quantum interfaces; cryogenic inference; IBM/Rigetti/PsiQuantum hybrid visions; PQC for AI",
+                                           "activity":  "Group debate: Will AI drive quantum faster than scientific computing?",
+                                           "day":  5,
+                                           "topic":  "Quantum-Compatible \u0026 Cryogenic AI Chips"
+                                       },
+                                       {
+                                           "takeaways":  "AI-generated layouts; Synopsys DSO.ai, Cadence Cerebrus, DeepMind; time-to-market \u0026 IP",
+                                           "activity":  "Workshop: Case—how AI cut Google TPU design time by 6 months",
+                                           "day":  6,
+                                           "topic":  "AI-Driven Chip Design \u0026 Generative Silicon"
+                                       },
+                                       {
+                                           "takeaways":  "Post-GPU investment map; CHIPS Acts; valuing AI hardware (capex vs IP); Compute Stack Economy",
+                                           "activity":  "Capstone: Draft a Cognitive Compute Investment Thesis with 3 strategic bets",
+                                           "day":  7,
+                                           "topic":  "Investing \u0026 Building in the Cognitive Compute Era"
+                                       }
                                    ],
                        "content":  [
 
