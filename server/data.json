@@ -692,6 +692,36 @@
           "topic": "ROI Roadmap & Strategic Alignment",
           "takeaways": "Prioritization matrix; risk-adjusted ROI; boardroom language; future watch",
           "activity": "90-Day ROI Action Planner: 3 initiatives with KPI, ROI metric, next action"
+        },
+        {
+          "day": 8,
+          "topic": "Quantum Computing, Predictive Finance & Risk Modeling",
+          "takeaways": "Quantum finance overview (qubits, annealing, Monte Carlo acceleration); portfolio optimization; post-quantum crypto; predictive finance & uncertainty quantification",
+          "activity": "Quantum Value Scenario: compare a 3-year portfolio under classical vs quantum risk simulation—accuracy, risk exposure, ROI confidence"
+        },
+        {
+          "day": 9,
+          "topic": "DeFi 2.0 & Smart Liquidity Networks",
+          "takeaways": "DeFi 2.0 protocols; liquidity-as-a-service; on-chain treasury; RWA tokenization & compliance; cross-chain interoperability",
+          "activity": "Liquidity Flow Map: simulate a $100M multi-chain pool—measure gas cost, tx speed, collateral yield improvement"
+        },
+        {
+          "day": 10,
+          "topic": "Generative AI Agents & Autonomous Banking",
+          "takeaways": "Autonomous portfolio managers; GenAI for analysis and IR; explainability & audit trails; agent governance & ethics",
+          "activity": "Agent Impact Worksheet: model 12-month savings and accuracy if 30% manual tasks are automated in compliance/research"
+        },
+        {
+          "day": 11,
+          "topic": "Sustainable Finance, ESG Data & Impact Tech",
+          "takeaways": "Carbon accounting automation; ESG scoring APIs & satellite data; tokenized carbon credits & verification; climate risk modeling",
+          "activity": "Green ROI Calculator: estimate returns from digitizing ESG reporting—lower audit cost, higher investor trust, regulatory alignment"
+        },
+        {
+          "day": 12,
+          "topic": "Future Financial Infrastructure: Web3, Digital Identity & Embedded Finance",
+          "takeaways": "Decentralized digital identity (DID); embedded payments & BaaS; Web3 clearing/settlement; bridging legacy to next‑gen rails",
+          "activity": "Future Readiness Map: assess readiness level (1–5) for Web3/embedded finance; define 3 pilot actions for 12 months"
         }
       ],
       "content": [
