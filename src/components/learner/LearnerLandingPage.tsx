@@ -235,10 +235,15 @@ export function LearnerLandingPage() {
                     <CardDescription className="text-sm leading-relaxed">{s.subtitle}</CardDescription>
                   </CardHeader>
                   <CardContent className="pt-0">
-                    <p className="text-sm text-muted-foreground leading-relaxed">{s.description}</p>
+                    <div className="space-y-3 text-sm text-muted-foreground">
+                      <div className="flex items-center gap-2"><BookOpen className="w-4 h-4" /> Training modules, quizzes, reports, and more</div>
+                      <div className="flex items-center gap-2"><Sparkles className="w-4 h-4" /> Latest trends & insights</div>
+                      <div className="flex items-center gap-2"><Brain className="w-4 h-4" /> Hands-on AI agent demos</div>
+                      <div className="flex items-center gap-2"><ShieldCheck className="w-4 h-4" /> Practical, ROI-focused guidance</div>
+                    </div>
                     <div className="mt-4">
                       <Button className="w-full group-hover:bg-primary/90" size="sm">
-                        Preview Track <ChevronRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                        Explore Training <ChevronRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                       </Button>
                     </div>
                   </CardContent>
