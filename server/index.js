@@ -225,10 +225,37 @@ app.post('/api/upload', adminRequired, uploadMem.single('file'), async (req, res
 
       let finalUrl = '';
       if (SUPABASE_PUBLIC) {
-        // Public bucket URL
-        finalUrl = `${SUPABASE_URL.replace(/\/$/, '')}/storage/v1/object/public/${encodeURIComponent(SUPABASE_BUCKET)}/${encodeURIComponent(objectKey)}`;
+        // Try public bucket URL first
+        const publicUrl = `${SUPABASE_URL.replace(/\/$/, '')}/storage/v1/object/public/${encodeURIComponent(SUPABASE_BUCKET)}/${encodeURIComponent(objectKey)}`;
+        try {
+          const head = await fetch(publicUrl, { method: 'HEAD' });
+          if (head.ok) {
+            finalUrl = publicUrl;
+          } else {
+            // Fallback to signed if bucket/object isn't actually public
+            const signUrl = `${SUPABASE_URL.replace(/\/$/, '')}/storage/v1/object/sign/${encodeURIComponent(SUPABASE_BUCKET)}/${encodeURIComponent(objectKey)}`;
+            const signResp = await fetch(signUrl, {
+              method: 'POST',
+              headers: {
+                'apikey': SUPABASE_SERVICE_KEY,
+                'Authorization': `Bearer ${SUPABASE_SERVICE_KEY}`,
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify({ expiresIn: 60 * 60 * 24 * 7 }) // 7 days
+            });
+            if (!signResp.ok) {
+              const txt = await signResp.text().catch(() => '');
+              return res.status(500).json({ error: 'Supabase sign failed', detail: txt });
+            }
+            const data = await signResp.json();
+            const signedPath = data?.signedURL || data?.signedUrl || data?.signed_path || '';
+            finalUrl = signedPath ? `${SUPABASE_URL.replace(/\/$/, '')}${signedPath}` : '';
+          }
+        } catch {
+          finalUrl = publicUrl;
+        }
       } else {
-        // Generate a signed URL (1 hour)
+        // Generate a signed URL (default 7 days)
         const signUrl = `${SUPABASE_URL.replace(/\/$/, '')}/storage/v1/object/sign/${encodeURIComponent(SUPABASE_BUCKET)}/${encodeURIComponent(objectKey)}`;
         const signResp = await fetch(signUrl, {
           method: 'POST',
@@ -237,7 +264,7 @@ app.post('/api/upload', adminRequired, uploadMem.single('file'), async (req, res
             'Authorization': `Bearer ${SUPABASE_SERVICE_KEY}`,
             'Content-Type': 'application/json'
           },
-          body: JSON.stringify({ expiresIn: 3600 })
+          body: JSON.stringify({ expiresIn: 60 * 60 * 24 * 7 })
         });
         if (!signResp.ok) {
           const txt = await signResp.text().catch(() => '');
