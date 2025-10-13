@@ -62,14 +62,14 @@
                                        {
                                            "day":  10,
                                            "topic":  "AI + Generative Tech in Drug Discovery (Deep Dive)",
-                                           "takeaways":  "Transformers, protein folding, molecule design; acceleration in hit ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ lead ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ ADME/Tox",
+                                           "takeaways":  "Transformers, protein folding, molecule design; acceleration in hit ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ lead ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ ADME/Tox",
                                            "activity":  "Shortlist AI compounds; compare two vendor approaches and present trade-offs"
                                        },
                                        {
                                            "day":  11,
                                            "topic":  "Clinician Support \u0026 Workflow Automation",
                                            "takeaways":  "Ambient AI, RPA, predictive scheduling; EHR-integrated automation vendors",
-                                           "activity":  "Redesign a clinicianÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s day with AI while balancing efficiency \u0026 compliance"
+                                           "activity":  "Redesign a clinicianÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s day with AI while balancing efficiency \u0026 compliance"
                                        },
                                        {
                                            "day":  12,
@@ -105,7 +105,7 @@
                                            "title":  "Digital Trials and Real-World Evidence in US  Clinical Research: Key tech",
                                            "type":  "pdf",
                                            "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758814058711_Digital_Trials_and_Real-World_Evidence_in_US_Clinical_Research.pdf",
-                                           "description":  "Digital trials and real-world evidence (RWE) are transforming U.S. clinical research by enabling remote data capture, broader patient access, and richer insights.\nePRO apps replace paper diaries with secure, 21 CFR 11ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“compliant digital surveys, improving accuracy and patient engagement.\nDecentralized clinical trials (DCTs) use telehealth, eConsent, and home monitoring to cut costs and expand enrollment while maintaining FDA oversight.\nWearables provide continuous, real-time data (heart rate, glucose, activity) but require validation, HIPAA compliance, and strong cybersecurity.\nRegulatory frameworksÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬ÂFDA DHT and DCT guidances, HIPAA, and Part 11ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âdefine data integrity, privacy, and interoperability requirements.\nKey therapeutic areas benefiting most include oncology, cardiology, neurology, and diabetes, where continuous monitoring and patient-reported outcomes drive faster, more inclusive research.",
+                                           "description":  "Digital trials and real-world evidence (RWE) are transforming U.S. clinical research by enabling remote data capture, broader patient access, and richer insights.\nePRO apps replace paper diaries with secure, 21 CFR 11ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œcompliant digital surveys, improving accuracy and patient engagement.\nDecentralized clinical trials (DCTs) use telehealth, eConsent, and home monitoring to cut costs and expand enrollment while maintaining FDA oversight.\nWearables provide continuous, real-time data (heart rate, glucose, activity) but require validation, HIPAA compliance, and strong cybersecurity.\nRegulatory frameworksÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂFDA DHT and DCT guidances, HIPAA, and Part 11ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âdefine data integrity, privacy, and interoperability requirements.\nKey therapeutic areas benefiting most include oncology, cardiology, neurology, and diabetes, where continuous monitoring and patient-reported outcomes drive faster, more inclusive research.",
                                            "createdAt":  "2025-09-25T15:27:38.810Z",
                                            "day":  2
                                        },
@@ -123,13 +123,13 @@
                                            "title":  "Generative AI Trends in Drug Discovery for Healthcare and Pharma",
                                            "type":  "pdf",
                                            "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758819864700_Generative_AI_Models_in_Drug_Discovery.pdf",
-                                           "description":  "Generative AI is rapidly reshaping drug discovery by enabling accurate protein structure prediction, de novo protein and molecule design, and even novel target identification ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â cutting development timelines from years to months. Breakthroughs like AlphaFold3 and RFdiffusion allow scientists to design entirely new proteins, while GPT-like models (e.g., TamGen) and diffusion/variational autoencoder approaches generate potent, diverse drug candidates with high hit rates. Industry adoption is accelerating, with major pharma (Novartis, Roche, Sanofi) forming billion-dollar partnerships with AI-first companies like Insilico Medicine, Generate Biomedicines, and Recursion. The U.S. market is growing at 30ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“38% CAGR through 2030, driven by funding, collaboration, and closed-loop design-test workflows. FDAÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s emerging AI guidance emphasizes transparency and validation, signaling growing regulatory acceptance. Together, these advances mark a shift toward faster, cheaper, and more innovative drug pipelines that expand chemical space and improve the odds of finding first-in-class therapies.",
+                                           "description":  "Generative AI is rapidly reshaping drug discovery by enabling accurate protein structure prediction, de novo protein and molecule design, and even novel target identification ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â cutting development timelines from years to months. Breakthroughs like AlphaFold3 and RFdiffusion allow scientists to design entirely new proteins, while GPT-like models (e.g., TamGen) and diffusion/variational autoencoder approaches generate potent, diverse drug candidates with high hit rates. Industry adoption is accelerating, with major pharma (Novartis, Roche, Sanofi) forming billion-dollar partnerships with AI-first companies like Insilico Medicine, Generate Biomedicines, and Recursion. The U.S. market is growing at 30ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ38% CAGR through 2030, driven by funding, collaboration, and closed-loop design-test workflows. FDAÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s emerging AI guidance emphasizes transparency and validation, signaling growing regulatory acceptance. Together, these advances mark a shift toward faster, cheaper, and more innovative drug pipelines that expand chemical space and improve the odds of finding first-in-class therapies.",
                                            "createdAt":  "2025-09-25T17:04:24.787Z",
                                            "day":  3
                                        },
                                        {
                                            "id":  "c_1758820498586",
-                                           "title":  "ÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Âª Learning Exercise: AI-Driven Compound Screening in Drug Discovery",
+                                           "title":  "ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€šÃ‚Â§Ãƒâ€šÃ‚Âª Learning Exercise: AI-Driven Compound Screening in Drug Discovery",
                                            "type":  "pdf",
                                            "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758820498461______Learning_Exercise__AI-Driven_Compound_Screening_in_Drug_Discovery.pdf",
                                            "description":  "The learning exercise on AI-driven compound screening is designed in three parts to build both knowledge and critical thinking. It begins with short-answer questions that explain how different AI models are applied in drug discovery, such as diffusion models for generating small molecules (with the example of TamGen), VAE combined with active learning for designing kinase inhibitors, and a comparison of GANs and Transformers in terms of their strengths and weaknesses. The second part presents a real-world case study on Rentosertib, an AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis, highlighting how AI pipelines can both discover new targets and generate first-in-class molecules while significantly reducing R\u0026D timelines. The final part encourages reflection, asking learners to evaluate which AI model type they would prioritize for cancer drug discovery and justify their reasoning. Altogether, the exercise blends conceptual understanding, applied case analysis, and critical evaluation, ensuring learners grasp not only the technical aspects but also the real-world impact of AI in accelerating compound screening.",
@@ -147,10 +147,10 @@
                                        },
                                        {
                                            "id":  "c_1758821157973",
-                                           "title":  "Executive Learning Case: PatientÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Device Integration \u0026 Digital Health Innovation",
+                                           "title":  "Executive Learning Case: PatientÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œDevice Integration \u0026 Digital Health Innovation",
                                            "type":  "pdf",
                                            "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758821157918_Executive_Learning_Case__Patient___Device_Integration___Digital_Health_Innovation.pdf",
-                                           "description":  "This executive exercise guides leaders through designing a patientÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“device integration blueprint using smart sensors, edge AI, and digital twins.\nIt combines a mock integration workflow with real-world case studies (Medtronic, Philips, Dexcom, NVIDIA) to ground strategy in practice.\nParticipants explore ROI, interoperability, and regulatory challenges, while evaluating strategic opportunities for investment and partnerships.\nThe activity ends with reflection on future outlooks, positioning leaders to make informed decisions about scaling digital health innovation.",
+                                           "description":  "This executive exercise guides leaders through designing a patientÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œdevice integration blueprint using smart sensors, edge AI, and digital twins.\nIt combines a mock integration workflow with real-world case studies (Medtronic, Philips, Dexcom, NVIDIA) to ground strategy in practice.\nParticipants explore ROI, interoperability, and regulatory challenges, while evaluating strategic opportunities for investment and partnerships.\nThe activity ends with reflection on future outlooks, positioning leaders to make informed decisions about scaling digital health innovation.",
                                            "createdAt":  "2025-09-25T17:25:57.973Z",
                                            "day":  4
                                        },
@@ -159,7 +159,7 @@
                                            "title":  "Data Privacy and Compliance in U.S. Healthcare",
                                            "type":  "pdf",
                                            "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758834819321_Data_Privacy_and_Compliance_in_U.S._Healthcare.pdf",
-                                           "description":  "This learning material explores data privacy and compliance in U.S. healthcare, focusing on key regulations like HIPAA, GDPR (where U.S. entities handle EU data), and FDA digital health rules. It highlights current and emerging trends from the last 2ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“3 years, including cyber threats, regulatory updates, and new enforcement actions. Real-world case examples illustrate how providers, insurers, and digital health startups adapt to these rulesÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âor face penalties when they fail. Overall, it shows how privacy laws and technology shape both the risks and protections for patientsÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ sensitive health data.\n\n",
+                                           "description":  "This learning material explores data privacy and compliance in U.S. healthcare, focusing on key regulations like HIPAA, GDPR (where U.S. entities handle EU data), and FDA digital health rules. It highlights current and emerging trends from the last 2ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ3 years, including cyber threats, regulatory updates, and new enforcement actions. Real-world case examples illustrate how providers, insurers, and digital health startups adapt to these rulesÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âor face penalties when they fail. Overall, it shows how privacy laws and technology shape both the risks and protections for patientsÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ sensitive health data.\n\n",
                                            "createdAt":  "2025-09-25T21:13:39.431Z",
                                            "day":  5
                                        },
@@ -264,7 +264,7 @@
                                        },
                                        {
                                            "id":  "c_day8_11",
-                                           "title":  "Data to Treatment: Signals ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ Insights ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ Actions",
+                                           "title":  "Data to Treatment: Signals ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ Insights ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ Actions",
                                            "type":  "doc",
                                            "url":  "",
                                            "description":  "How raw patient data becomes actions across education, meds, visits, and remote care.",
@@ -305,7 +305,7 @@
                                            "question":  "Under HIPAA, how soon must a covered entity report a breach affecting more than 500 patient records to HHS?",
                                            "options":  [
                                                            "Within 30 days",
-                                                           "Within 60 days ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "Within 60 days ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "Within 72 hours",
                                                            "Within 90 days"
                                                        ],
@@ -317,7 +317,7 @@
                                            "question":  "Which of the following best describes the difference between HIPAA and GDPR in healthcare data protection?",
                                            "options":  [
                                                            "HIPAA applies globally, GDPR applies only in the U.S.",
-                                                           "HIPAA covers U.S. health entities and PHI; GDPR applies to any personal data of EU residents, worldwide ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "HIPAA covers U.S. health entities and PHI; GDPR applies to any personal data of EU residents, worldwide ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "Both only apply to insurance companies",
                                                            "GDPR applies only to medical devices"
                                                        ],
@@ -326,11 +326,11 @@
                                        },
                                        {
                                            "id":  "q_1758850509924",
-                                           "question":  "In 2023, what was the average cost of a healthcare data breach, according to IBMÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s Cost of a Data Breach report?",
+                                           "question":  "In 2023, what was the average cost of a healthcare data breach, according to IBMÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s Cost of a Data Breach report?",
                                            "options":  [
                                                            "$2.1 million",
                                                            "$5.7 million",
-                                                           "$10.93 million ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "$10.93 million ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "$20 million"
                                                        ],
                                            "answer":  null,
@@ -338,11 +338,11 @@
                                        },
                                        {
                                            "id":  "q_1758850509936",
-                                           "question":  "A U.S. telehealth app shares usersÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ mental health data with advertisers without consent. Which regulator is most likely to enforce penalties if the app is not a HIPAA-covered entity?",
+                                           "question":  "A U.S. telehealth app shares usersÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ mental health data with advertisers without consent. Which regulator is most likely to enforce penalties if the app is not a HIPAA-covered entity?",
                                            "options":  [
                                                            "FDA",
                                                            "HHS OCR",
-                                                           "FTC (Federal Trade Commission) ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "FTC (Federal Trade Commission) ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "CMS"
                                                        ],
                                            "answer":  null,
@@ -354,7 +354,7 @@
                                            "options":  [
                                                            "Warby Parker (2025)",
                                                            "Cerebral (2023)",
-                                                           "Change Healthcare (2024) ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "Change Healthcare (2024) ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "Holy Redeemer Family Medicine (2024)"
                                                        ],
                                            "answer":  null,
@@ -366,7 +366,7 @@
                                            "options":  [
                                                            "56%",
                                                            "72%",
-                                                           "86% ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "86% ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "94%"
                                                        ],
                                            "answer":  null,
@@ -378,7 +378,7 @@
                                            "options":  [
                                                            "Centralizes all patient data into a single national cloud",
                                                            "Eliminates the need for hospital IT staff",
-                                                           "Processes data locally to reduce latency and enhance privacy ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "Processes data locally to reduce latency and enhance privacy ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "Replaces the need for medical imaging equipment"
                                                        ],
                                            "answer":  null,
@@ -389,7 +389,7 @@
                                            "question":  "What is a common use case of AI in diagnostic imaging according to the report?",
                                            "options":  [
                                                            "Generating synthetic patient data for training models",
-                                                           "Automatically screening for lung nodules, hemorrhages, or breast cancers ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "Automatically screening for lung nodules, hemorrhages, or breast cancers ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "Replacing radiologists entirely",
                                                            "Storing radiology scans in blockchain networks"
                                                        ],
@@ -398,11 +398,11 @@
                                        },
                                        {
                                            "id":  "q_1758850781547",
-                                           "question":  "Which factor is cited as a key driver for telehealthÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s continued growth post-pandemic?",
+                                           "question":  "Which factor is cited as a key driver for telehealthÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s continued growth post-pandemic?",
                                            "options":  [
-                                                           "PatientsÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ reluctance to use video calls",
+                                                           "PatientsÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ reluctance to use video calls",
                                                            "Reinstatement of strict geographic restrictions",
-                                                           "High patient satisfaction and expanded reimbursement policies ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "High patient satisfaction and expanded reimbursement policies ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "Elimination of Medicare coverage for telehealth"
                                                        ],
                                            "answer":  null,
@@ -413,7 +413,7 @@
                                            "question":  "According to the document, what is one of the biggest challenges for hospitals adopting AI diagnostics?",
                                            "options":  [
                                                            "Lack of available AI models",
-                                                           "Need for local validation and integration into workflows ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "Need for local validation and integration into workflows ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "Overregulation preventing use of AI",
                                                            "Patients refusing to allow AI use in care"
                                                        ],
@@ -507,7 +507,7 @@
                                        },
                                        {
                                            "id":  "q_1758851091633",
-                                           "question":  "What trend is expected over the next 5ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“10 years in medical IoT?",
+                                           "question":  "What trend is expected over the next 5ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ10 years in medical IoT?",
                                            "options":  [
                                                            "Decline in wearable adoption",
                                                            "Replacement of sensors with manual monitoring"
@@ -520,7 +520,7 @@
                                            "question":  "Which of the following best describes the role of Variational Autoencoders (VAEs) in drug discovery?",
                                            "options":  [
                                                            "They pit two networks against each other to generate molecules.",
-                                                           "They encode molecules into a latent space for interpolation and efficient sampling. ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "They encode molecules into a latent space for interpolation and efficient sampling. ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "They denoise random noise to create protein structures.",
                                                            "They analyze multi-omics data to identify new disease pathways."
                                                        ],
@@ -532,7 +532,7 @@
                                            "question":  "What was a key achievement of RFdiffusion in protein design?",
                                            "options":  [
                                                            "Predicting protein folding with higher accuracy than AlphaFold2.",
-                                                           "Designing novel protein backbones from random noise with experimental validation. ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "Designing novel protein backbones from random noise with experimental validation. ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "Using GANs to create small-molecule inhibitors.",
                                                            "Applying reinforcement learning to pathway modeling."
                                                        ],
@@ -545,7 +545,7 @@
                                            "options":  [
                                                            "It integrates GANs and graph neural networks for molecule generation.",
                                                            "It is a diffusion-based model fine-tuned for protein backbone generation.",
-                                                           "It is a target-aware GPT-like transformer that produced active TB-protease inhibitors. ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "It is a target-aware GPT-like transformer that produced active TB-protease inhibitors. ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "It is a VAE that generated kinase inhibitors with an 8/9 hit rate."
                                                        ],
                                            "answer":  null,
@@ -556,7 +556,7 @@
                                            "question":  "Which AI-discovered drug reached Phase II trials as a TNIK inhibitor for idiopathic pulmonary fibrosis (IPF)?",
                                            "options":  [
                                                            "INS018-055",
-                                                           "Rentosertib ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "Rentosertib ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "REC-994",
                                                            "MolT5"
                                                        ],
@@ -567,9 +567,9 @@
                                            "id":  "q_1758851170600",
                                            "question":  "According to market projections, what is the expected compound annual growth rate (CAGR) for the AI-driven drug discovery market through 2030?",
                                            "options":  [
-                                                           "5ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“10%",
-                                                           "15ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“20%",
-                                                           "30ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“38% ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦",
+                                                           "5ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ10%",
+                                                           "15ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ20%",
+                                                           "30ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ38% ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
                                                            "Over 50%"
                                                        ],
                                            "answer":  null,
@@ -597,7 +597,7 @@
                                        {
                                            "day":  3,
                                            "topic":  "BIM \u0026 Digital Twins with Lifecycle ROI",
-                                           "takeaways":  "ROI from designÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢buildÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢operate; clash detection; lifecycle cost; sustainability",
+                                           "takeaways":  "ROI from designÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢buildÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢operate; clash detection; lifecycle cost; sustainability",
                                            "activity":  "Digital Twin ROI map + lifecycle cost mini demo"
                                        },
                                        {
@@ -622,7 +622,7 @@
                                            "day":  7,
                                            "topic":  "AR/VR \u0026 Extended Reality for Design and Field Execution",
                                            "takeaways":  "Immersive collaboration; on-site AR overlays; VR-based safety training; reduced rework \u0026 faster approvals; Tech: Trimble XR10, Unity Reflect, HoloBuilder, Meta Quest for Business",
-                                           "activity":  "Build a business case for immersive visualizationÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âquantify savings from faster approvals and rework avoidance"
+                                           "activity":  "Build a business case for immersive visualizationÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âquantify savings from faster approvals and rework avoidance"
                                        },
                                        {
                                            "day":  8,
@@ -633,14 +633,14 @@
                                        {
                                            "day":  9,
                                            "topic":  "Generative Design \u0026 Autonomous Construction",
-                                           "takeaways":  "Generative design for cost/material/performance; AI scheduling \u0026 resource allocation; robotics coordination; humanÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“machine collaboration; Tech: Autodesk Forma, ALICE, Dusty Robotics, Spacemaker AI",
+                                           "takeaways":  "Generative design for cost/material/performance; AI scheduling \u0026 resource allocation; robotics coordination; humanÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œmachine collaboration; Tech: Autodesk Forma, ALICE, Dusty Robotics, Spacemaker AI",
                                            "activity":  "Compare human vs AI-generated designs and calculate cost/time deltas"
                                        },
                                        {
                                            "day":  10,
                                            "topic":  "IoT, Edge Computing \u0026 Connected Job Sites",
                                            "takeaways":  "IoT for safety/structural/equipment monitoring; edge analytics; AI dashboards for predictive maintenance; build a digital nervous system; Tech: Triax Spot-r, Pillar, MachineMetrics, Trimble WorksOS",
-                                           "activity":  "Predictive vs reactive maintenanceÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âcalculate uptime gains and safety incident reduction"
+                                           "activity":  "Predictive vs reactive maintenanceÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âcalculate uptime gains and safety incident reduction"
                                        },
                                        {
                                            "day":  11,
@@ -652,7 +652,7 @@
                                            "day":  12,
                                            "topic":  "The Frontier: Quantum, Robotics Swarms \u0026 Autonomous Ecosystems",
                                            "takeaways":  "Quantum for supply chain \u0026 simulation; swarm robotics for transport/inspection; synthetic environments for scenario testing; autonomous sites powered by AI, robotics, and twins; Tech: NVIDIA Omniverse, ETH Zurich RFL, Built Robotics 2.0, SandboxAQ",
-                                           "activity":  "Future ROI scenario planningÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âmodel savings/productivity in a 2030 autonomous site vision"
+                                           "activity":  "Future ROI scenario planningÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âmodel savings/productivity in a 2030 autonomous site vision"
                                        }
                                    ],
                        "content":  [
@@ -697,7 +697,7 @@
                                            "title":  "ROI Models for Robotics, Drones, and IoT in U.S. Construction",
                                            "type":  "pdf",
                                            "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758859204402_Robotics__Drones___IoT_in_U.S._Construction__ROI_Trends__2023___2025__and_Future_Projections.pdf",
-                                           "description":  "Robotics, Drones \u0026 IoT in U.S. Construction: ROI Trends (2023ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“2025) and Future Projections",
+                                           "description":  "Robotics, Drones \u0026 IoT in U.S. Construction: ROI Trends (2023ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ2025) and Future Projections",
                                            "createdAt":  "2025-09-26T04:00:06.476Z",
                                            "day":  4
                                        },
@@ -706,7 +706,7 @@
                                            "title":  "3D Printing and Modular Construction: ROI, Speed-to-Market, and Waste Reduction",
                                            "type":  "pdf",
                                            "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758860064035_3D_Printing_and_Modular_Construction__ROI__Speed__Waste_Reduction__and_Standardization.pdf",
-                                           "description":  "Robotics, Drones \u0026 IoT in U.S. Construction: ROI Trends (2023ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“2025) and Future Projections",
+                                           "description":  "Robotics, Drones \u0026 IoT in U.S. Construction: ROI Trends (2023ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ2025) and Future Projections",
                                            "createdAt":  "2025-09-26T04:14:24.666Z",
                                            "day":  5
                                        },
@@ -748,10 +748,10 @@
                                        },
                                        {
                                            "id":  "c_1758898832872",
-                                           "title":  "Learning Activity / Case Study: ROI Scenario ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Modular Hospital Construction with 3-Month Faster Delivery",
+                                           "title":  "Learning Activity / Case Study: ROI Scenario ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Modular Hospital Construction with 3-Month Faster Delivery",
                                            "type":  "pdf",
                                            "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758898832063_Learning_Activity___Case_Study__ROI_Scenario_____Modular_Hospital_Construction_with_3-Month_Faster_Delivery.pdf",
-                                           "description":  "Learning Activity / Case Study: ROI Scenario ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Modular Hospital Construction with 3-Month Faster Delivery",
+                                           "description":  "Learning Activity / Case Study: ROI Scenario ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Modular Hospital Construction with 3-Month Faster Delivery",
                                            "createdAt":  "2025-09-26T15:00:32.872Z",
                                            "day":  5
                                        }
@@ -781,7 +781,7 @@
                                            "day":  3,
                                            "topic":  "Tokenization, Blockchain \u0026 Settlement Innovation",
                                            "takeaways":  "Instant settlement; tokenization; smart contracts; regulatory readiness",
-                                           "activity":  "Liquidity unlock worksheet: T+2 ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ T+0; AUM growth from fractionalization"
+                                           "activity":  "Liquidity unlock worksheet: T+2 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ T+0; AUM growth from fractionalization"
                                        },
                                        {
                                            "day":  4,
@@ -792,7 +792,7 @@
                                        {
                                            "day":  5,
                                            "topic":  "Hyper-Personalization \u0026 Client Growth",
-                                           "takeaways":  "Retention ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ LTV; tech to watch; wealth mgmt ROI; case study",
+                                           "takeaways":  "Retention ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ LTV; tech to watch; wealth mgmt ROI; case study",
                                            "activity":  "Client Churn Calculator: impact of -5% churn"
                                        },
                                        {
@@ -811,13 +811,13 @@
                                            "day":  8,
                                            "topic":  "Quantum Computing, Predictive Finance \u0026 Risk Modeling",
                                            "takeaways":  "Quantum finance overview (qubits, annealing, Monte Carlo acceleration); portfolio optimization; post-quantum crypto; predictive finance \u0026 uncertainty quantification",
-                                           "activity":  "Quantum Value Scenario: compare a 3-year portfolio under classical vs quantum risk simulationÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âaccuracy, risk exposure, ROI confidence"
+                                           "activity":  "Quantum Value Scenario: compare a 3-year portfolio under classical vs quantum risk simulationÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âaccuracy, risk exposure, ROI confidence"
                                        },
                                        {
                                            "day":  9,
                                            "topic":  "DeFi 2.0 \u0026 Smart Liquidity Networks",
                                            "takeaways":  "DeFi 2.0 protocols; liquidity-as-a-service; on-chain treasury; RWA tokenization \u0026 compliance; cross-chain interoperability",
-                                           "activity":  "Liquidity Flow Map: simulate a $100M multi-chain poolÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âmeasure gas cost, tx speed, collateral yield improvement"
+                                           "activity":  "Liquidity Flow Map: simulate a $100M multi-chain poolÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âmeasure gas cost, tx speed, collateral yield improvement"
                                        },
                                        {
                                            "day":  10,
@@ -829,13 +829,13 @@
                                            "day":  11,
                                            "topic":  "Sustainable Finance, ESG Data \u0026 Impact Tech",
                                            "takeaways":  "Carbon accounting automation; ESG scoring APIs \u0026 satellite data; tokenized carbon credits \u0026 verification; climate risk modeling",
-                                           "activity":  "Green ROI Calculator: estimate returns from digitizing ESG reportingÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âlower audit cost, higher investor trust, regulatory alignment"
+                                           "activity":  "Green ROI Calculator: estimate returns from digitizing ESG reportingÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âlower audit cost, higher investor trust, regulatory alignment"
                                        },
                                        {
                                            "day":  12,
                                            "topic":  "Future Financial Infrastructure: Web3, Digital Identity \u0026 Embedded Finance",
-                                           "takeaways":  "Decentralized digital identity (DID); embedded payments \u0026 BaaS; Web3 clearing/settlement; bridging legacy to nextÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Ëœgen rails",
-                                           "activity":  "Future Readiness Map: assess readiness level (1ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“5) for Web3/embedded finance; define 3 pilot actions for 12 months"
+                                           "takeaways":  "Decentralized digital identity (DID); embedded payments \u0026 BaaS; Web3 clearing/settlement; bridging legacy to nextÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“gen rails",
+                                           "activity":  "Future Readiness Map: assess readiness level (1ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ5) for Web3/embedded finance; define 3 pilot actions for 12 months"
                                        }
                                    ],
                        "content":  [
@@ -904,7 +904,7 @@
                                        },
                                        {
                                            "id":  "c_1758913527294",
-                                           "title":  "Activity/Case: Liquidity Unlock Worksheet - T+2 ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ T+0 \u0026 AUM Growth from Fractionalization",
+                                           "title":  "Activity/Case: Liquidity Unlock Worksheet - T+2 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ T+0 \u0026 AUM Growth from Fractionalization",
                                            "type":  "pdf",
                                            "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758913526577_Liquidity_Unlock_Worksheet__T_2_____T_0_Settlement___AUM_Growth_from_Fractionalization.pdf",
                                            "description":  "Learning Framework: Three Core Use Cases\nBased on the document\u0027s analysis of blockchain transforming finance through instant settlement and asset fractionalization.\n",
@@ -967,13 +967,13 @@
                                            "day":  5,
                                            "topic":  "ESG Tech \u0026 Sustainable Value Creation",
                                            "takeaways":  "SEC climate rules; tenant ESG requirements; green rent premium; ESG ROI canvas",
-                                           "activity":  "Map one buildingÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s ESG metrics ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ estimate rent/valuation impact"
+                                           "activity":  "Map one buildingÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s ESG metrics ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ estimate rent/valuation impact"
                                        },
                                        {
                                            "day":  6,
                                            "topic":  "Proptech, Tenant Experience \u0026 Revenue Growth",
                                            "takeaways":  "Tenant apps, flex space, CRE-as-a-service; churn reduction \u0026 yield models",
-                                           "activity":  "Identify tenant pain point ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ sketch tech to improve retention"
+                                           "activity":  "Identify tenant pain point ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ sketch tech to improve retention"
                                        },
                                        {
                                            "day":  7,
@@ -988,7 +988,7 @@
                                            "title":  "State of CRE Tech 2025 and ROI Imperatives in Smart Buildings",
                                            "type":  "pdf",
                                            "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758944023035_State_of_CRE_Tech_2025_and_ROI_Imperatives.pdf",
-                                           "description":  "This report breaks down how CRE tech in 2025 is transforming real estate through smart buildings, AI, tokenization, and ESG-driven adoption. The CRE Tech ROI Pyramid highlights quick efficiency wins, mid-term analytics, and long-term strategic value. U.S. leaders show that tech delivers cost savings, compliance, and tenant satisfactionÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âmaking it a core ROI driver, not just a cost.",
+                                           "description":  "This report breaks down how CRE tech in 2025 is transforming real estate through smart buildings, AI, tokenization, and ESG-driven adoption. The CRE Tech ROI Pyramid highlights quick efficiency wins, mid-term analytics, and long-term strategic value. U.S. leaders show that tech delivers cost savings, compliance, and tenant satisfactionÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âmaking it a core ROI driver, not just a cost.",
                                            "createdAt":  "2025-09-27T03:33:44.425Z",
                                            "day":  1
                                        },
@@ -1024,7 +1024,7 @@
                                            "title":  "IoT, Smart Buildings, and Digital Twins in Real  Estate ",
                                            "type":  "pdf",
                                            "url":  "https://dwvewpoqtneibwmtcioi.supabase.co/storage/v1/object/public/training/1758946664280_IoT__Smart_Buildings__and_Digital_Twins_in_Real_Estate.pdf",
-                                           "description":  "The document explains how IoT, smart buildings, and digital twins are transforming real estate by cutting energy use, lowering costs, boosting tenant satisfaction, and raising property value. IoT sensors feed real-time data into smart systems and digital twins (virtual replicas of buildings), enabling predictive maintenance, energy optimization, and personalized comfort. Case studies show savings of 15ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“80% on energy and major reductions in downtime. The global smart building and digital twin markets are booming (hundreds of billions by 2030), driven by stricter energy regulations and ESG demands. Overall, these technologies deliver strong ROI, improve sustainability, and reduce risks, making connected, data-driven buildings the future of real estate",
+                                           "description":  "The document explains how IoT, smart buildings, and digital twins are transforming real estate by cutting energy use, lowering costs, boosting tenant satisfaction, and raising property value. IoT sensors feed real-time data into smart systems and digital twins (virtual replicas of buildings), enabling predictive maintenance, energy optimization, and personalized comfort. Case studies show savings of 15ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ80% on energy and major reductions in downtime. The global smart building and digital twin markets are booming (hundreds of billions by 2030), driven by stricter energy regulations and ESG demands. Overall, these technologies deliver strong ROI, improve sustainability, and reduce risks, making connected, data-driven buildings the future of real estate",
                                            "createdAt":  "2025-09-27T04:17:45.279Z",
                                            "day":  3
                                        },
@@ -1067,7 +1067,7 @@
                        "modules":  [
                                        {
                                            "takeaways":  "Silicon bottlenecks; compute sovereignty; energy/supply constraints; post-GPU architectures overview",
-                                           "activity":  "Case: NVIDIA vs challengers (Tenstorrent, Cerebras, Graphcore) Ã¢â‚¬â€ analyze ecosystem moat",
+                                           "activity":  "Case: NVIDIA vs challengers (Tenstorrent, Cerebras, Graphcore) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â analyze ecosystem moat",
                                            "day":  1,
                                            "topic":  "The End of the GPU Era: Why Compute Is the New Gold"
                                        },
@@ -1084,20 +1084,20 @@
                                            "topic":  "Photonic \u0026 Optical Processors: Computing at the Speed of Light"
                                        },
                                        {
-                                           "takeaways":  "Von Neumann bottleneck; RRAM/PCM; analog AI; compiler mapping (PyTorchÃ¢â€ â€™hardware)",
-                                           "activity":  "Exercise: Compare energy/speed metricsÃ¢â‚¬â€GPU vs IMC architecture",
+                                           "takeaways":  "Von Neumann bottleneck; RRAM/PCM; analog AI; compiler mapping (PyTorchÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢hardware)",
+                                           "activity":  "Exercise: Compare energy/speed metricsÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬ÂGPU vs IMC architecture",
                                            "day":  4,
                                            "topic":  "In-Memory Computing \u0026 Analog Logic: Breaking the Memory Wall"
                                        },
                                        {
-                                           "takeaways":  "AIÃ¢â‚¬â€œquantum interfaces; cryogenic inference; IBM/Rigetti/PsiQuantum hybrid visions; PQC for AI",
+                                           "takeaways":  "AIÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“quantum interfaces; cryogenic inference; IBM/Rigetti/PsiQuantum hybrid visions; PQC for AI",
                                            "activity":  "Group debate: Will AI drive quantum faster than scientific computing?",
                                            "day":  5,
                                            "topic":  "Quantum-Compatible \u0026 Cryogenic AI Chips"
                                        },
                                        {
                                            "takeaways":  "AI-generated layouts; Synopsys DSO.ai, Cadence Cerebrus, DeepMind; time-to-market \u0026 IP",
-                                           "activity":  "Workshop: CaseÃ¢â‚¬â€how AI cut Google TPU design time by 6 months",
+                                           "activity":  "Workshop: CaseÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âhow AI cut Google TPU design time by 6 months",
                                            "day":  6,
                                            "topic":  "AI-Driven Chip Design \u0026 Generative Silicon"
                                        },
@@ -1118,7 +1118,7 @@
                    {
                        "id":  "quantum-edge",
                        "name":  "Quantum Edge Intelligence",
-                       "description":  "Hybrid AIÃ¢â‚¬â€œquantum edge systems, quantum sensors, and quantum-secure networks",
+                       "description":  "Hybrid AIÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“quantum edge systems, quantum sensors, and quantum-secure networks",
                        "modules":  [
                                        {
                                            "takeaways":  "Edge intelligence frontier; quantum-enhanced decisions/security; shift to quantum-accelerated nodes; key players (Rigetti, Pasqal, Quantinuum, Aliro, Azure Quantum)",
@@ -1130,11 +1130,11 @@
                                            "takeaways":  "Hybrid optimization for routing/logistics/resources; annealing \u0026 variational circuits; telecom/defense/smart city use cases",
                                            "activity":  "Case: Simulate edge logistics optimization (classical vs hybrid quantum) using Qiskit or PennyLane",
                                            "day":  2,
-                                           "topic":  "Hybrid Quantumâ€“AI Optimization: Smarter Networks, Faster Decisions"
+                                           "topic":  "Hybrid QuantumÃ¢â‚¬â€œAI Optimization: Smarter Networks, Faster Decisions"
                                        },
                                        {
                                            "takeaways":  "Entanglement-based sensing; atomic/photonic/NV-diamond sensors; integration into edge IoT; companies (Qnami, QphoX, Infleqtion, Honeywell)",
-                                           "activity":  "Case: Defense or energy monitoring with quantum sensorsâ€”analyze real-time fidelity/impact",
+                                           "activity":  "Case: Defense or energy monitoring with quantum sensorsÃ¢â‚¬â€analyze real-time fidelity/impact",
                                            "day":  3,
                                            "topic":  "Quantum Sensors at the Edge: Measuring the Invisible"
                                        },
@@ -1158,7 +1158,7 @@
                                        },
                                        {
                                            "takeaways":  "Early movers landscape; verticals (logistics, defense, telecom, healthcare, cities); deep-tech eval frameworks; global programs (CHIPS, EU Flagship, China initiatives)",
-                                           "activity":  "Capstone: Build a Quantum Edge Investment Thesis with 3â€“5 companies/technologies",
+                                           "activity":  "Capstone: Build a Quantum Edge Investment Thesis with 3Ã¢â‚¬â€œ5 companies/technologies",
                                            "day":  7,
                                            "topic":  "Investing in the Quantum Edge Economy"
                                        }
@@ -1189,7 +1189,7 @@
                                        },
                                        {
                                            "takeaways":  "AIOps, predictive maintenance, AI cooling/load balancing; sensor-control loops; examples (DeepMind 40% cooling cut, Equinix/Schneider autonomous edge)",
-                                           "activity":  "Case: Analyze a self-healing DC—sensor inputs to adaptive control responses",
+                                           "activity":  "Case: Analyze a self-healing DCâ€”sensor inputs to adaptive control responses",
                                            "day":  3,
                                            "topic":  "Self-Adaptive Data Centers"
                                        },
@@ -1212,7 +1212,7 @@
                                            "topic":  "Simulation \u0026 Orchestration: The Control Brain"
                                        },
                                        {
-                                           "takeaways":  "Ecosystem (Siemens, NVIDIA, Honeywell, GE Vernova, Bentley, ABB); growth drivers; PPPs \u0026 national initiatives; ROI frameworks (capex→opex, sustainability-linked financing)",
+                                           "takeaways":  "Ecosystem (Siemens, NVIDIA, Honeywell, GE Vernova, Bentley, ABB); growth drivers; PPPs \u0026 national initiatives; ROI frameworks (capexâ†’opex, sustainability-linked financing)",
                                            "activity":  "Capstone: Draft Autonomous Infrastructure Investment Thesis across energy/ports/construction/logistics",
                                            "day":  7,
                                            "topic":  "Investing in the Self-Managing Infrastructure Economy"
@@ -1230,7 +1230,48 @@
                        "name":  "Synthetic Cognition \u0026 Secure Compute",
                        "description":  "Confidential AI, zero-trust pipelines, federated learning, and governance chips",
                        "modules":  [
-
+                                       {
+                                           "takeaways":  "AI trust gaps; synthetic cognition (reason/verify/self-regulate); hardware roots of trust (TPM/TEE); confidential computing (SGX/SEV/H100)",
+                                           "activity":  "Case: Analyze an AI breach and map how secure compute would have prevented it",
+                                           "day":  1,
+                                           "topic":  "The Trust Crisis in AI: Why Secure Cognition Matters"
+                                       },
+                                       {
+                                           "takeaways":  "Encrypted model execution; TEEs/enclaves/homomorphic; Fortanix/Azure Confidential/NVIDIA Hopper; regulated sector mandates",
+                                           "activity":  "Simulation: Secure inference pipeline — encrypt → enclave execute → verify",
+                                           "day":  2,
+                                           "topic":  "AI Confidential Computing: Running Intelligence in Locked Boxes"
+                                       },
+                                       {
+                                           "takeaways":  "Zero-trust pipelines; provenance \u0026 attestation; blockchain attestations, watermarking, trust APIs; cryptographically-verified AI supply chains",
+                                           "activity":  "Design: Zero-trust architecture for drones or smart city workloads",
+                                           "day":  3,
+                                           "topic":  "Zero-Trust AI Infrastructure: The Self-Verifying Network"
+                                       },
+                                       {
+                                           "takeaways":  "Federated learning; secure aggregation \u0026 differential privacy; quantum-safe crypto; players (Duality, SandboxAQ, Zama, Google FAR)",
+                                           "activity":  "Simulation: Federated training round using TFF or Flower across clients",
+                                           "day":  4,
+                                           "topic":  "Federated \u0026 Quantum-Safe Learning"
+                                       },
+                                       {
+                                           "takeaways":  "Why synthetic data; GAN/diffusion/simulators; validation for fidelity/fairness; startups (Mostly AI, Gretel, Datagen)",
+                                           "activity":  "Case: Generate and validate a synthetic dataset—measure bias/privacy gain",
+                                           "day":  5,
+                                           "topic":  "Synthetic Data: The Safe Fuel for AI Evolution"
+                                       },
+                                       {
+                                           "takeaways":  "Hardware-enforced ethics: explainability, bias detection, policy; research (AI conscience, explainable accelerators, audit trails); DARPA/Intel Trust Authority",
+                                           "activity":  "Thought experiment: Design a Governance Chip with embedded rules",
+                                           "day":  6,
+                                           "topic":  "AI Governance Chips \u0026 Cognitive Firewalls"
+                                       },
+                                       {
+                                           "takeaways":  "Investment frontier: confidential AI, federated, post-quantum crypto, synthetic data; evaluation frameworks; policy drivers (EU AI Act, NIST)",
+                                           "activity":  "Capstone: Build a Secure Cognition Investment Thesis with 3–5 companies",
+                                           "day":  7,
+                                           "topic":  "Investing in the Age of Trusted Autonomy"
+                                       }
                                    ],
                        "content":  [
 
