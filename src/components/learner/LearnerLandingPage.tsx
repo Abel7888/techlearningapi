@@ -65,6 +65,30 @@ const sectors = [
   },
 ];
 
+// Additional Training Programs
+const extraTrainings = [
+  {
+    id: "sltm-roi",
+    title: "Emerging Technologies ROI for Supply Chain, Logistics, Transportation, and Manufacturing",
+    subtitle: "Goal: Build technical, strategic, ROI-driven fluency",
+    description:
+      "How emerging technologies reshape operations, cost efficiency, and resilience across supply chain, logistics, transportation, and manufacturing.",
+    icon: BookOpen,
+    gradient: "bg-gradient-to-r from-amber-500 to-orange-600",
+    thumb: "📦",
+  },
+  {
+    id: "risk-frameworks",
+    title: "Risk Management & Emerging Technology Frameworks for Modern Enterprises",
+    subtitle: "Goal: Master assessment, governance, and compliance",
+    description:
+      "Use leading frameworks and standards to assess, manage, and govern risk when adopting AI, blockchain, quantum, and automation.",
+    icon: ShieldCheck,
+    gradient: "bg-gradient-to-r from-slate-600 to-indigo-700",
+    thumb: "🧩",
+  },
+];
+
 // Emefintech: New Sectors & Research Areas
 const emeSectors = [
   {
@@ -168,6 +192,48 @@ export function LearnerLandingPage() {
             PropTech (Real Estate), and Construction. Explore practical insights, frameworks, and case studies designed to help you
             understand and apply the latest innovations.
           </p>
+        </div>
+      </section>
+
+      {/* Featured Training Programs */}
+      <section className="space-y-8">
+        <div className="text-center">
+          <h2 className="text-4xl font-bold text-foreground mb-2">Featured Training Programs</h2>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {extraTrainings.map((s) => {
+            const IconComponent = s.icon;
+            return (
+              <Link key={s.id} to={`/track/${s.id}`} className="block">
+                <Card className="group cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border-2 hover:border-primary/20 overflow-hidden">
+                  <div className={`h-24 ${s.gradient} flex items-center justify-between px-6`}>
+                    <div className="text-5xl" aria-hidden>{s.thumb}</div>
+                    <div className="opacity-40">
+                      <IconComponent className="w-16 h-16 text-white" />
+                    </div>
+                  </div>
+                  <CardHeader className="pb-3">
+                    <CardTitle className="text-xl flex items-center gap-2">{s.title}</CardTitle>
+                    <CardDescription className="text-sm leading-relaxed">{s.subtitle}</CardDescription>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <p className="text-sm text-muted-foreground leading-relaxed mb-3">{s.description}</p>
+                    <div className="space-y-3 text-sm text-muted-foreground">
+                      <div className="flex items-center gap-2"><BookOpen className="w-4 h-4" /> Training modules, quizzes, reports, and more</div>
+                      <div className="flex items-center gap-2"><Sparkles className="w-4 h-4" /> Latest trends & insights</div>
+                      <div className="flex items-center gap-2"><Brain className="w-4 h-4" /> Hands-on AI agent demos</div>
+                      <div className="flex items-center gap-2"><ShieldCheck className="w-4 h-4" /> Practical, ROI-focused guidance</div>
+                    </div>
+                    <div className="mt-4">
+                      <Button className="w-full group-hover:bg-primary/90" size="sm">
+                        Explore Training <ChevronRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
