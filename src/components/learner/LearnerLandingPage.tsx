@@ -179,7 +179,7 @@ export function LearnerLandingPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Glass Navigation */}
-      <header className={`sticky top-0 z-50 transition-all ${scrolled ? 'glass-nav shadow-md' : 'bg-transparent'} `}>
+      <header className="sticky top-0 z-50 transition-all glass-nav shadow-md">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center gap-2 text-xl font-bold">
@@ -209,19 +209,19 @@ export function LearnerLandingPage() {
           <div className="pointer-events-none absolute -bottom-40 -right-40 w-[520px] h-[520px] rounded-full blur-3xl opacity-25 bg-black/20" />
         </div>
         <div className="container mx-auto px-6 py-24 md:py-28 grid md:grid-cols-12 gap-10 items-center">
-          <div className="md:col-span-7 text-white">
+          <div className="md:col-span-7 text-black">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm font-medium mb-6 fade-in-up" style={{animationDelay:'0.3s'}}>
               <GraduationCap className="w-4 h-4" /> Learn What Matters
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight tracking-tight fade-in-up" style={{animationDelay:'0.6s'}}>
               Master Skills That Actually Matter
             </h1>
-            <p className="mt-6 text-lg md:text-2xl text-white/80 max-w-2xl fade-in-up" style={{animationDelay:'0.9s'}}>
-              Join 50,000+ professionals learning from industry experts with practical, ROI-focused training.
+            <p className="mt-6 text-lg md:text-2xl text-black/80 max-w-2xl fade-in-up" style={{animationDelay:'0.9s'}}>
+              Join us as we explore the world of emerging technologies together. Feel free to browse topics and interests across sectors.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4 fade-in-up" style={{animationDelay:'1.2s'}}>
               <Link to="/learner"><Button size="lg" className="h-12 px-6 bg-gradient-to-r from-white/90 to-white text-black hover:from-white hover:to-white">Start Learning Free</Button></Link>
-              <Button size="lg" variant="outline" className="h-12 px-6 border-white/60 text-white hover:bg-white/10" onClick={() => navigate('/track/healthcare')}>
+              <Button size="lg" variant="outline" className="h-12 px-6 border-black/40 text-black hover:bg-black/5" onClick={() => navigate('/track/healthcare')}>
                 <span className="mr-2">▶</span> Watch Demo
               </Button>
             </div>
