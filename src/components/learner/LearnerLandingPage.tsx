@@ -259,9 +259,9 @@ export function LearnerLandingPage() {
       <section className="bg-gradient-to-r from-[#1a1a2e] to-[#16213e] text-white">
         <div className="container mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
           {[
-            { label: 'Active Learners', value: '50K+' },
-            { label: 'Courses', value: '137' },
-            { label: 'Success Rate', value: '94%' },
+            { label: 'Growing', value: 'Active learners' },
+            { label: '100+ reports & insights', value: 'Learning material' },
+            { label: 'Goal: Learn emerging tech', value: 'Success focus' },
             { label: 'Avg Rating', value: '4.8★' },
           ].map((s) => (
             <div key={s.label} className="transition-transform hover:scale-[1.02]">
@@ -436,10 +436,12 @@ export function LearnerLandingPage() {
           </div>
           <div className="space-y-2">
             <h3 className="text-2xl font-bold">About Abel Assefa</h3>
-            <p className="text-muted-foreground">I originally built this platform as a personal project—something to keep me grounded and continually learning in the fast-changing world of emerging technologies. Over time, I realized that what helped me stay informed could be just as valuable for others. 
-Here, you’ll find practical training modules, curated research, and straightforward tools to explore innovation across healthcare, finance, real estate (PropTech), and construction. My hope is that it becomes a resource for anyone who wants to stay ahead of the curve while keeping things approachable and actionable.</p>
+            <p className="text-muted-foreground">I originally built this platform as a personal project—something to keep me grounded and continually learning in the fast-changing world of emerging technologies. Over time, I realized that what helped me stay informed could be just as valuable for others. Here, you’ll find practical training modules, curated research, and straightforward tools to explore innovation across healthcare, finance, real estate (PropTech), and construction. My hope is that it becomes a resource for anyone who wants to stay ahead of the curve while keeping things approachable and actionable.</p>
             <div className="pt-2">
-              <a href="https://buymeacoffee.com/datashieldhealthcare" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center px-4 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">Buy me a coffee ☕</a>
+              <a href="https://buymeacoffee.com/datashieldhealthcare" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-amber-400 to-orange-500 text-black shadow hover:shadow-lg transition-all">
+                <span>☕</span>
+                <span className="font-semibold">Buy me a coffee</span>
+              </a>
             </div>
           </div>
         </div>
