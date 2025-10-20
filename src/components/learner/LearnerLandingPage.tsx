@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
@@ -134,6 +134,9 @@ const emeSectors = [
 export function LearnerLandingPage() {
   const navigate = useNavigate();
   const [apiOk, setApiOk] = useState<null | boolean>(null);
+  const [scrolled, setScrolled] = useState(false);
+  const [query, setQuery] = useState("");
+  const [activeTag, setActiveTag] = useState<string | null>(null);
   useEffect(() => {
     let alive = true;
     async function check() {
@@ -148,11 +151,35 @@ export function LearnerLandingPage() {
     }
     check();
     const t = setInterval(check, 15000);
-    return () => { alive = false; clearInterval(t); };
+    const onScroll = () => setScrolled(window.scrollY > 8);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => { alive = false; clearInterval(t); window.removeEventListener('scroll', onScroll); };
   }, []);
+
+  // Derived filtered lists for discoverability
+  const sectorTags: Record<string, string[]> = useMemo(() => ({
+    healthcare: ["popular", "highest-rated"],
+    construction: ["new", "quick"],
+    finance: ["popular"],
+    realestate: ["quick"],
+  }), []);
+
+  const searchMatch = (text: string) => text.toLowerCase().includes(query.toLowerCase());
+  const sectorsFiltered = useMemo(() =>
+    sectors.filter(s => (
+      (!activeTag || sectorTags[s.id]?.includes(activeTag)) &&
+      (query === "" || searchMatch(s.title) || searchMatch(s.description))
+    )), [query, activeTag, sectorTags]);
+
+  const emeAndExtras = useMemo(() => [...emeSectors, ...extraTrainings], []);
+  const emeFiltered = useMemo(() =>
+    emeAndExtras.filter(s => (
+      (query === "" || searchMatch(s.title) || searchMatch((s as any).subtitle ?? "") || searchMatch(s.description))
+    )), [query, emeAndExtras]);
   return (
-    <div className="min-h-screen">
-      <header className="border-b bg-card/50 backdrop-blur-sm sticky top-0 z-50">
+    <div className="min-h-screen bg-background text-foreground">
+      {/* Glass Navigation */}
+      <header className={`sticky top-0 z-50 transition-all ${scrolled ? 'glass-nav shadow-md' : 'bg-transparent'} `}>
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center gap-2 text-xl font-bold">
@@ -174,24 +201,106 @@ export function LearnerLandingPage() {
         </div>
       </header>
 
-      <section className="relative py-20 px-6 text-center overflow-hidden">
-        {/* decorative background */}
-        <div className="pointer-events-none absolute inset-0 -z-10">
-          <div className="absolute -top-40 -left-40 w-[520px] h-[520px] rounded-full blur-3xl opacity-25 bg-gradient-to-br from-primary/40 to-purple-500/40" />
-          <div className="absolute -bottom-40 -right-40 w-[520px] h-[520px] rounded-full blur-3xl opacity-25 bg-gradient-to-br from-blue-400/40 to-emerald-400/40" />
+      {/* HERO */}
+      <section className="relative min-h-[90vh] overflow-hidden">
+        <div className="absolute inset-0 -z-10 animate-gradient" />
+        <div className="absolute inset-0 -z-10" aria-hidden>
+          <div className="pointer-events-none absolute -top-40 -left-40 w-[520px] h-[520px] rounded-full blur-3xl opacity-25 bg-white/10" />
+          <div className="pointer-events-none absolute -bottom-40 -right-40 w-[520px] h-[520px] rounded-full blur-3xl opacity-25 bg-black/20" />
         </div>
-        <div className="container mx-auto max-w-4xl">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
-            <GraduationCap className="w-4 h-4" /> Welcome
+        <div className="container mx-auto px-6 py-24 md:py-28 grid md:grid-cols-12 gap-10 items-center">
+          <div className="md:col-span-7 text-white">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm font-medium mb-6 fade-in-up" style={{animationDelay:'0.3s'}}>
+              <GraduationCap className="w-4 h-4" /> Learn What Matters
+            </div>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight tracking-tight fade-in-up" style={{animationDelay:'0.6s'}}>
+              Master Skills That Actually Matter
+            </h1>
+            <p className="mt-6 text-lg md:text-2xl text-white/80 max-w-2xl fade-in-up" style={{animationDelay:'0.9s'}}>
+              Join 50,000+ professionals learning from industry experts with practical, ROI-focused training.
+            </p>
+            <div className="mt-8 flex flex-wrap items-center gap-4 fade-in-up" style={{animationDelay:'1.2s'}}>
+              <Link to="/learner"><Button size="lg" className="h-12 px-6 bg-gradient-to-r from-white/90 to-white text-black hover:from-white hover:to-white">Start Learning Free</Button></Link>
+              <Button size="lg" variant="outline" className="h-12 px-6 border-white/60 text-white hover:bg-white/10" onClick={() => navigate('/track/healthcare')}>
+                <span className="mr-2">▶</span> Watch Demo
+              </Button>
+            </div>
+            <div className="mt-10 flex flex-wrap items-center gap-6 text-white/85 fade-in-up" style={{animationDelay:'1.5s'}}>
+              <div className="flex items-center gap-2"><span className="inline-flex -space-x-2 overflow-hidden">
+                <img src="/avatar1.png" alt="" className="w-6 h-6 rounded-full border border-white/30" onError={(e)=>((e.currentTarget as HTMLImageElement).style.display='none')} />
+                <img src="/avatar2.png" alt="" className="w-6 h-6 rounded-full border border-white/30" onError={(e)=>((e.currentTarget as HTMLImageElement).style.display='none')} />
+                <img src="/avatar3.png" alt="" className="w-6 h-6 rounded-full border border-white/30" onError={(e)=>((e.currentTarget as HTMLImageElement).style.display='none')} />
+              </span> 50K+ Students</div>
+              <div className="flex items-center gap-2">⭐⭐⭐⭐⭐ 4.9 Rated</div>
+              <div className="flex items-center gap-2">📚 137 Courses</div>
+            </div>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold text-black mb-6 leading-tight">
-            Welcome to the <span className="text-black">Emerging Tech Learning Platform</span>
-          </h1>
-          <p className="text-xl text-muted-foreground mb-2 max-w-3xl mx-auto leading-relaxed">
-            Discover hundreds of up-to-date research-backed training modules and learning quizzes across Healthcare, Finance,
-            PropTech (Real Estate), and Construction. Explore practical insights, frameworks, and case studies designed to help you
-            understand and apply the latest innovations.
-          </p>
+          <div className="md:col-span-5 hidden md:block">
+            <div className="relative bg-white/10 rounded-2xl border border-white/20 shadow-2xl p-4 float-slow" style={{backdropFilter:'blur(6px)'}}>
+              {/* Simple hero mockup composed of existing cards look */}
+              <div className="grid grid-cols-2 gap-3">
+                {sectors.slice(0,4).map((s) => (
+                  <div key={s.id} className="rounded-xl p-4 min-h-[120px] text-white/90" style={{background:'rgba(255,255,255,0.06)'}}>
+                    <div className="text-2xl" aria-hidden>{s.thumb}</div>
+                    <div className="mt-2 text-sm font-semibold line-clamp-2">{s.title}</div>
+                    <div className="text-xs text-white/70 line-clamp-2">{s.description}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute bottom-4 left-0 right-0 text-center text-white/70">
+          <span className="inline-block animate-bounce">↓</span>
+        </div>
+      </section>
+
+      {/* STATS BAR */}
+      <section className="bg-gradient-to-r from-[#1a1a2e] to-[#16213e] text-white">
+        <div className="container mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+          {[
+            { label: 'Active Learners', value: '50K+' },
+            { label: 'Courses', value: '137' },
+            { label: 'Success Rate', value: '94%' },
+            { label: 'Avg Rating', value: '4.8★' },
+          ].map((s) => (
+            <div key={s.label} className="transition-transform hover:scale-[1.02]">
+              <div className="text-3xl font-extrabold">{s.value}</div>
+              <div className="text-white/80 mt-1">{s.label}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* SEARCH & FILTER */}
+      <section className="py-12">
+        <div className="container mx-auto px-6 text-center max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Explore Our Categories</h2>
+          <div className="mx-auto flex items-stretch gap-3">
+            <div className="flex-1 relative">
+              <input
+                value={query}
+                onChange={(e)=>setQuery(e.target.value)}
+                placeholder="Search courses, skills, or topics..."
+                className="w-full h-14 rounded-xl px-5 bg-white shadow border focus:outline-none focus:ring-2 focus:ring-primary/60"
+              />
+              <div className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">🔍</div>
+            </div>
+            <Button variant="outline" className="h-14 px-5">Filter ▾</Button>
+          </div>
+          <div className="mt-4 flex flex-wrap gap-2 justify-center">
+            {[
+              {k:null, t:'All'},
+              {k:'popular', t:'Popular'},
+              {k:'highest-rated', t:'Highest Rated'},
+              {k:'new', t:'New'},
+              {k:'quick', t:'Quick Wins'},
+            ].map(f => (
+              <button key={String(f.k)} onClick={()=>setActiveTag(f.k as any)} className={`px-4 py-2 rounded-full text-sm border ${activeTag===f.k? 'bg-primary text-primary-foreground border-primary':'bg-card hover:bg-accent'}`}>
+                {f.t}
+              </button>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -202,12 +311,12 @@ export function LearnerLandingPage() {
           <h2 className="text-4xl font-bold text-foreground mb-4">Explore Training Sectors</h2>
           <p className="text-lg text-muted-foreground">Select an industry to view specialized training modules</p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-          {sectors.map((sector) => {
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+          {sectorsFiltered.map((sector, i) => {
             const IconComponent = sector.icon;
             return (
               <Link key={sector.id} to={`/track/${sector.id}`} className="block">
-                <Card className="group cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border-2 hover:border-primary/20 overflow-hidden">
+                <Card className="group cursor-pointer card-hover border-2 hover:border-primary/20 overflow-hidden rounded-2xl" style={{animation:'fadeInUp .6s both', animationDelay:`${i*0.08}s`}}>
                   <div className={`h-24 ${sector.gradient} flex items-center justify-between px-6`}>
                     <div className="text-5xl" aria-hidden>{sector.thumb}</div>
                     <div className="opacity-40">
@@ -243,12 +352,12 @@ export function LearnerLandingPage() {
         <div className="text-center">
           <h2 className="text-4xl font-bold text-foreground mb-2">New Sectors & Research Areas</h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-          {[...emeSectors, ...extraTrainings].map((s) => {
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+          {emeFiltered.map((s, i) => {
             const IconComponent = s.icon;
             return (
               <Link key={s.id} to={`/track/${s.id}`} className="block">
-                <Card className="group cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border-2 hover:border-primary/20 overflow-hidden">
+                <Card className="group cursor-pointer card-hover border-2 hover:border-primary/20 overflow-hidden rounded-2xl" style={{animation:'fadeInUp .6s both', animationDelay:`${i*0.08}s`}}>
                   <div className={`h-24 ${s.gradient} flex items-center justify-between px-6`}>
                     <div className="text-5xl" aria-hidden>{s.thumb}</div>
                     <div className="opacity-40">
