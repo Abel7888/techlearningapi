@@ -210,29 +210,31 @@ export function LearnerLandingPage() {
         </div>
         <div className="container mx-auto px-6 py-24 md:py-28 grid md:grid-cols-12 gap-10 items-center">
           <div className="md:col-span-7 text-black">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm font-medium mb-6 fade-in-up" style={{animationDelay:'0.3s'}}>
-              <GraduationCap className="w-4 h-4" /> Learn What Matters
-            </div>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight tracking-tight fade-in-up" style={{animationDelay:'0.6s'}}>
-              Master Skills That Actually Matter
-            </h1>
-            <p className="mt-6 text-lg md:text-2xl text-black/80 max-w-2xl fade-in-up" style={{animationDelay:'0.9s'}}>
-              Join us as we explore the world of emerging technologies together. Feel free to browse topics and interests across sectors.
-            </p>
-            <div className="mt-8 flex flex-wrap items-center gap-4 fade-in-up" style={{animationDelay:'1.2s'}}>
-              <Link to="/learner"><Button size="lg" className="h-12 px-6 bg-gradient-to-r from-white/90 to-white text-black hover:from-white hover:to-white">Start Learning Free</Button></Link>
-              <Button size="lg" variant="outline" className="h-12 px-6 border-black/40 text-black hover:bg-black/5" onClick={() => navigate('/track/healthcare')}>
-                <span className="mr-2">▶</span> Watch Demo
-              </Button>
-            </div>
-            <div className="mt-10 flex flex-wrap items-center gap-6 text-white/85 fade-in-up" style={{animationDelay:'1.5s'}}>
-              <div className="flex items-center gap-2"><span className="inline-flex -space-x-2 overflow-hidden">
-                <img src="/avatar1.png" alt="" className="w-6 h-6 rounded-full border border-white/30" onError={(e)=>((e.currentTarget as HTMLImageElement).style.display='none')} />
-                <img src="/avatar2.png" alt="" className="w-6 h-6 rounded-full border border-white/30" onError={(e)=>((e.currentTarget as HTMLImageElement).style.display='none')} />
-                <img src="/avatar3.png" alt="" className="w-6 h-6 rounded-full border border-white/30" onError={(e)=>((e.currentTarget as HTMLImageElement).style.display='none')} />
-              </span> 50K+ Students</div>
-              <div className="flex items-center gap-2">⭐⭐⭐⭐⭐ 4.9 Rated</div>
-              <div className="flex items-center gap-2">📚 137 Courses</div>
+            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-6 md:p-8">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-black/5 text-black text-sm font-medium mb-6 fade-in-up" style={{animationDelay:'0.3s'}}>
+                <GraduationCap className="w-4 h-4" /> Learn What Matters
+              </div>
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight tracking-tight fade-in-up" style={{animationDelay:'0.6s'}}>
+                Master Skills That Actually Matter
+              </h1>
+              <p className="mt-6 text-lg md:text-2xl text-black/80 max-w-2xl fade-in-up" style={{animationDelay:'0.9s'}}>
+                Join us as we explore the world of emerging technologies together. Feel free to browse topics and interests across sectors.
+              </p>
+              <div className="mt-8 flex flex-wrap items-center gap-4 fade-in-up" style={{animationDelay:'1.2s'}}>
+                <Link to="/learner"><Button size="lg" className="h-12 px-6 bg-gradient-to-r from-white/90 to-white text-black hover:from-white hover:to-white">Start Learning Free</Button></Link>
+                <Button size="lg" variant="outline" className="h-12 px-6 border-black/40 text-black hover:bg-black/5" onClick={() => navigate('/track/healthcare')}>
+                  <span className="mr-2">▶</span> Watch Demo
+                </Button>
+              </div>
+              <div className="mt-10 flex flex-wrap items-center gap-6 text-black/70 fade-in-up" style={{animationDelay:'1.5s'}}>
+                <div className="flex items-center gap-2"><span className="inline-flex -space-x-2 overflow-hidden">
+                  <img src="/avatar1.png" alt="" className="w-6 h-6 rounded-full border border-black/30" onError={(e)=>((e.currentTarget as HTMLImageElement).style.display='none')} />
+                  <img src="/avatar2.png" alt="" className="w-6 h-6 rounded-full border border-black/30" onError={(e)=>((e.currentTarget as HTMLImageElement).style.display='none')} />
+                  <img src="/avatar3.png" alt="" className="w-6 h-6 rounded-full border border-black/30" onError={(e)=>((e.currentTarget as HTMLImageElement).style.display='none')} />
+                </span> 50K+ Students</div>
+                <div className="flex items-center gap-2">⭐⭐⭐⭐⭐ 4.9 Rated</div>
+                <div className="flex items-center gap-2">📚 137 Courses</div>
+              </div>
             </div>
           </div>
           <div className="md:col-span-5 hidden md:block">
